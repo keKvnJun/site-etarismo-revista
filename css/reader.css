@@ -1,0 +1,114 @@
+/* Leitor e sumário: medidas da versão revisada exportada do Figma.
+   Em 1440px: papel 1360.8px, conteúdo 1216.8px, título 99px e corpo 34.2px.
+   O documento estático do Figma ganha rolagem e os controles já existentes. */
+.reader {
+  padding: clamp(12px, 2.75vw, 39.6px);
+}
+.reader__paper {
+  --r-body: #47533b;
+  --r-muted: #7a8565;
+  max-width: 1360.8px;
+  box-shadow: 0 20px 100px rgb(0 0 0 / .2);
+}
+.reader__bar {
+  min-height: clamp(76px, 8.5vw, 122.4px);
+  padding: 18px clamp(20px, 4.875vw, 70.2px);
+  gap: 18px;
+}
+.reader__back { font-size: clamp(14px, 1.25vw, 18px); gap: 12.6px; }
+.reader__brand { font-size: clamp(30px, 3.5vw, 50.4px); }
+.reader__page { font-size: 12.6px; letter-spacing: 1.8px; white-space: nowrap; }
+.reader__progress, .reader__progress span { height: 3.6px; }
+.reader__article {
+  max-width: none;
+  padding: clamp(36px, 7.125vw, 102.6px) clamp(20px, 4.875vw, 70.2px) 70.2px;
+}
+.reader__kicker {
+  font-size: clamp(11px, 1vw, 14.4px);
+  line-height: 1.5;
+  letter-spacing: 3.6px;
+  color: var(--r-muted);
+}
+.reader__title {
+  margin-top: 32.4px;
+  font-size: clamp(36px, 6.875vw, 99px);
+  line-height: 1.08;
+  letter-spacing: -.02em;
+  text-wrap: initial;
+}
+.reader__meta { margin-top: 39.6px; font-size: 16.2px; line-height: 1.5; }
+.reader__meta span { gap: 12.6px; }
+.reader__meta small { font-size: 12.6px; letter-spacing: 1.8px; }
+.reader__tools {
+  margin-top: 41.4px;
+  padding-block: 19.8px;
+  border-block-color: var(--r-line);
+}
+.reader__tools > div { gap: 10.8px; }
+.reader__tools .txt { font-size: 19.8px; }
+.reader__tools .txt--lg { font-size: 23.4px; }
+.reader__tools .sep { height: 30.6px; margin-inline: 10.8px; }
+.reader__body { margin-top: 64.8px; }
+.reader__body p {
+  font-size: var(--r-size);
+  line-height: 1.9;
+  margin-top: 1.2em;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+.reader__body h3 {
+  font-size: clamp(22px, 2.75vw, 39.6px);
+  line-height: 1.35;
+  color: var(--r-body);
+}
+.reader__body a, .reader__source-label { text-decoration: underline; text-underline-offset: .12em; }
+.reader__figure { margin-top: 64.8px; }
+.reader__figure-frame .media { aspect-ratio: 1216.8 / 640; }
+.reader__figure-frame .media img { width: 100%; height: 100%; object-fit: contain; }
+.reader__zoom { min-height: 64.8px; font-size: 16.2px; gap: 12.6px; }
+.reader__figure figcaption {
+  margin-top: 37.8px;
+  padding: 25.2px 32.4px;
+  border-left-width: 3.6px;
+  font-size: clamp(15px, 1.875vw, 27px);
+  line-height: 1.7;
+}
+.reader__end { margin-top: 100.8px; padding-block: 50.4px; font-size: 12.6px; letter-spacing: 3.6px; }
+.reader__nav { gap: 57.6px; margin-top: 57.6px; }
+.reader__nav button { gap: 18px; }
+.reader__nav small { gap: 14.4px; font-size: 12.6px; letter-spacing: 1.8px; }
+.reader__nav strong { font-size: clamp(24px, 3vw, 43.2px); line-height: 1.2; }
+
+/* O sumário é a página 03 do leitor, entre o editorial e as matérias. */
+.reader__article--summary .reader__title { font-size: clamp(36px, 5.375vw, 77.4px); }
+.reader__summary-intro { margin-top: 25.2px; color: var(--r-body); font: 400 clamp(16px, calc(var(--r-size) * .64), 26px)/1.7 var(--sans); }
+.reader__summary-count { margin-top: 43.2px; color: var(--r-muted); font: 400 12.6px/1.5 var(--sans); letter-spacing: 2.7px; text-transform: uppercase; }
+.reader__summary .toc { margin-top: 39.6px; }
+.reader__summary .toc li { border-color: var(--r-line); }
+.reader__summary .toc button { padding-block: 28.8px; column-gap: 32.4px; grid-template-columns: 72px 1fr; }
+.reader__summary .toc__num { align-self: center; color: var(--r-muted); font-size: 50.4px; }
+.reader__summary .toc__kicker { color: var(--r-muted); font-size: 12.6px; letter-spacing: 1.44px; }
+.reader__summary .toc__title { color: var(--r-ink); font-size: clamp(24px, calc(var(--r-size) * 1.22), 48px); line-height: 1.15; }
+.reader__summary .toc button:hover .toc__title { color: var(--r-ink); }
+
+@media (max-width: 700px) {
+  .reader { padding: 0; }
+  .reader__bar { min-height: 68px; padding: 12px 20px; grid-template-columns: 1fr auto; }
+  .reader__brand, .reader__page { display: none; }
+  .reader__article { padding: 32px 20px 40px; }
+  .reader__title { margin-top: 20px; }
+  .reader__kicker { letter-spacing: 2px; }
+  .reader__meta { gap: 16px; margin-top: 24px; }
+  .reader__meta small { font-size: 10px; }
+  .reader__tools { margin-top: 24px; padding-block: 10px; }
+  .reader__body { margin-top: 32px; }
+  .reader__figure { margin-top: 32px; }
+  .reader__figure figcaption { margin-top: 20px; padding: 16px 18px; }
+  .reader__end { margin-top: 48px; padding-block: 28px; font-size: 10px; letter-spacing: 2px; }
+  .reader__nav { grid-template-columns: 1fr; gap: 28px; margin-top: 28px; }
+  .reader__nav button.is-next { grid-column: 1; }
+  .reader__summary .toc button { column-gap: 18px; grid-template-columns: 48px 1fr; padding-block: 24px; }
+  .reader__summary .toc__num { font-size: 36px; }
+  .reader__summary .toc__title { font-size: clamp(24px, calc(var(--r-size) * 1.22), 32px); }
+  .reader__summary .toc__kicker { font-size: 10px; letter-spacing: 1px; }
+}

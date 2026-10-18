@@ -6,9 +6,12 @@
   <title>etarismo. — Revista digital · Edição especial 2026</title>
   <meta name="description" content="Revista digital sobre etarismo no mercado de trabalho brasileiro. Edição especial 2026.">
   <meta name="theme-color" content="#f7f6f0">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preload" href="assets/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/reader.css">
+  <link rel="stylesheet" href="css/icons.css">
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -32,10 +35,10 @@
 
       <div class="header-tools">
         <button class="icon-btn" type="button" data-open-search aria-label="Buscar na revista">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.4-4.4"/></svg>
+          <span class="design-icon icon--search" aria-hidden="true"></span>
         </button>
         <button class="icon-btn icon-btn--saved" type="button" data-open-saved aria-label="Matérias salvas nesta sessão: 0">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h11v16l-5.5-4-5.5 4z"/></svg>
+          <span class="design-icon icon--bookmark" aria-hidden="true"></span>
           <span class="saved-count" data-saved-count hidden>0</span>
         </button>
         <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="menu-sheet" aria-label="Abrir menu">
@@ -77,11 +80,11 @@
           <div class="hero__actions">
             <button class="btn btn--solid" type="button" data-open-article="editorial">
               Começar a leitura
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              <span class="design-icon icon--arrow-up-right-white" aria-hidden="true"></span>
             </button>
             <button class="btn btn--line" type="button" data-open-summary>
               Ver sumário
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h9"/></svg>
+              <span class="design-icon icon--arrow-right" aria-hidden="true"></span>
             </button>
           </div>
 
@@ -92,7 +95,7 @@
             <div>
               <p class="hero__team-line">Pesquisa que conecta gerações.</p>
               <a class="link-arrow" href="#participantes">Conheça os 6 integrantes
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                <span class="design-icon icon--arrow-right-small" aria-hidden="true"></span>
               </a>
             </div>
           </div>
@@ -114,7 +117,7 @@
               <small>Nesta edição</small>
               <strong>Um currículo elogiado, uma porta fechada.</strong>
             </span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            <span class="design-icon icon--cover-open" aria-hidden="true"></span>
           </button>
         </div>
       </div>
@@ -129,22 +132,40 @@
     <!-- QUICK NUMBERS -------------------------------------------------- -->
     <section class="quick shell" id="numeros" aria-labelledby="quick-title">
       <div class="quick__head">
-        <p class="eyebrow">O cenário</p>
+        <p class="eyebrow">Para entender<br>o cenário</p>
         <h2 id="quick-title">Além dos <em>estereótipos.</em></h2>
       </div>
       <ul class="quick__list" data-quick-list></ul>
+    </section>
+
+    <!-- EDITORIAL ------------------------------------------------------ -->
+    <section class="editorial" id="editorial" aria-labelledby="editorial-title">
+      <div class="shell editorial__grid">
+        <div class="editorial__meta">
+          <p class="section-index"><span>01 /</span> Carta de abertura</p>
+          <p class="editorial__mark" aria-hidden="true">Editorial</p>
+        </div>
+        <div class="editorial__body">
+          <h2 id="editorial-title">Quando a idade<br>substitui a <em>competência.</em></h2>
+          <p>Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as fronteiras etárias são construídas socialmente. No mercado de trabalho brasileiro, essa classificação torna-se desigualdade quando a idade substitui a avaliação de competências.</p>
+          <button class="btn btn--line" type="button" data-open-article="editorial">
+            Ler o editorial completo
+            <span class="design-icon icon--arrow-up-right" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
     </section>
 
     <!-- STORIES -------------------------------------------------------- -->
     <section class="stories shell" id="materias" aria-labelledby="stories-title">
       <div class="section-head">
         <div>
-          <p class="section-index"><span>01 /</span> Nesta edição</p>
-          <h2 id="stories-title">Histórias que merecem <em>um novo olhar.</em></h2>
+          <p class="section-index"><span>02 /</span> Nesta edição</p>
+          <h2 id="stories-title">Histórias que merecem<br><em>um novo olhar.</em></h2>
         </div>
         <button class="btn btn--line" type="button" data-toggle-all aria-pressed="false">
           <span data-toggle-all-label>Todas as matérias</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="design-icon icon--arrow-up-right" aria-hidden="true"></span>
         </button>
       </div>
 
@@ -157,28 +178,10 @@
         <div class="pager__dots" data-pager-dots role="group" aria-label="Páginas de matérias"></div>
         <div class="pager__arrows">
           <button class="icon-btn icon-btn--ring" type="button" data-page-prev aria-label="Matérias anteriores">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+            <span class="design-icon icon--arrow-left" aria-hidden="true"></span>
           </button>
           <button class="icon-btn icon-btn--ring" type="button" data-page-next aria-label="Próximas matérias">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDITORIAL ------------------------------------------------------ -->
-    <section class="editorial" id="editorial" aria-labelledby="editorial-title">
-      <div class="shell editorial__grid">
-        <div class="editorial__meta">
-          <p class="section-index"><span>02 /</span> Carta de abertura</p>
-          <p class="editorial__mark" aria-hidden="true">Editorial</p>
-        </div>
-        <div class="editorial__body">
-          <h2 id="editorial-title">Quando a idade <em>substitui a</em> competência.</h2>
-          <p>Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as fronteiras etárias são construídas socialmente. No mercado de trabalho brasileiro, essa classificação torna-se desigualdade quando a idade substitui a avaliação de competências.</p>
-          <button class="btn btn--line" type="button" data-open-article="editorial">
-            Ler o editorial completo
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            <span class="design-icon icon--arrow-next" aria-hidden="true"></span>
           </button>
         </div>
       </div>
@@ -188,15 +191,15 @@
     <section class="data shell" id="em-numeros" aria-labelledby="data-title">
       <div class="data__copy">
         <p class="section-index"><span>03 /</span> A realidade em números</p>
-        <h2 id="data-title">O país mudou. <em>E o mercado?</em></h2>
+        <h2 id="data-title">O país mudou.<br><em>E o mercado?</em></h2>
         <p>A procura de Sibele acontece em um Brasil que já mudou de idade. Nas Projeções da População revistas pelo IBGE em 2024, o grupo com 60 anos ou mais passou de 8,7% da população em 2000 para 15,6% em 2023. Para 2070, a projeção chega a 37,8%.</p>
         <button class="btn btn--line" type="button" data-open-article="mercado-muda">
           Entenda os dados
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          <span class="design-icon icon--arrow-up-right" aria-hidden="true"></span>
         </button>
         <p class="data__note">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h6.5a2 2 0 0 1 2 2V19a1.5 1.5 0 0 0-1.5-1.5H4zM20 5.5h-6.5a2 2 0 0 0-2 2V19a1.5 1.5 0 0 1 1.5-1.5H20z"/></svg>
-          <span>Dados com contexto.<br>Informação sem estereótipos.</span>
+          <span class="design-icon icon--book" aria-hidden="true"></span>
+          <span>Dados com contexto.<br><strong>Informação sem estereótipos.</strong></span>
         </p>
       </div>
 
@@ -254,19 +257,19 @@
       <div class="site-footer__top">
         <div>
           <p class="site-footer__eyebrow">O respeito não tem idade.</p>
-          <p class="site-footer__title">Continuar não pode<br>ser um <em>privilégio.</em></p>
+          <p class="site-footer__title"><span>Continuar não pode</span><br>ser um <em>privilégio.</em></p>
           <button class="btn btn--underline" type="button" data-open-article="reflexao-final">
             Leia a reflexão final
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            <span class="design-icon icon--arrow-up-right" aria-hidden="true"></span>
           </button>
         </div>
         <nav class="site-footer__nav" aria-label="Continue explorando">
           <p>Continue explorando</p>
           <ul>
-            <li><button type="button" data-open-summary>Sumário da edição <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></button></li>
-            <li><button type="button" data-open-article="referencias">Referências e notas <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></button></li>
-            <li><button type="button" data-open-article="fontes-legislacao">Fontes de dados e legislação <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></button></li>
-            <li><a href="#participantes">Participantes <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
+            <li><button type="button" data-open-summary>Sumário da edição <span class="design-icon icon--arrow-up-right-small" aria-hidden="true"></span></button></li>
+            <li><button type="button" data-open-article="referencias">Referências e notas <span class="design-icon icon--arrow-up-right-small" aria-hidden="true"></span></button></li>
+            <li><button type="button" data-open-article="fontes-legislacao">Fontes de dados e legislação <span class="design-icon icon--arrow-up-right-small" aria-hidden="true"></span></button></li>
+            <li><a href="#participantes">Participantes <span class="design-icon icon--arrow-up-right-small" aria-hidden="true"></span></a></li>
           </ul>
         </nav>
       </div>
@@ -274,7 +277,7 @@
         <p class="brand brand--light"><span class="brand__word">etarismo<span class="brand__dot">.</span></span><span class="brand__sub">Revista digital</span></p>
         <p class="site-footer__edition">Revista digital · Edição especial 2026</p>
         <a class="link-arrow link-arrow--light" href="#inicio">Voltar ao topo
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+          <span class="design-icon icon--arrow-up" aria-hidden="true"></span>
         </a>
       </div>
       <p class="site-footer__credits">Fotografias ilustrativas: Danie Franco, Ravi Patel e Vitaly Gariev / Unsplash. As pessoas retratadas não representam as personagens da reportagem.</p>
@@ -286,13 +289,13 @@
     <div class="reader__paper" data-reader-paper>
       <header class="reader__bar">
         <button class="reader__back" type="button" data-close-reader>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+          <span class="design-icon icon--reader-back" aria-hidden="true"></span>
           Voltar à edição
         </button>
         <p class="reader__brand" aria-hidden="true">etarismo.</p>
         <p class="reader__page" data-reader-page></p>
         <button class="icon-btn reader__close" type="button" data-close-reader aria-label="Fechar">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          <span class="design-icon icon--close" aria-hidden="true"></span>
         </button>
       </header>
       <div class="reader__progress" aria-hidden="true"><span data-reader-progress></span></div>
@@ -302,30 +305,13 @@
     </div>
   </dialog>
 
-  <!-- SUMMARY ---------------------------------------------------------- -->
-  <dialog class="sheet" data-summary aria-labelledby="summary-title">
-    <div class="sheet__inner">
-      <header class="sheet__head">
-        <div>
-          <p class="sheet__eyebrow">Etarismo · Edição especial 2026</p>
-          <h2 id="summary-title">Uma edição. <em>Muitos caminhos.</em></h2>
-          <p class="sheet__count" data-summary-count></p>
-        </div>
-        <button class="icon-btn" type="button" data-close-sheet aria-label="Fechar sumário">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
-        </button>
-      </header>
-      <ol class="toc" data-summary-list></ol>
-    </div>
-  </dialog>
-
   <!-- SEARCH ----------------------------------------------------------- -->
   <dialog class="sheet sheet--search" data-search aria-labelledby="search-title">
     <div class="sheet__inner">
       <header class="sheet__head">
         <h2 id="search-title">Buscar na revista</h2>
         <button class="icon-btn" type="button" data-close-sheet aria-label="Fechar busca">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          <span class="design-icon icon--close" aria-hidden="true"></span>
         </button>
       </header>
       <label class="search-field">
@@ -347,7 +333,7 @@
           <p class="sheet__count">Ficam guardadas só nesta sessão do navegador.</p>
         </div>
         <button class="icon-btn" type="button" data-close-sheet aria-label="Fechar matérias salvas">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          <span class="design-icon icon--close" aria-hidden="true"></span>
         </button>
       </header>
       <ol class="toc" data-saved-list></ol>

@@ -1,0 +1,839 @@
+001 | ['Container', 'Brand', 'etarismo.']
+.
+[{'text': '.', 'x': '245.88', 'y': '87.4888', 'dx': None, 'dy': None}]
+{'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '57.6', 'letter-spacing': '-3.24px'}
+
+002 | ['Container', 'Brand', 'etarismo.']
+etarismo
+[{'text': 'etarismo', 'x': '45', 'y': '87.4888', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '57.6', 'letter-spacing': '-3.24px'}
+
+003 | ['Container', 'Brand', 'Text']
+REVISTA DIGITAL
+[{'text': 'REVISTA DIGITAL', 'x': '50.3984', 'y': '118.069', 'dx': None, 'dy': None}]
+{'id': 'REVISTA DIGITAL', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'font-weight': '500', 'letter-spacing': '6.12px'}
+
+004 | ['Container', 'Navigation - Navegação principal', 'Link']
+Início
+[{'text': 'Início', 'x': '480.199', 'y': '85.338', 'dx': None, 'dy': None}]
+{'id': 'InÃ\xadcio', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+005 | ['Container', 'Navigation - Navegação principal', 'Button']
+Editorial
+[{'text': 'Editorial', 'x': '565.637', 'y': '85.338', 'dx': None, 'dy': None}]
+{'id': 'Editorial', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+006 | ['Container', 'Navigation - Navegação principal', 'Link_2']
+Matérias
+[{'text': 'Matérias', 'x': '675', 'y': '85.338', 'dx': None, 'dy': None}]
+{'id': 'MatÃ©rias', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+007 | ['Container', 'Navigation - Navegação principal', 'Link_3']
+Em números
+[{'text': 'Em números', 'x': '788.398', 'y': '85.338', 'dx': None, 'dy': None}]
+{'id': 'Em nÃºmeros', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+008 | ['Container', 'Navigation - Navegação principal', 'Link_4']
+Participantes
+[{'text': 'Participantes', 'x': '933.801', 'y': '85.338', 'dx': None, 'dy': None}]
+{'id': 'Participantes', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+009 | ['Hero', 'Container_3', 'Text_3']
+UM NOVO OLHAR SOBRE A IDADE
+[{'text': 'UM NOVO OLHAR SOBRE A IDADE', 'x': '72', 'y': '224.511', 'dx': None, 'dy': None}]
+{'id': 'UM NOVO OLHAR SOBRE A IDADE', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '3.15px'}
+
+010 | ['Hero', 'Container_3', 'Text_4']
+EDIÇÃO ESPECIAL
+[{'text': 'EDIÇÃO ESPECIAL', 'x': '1101.2', 'y': '224.51', 'dx': None, 'dy': None}]
+{'id': 'EDIÃ\x87Ã\x83O ESPECIAL', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '3.15px'}
+
+011 | ['Hero', 'Container_3', 'Text_4']
+2026
+[{'text': '2026', 'x': '1323', 'y': '224.51', 'dx': None, 'dy': None}]
+{'id': '2026', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '3.15px'}
+
+012 | ['Container_4', 'Container_5', 'Container_6']
+TRABALHO, LONGEVIDADE E SOCIEDADE
+[{'text': 'TRABALHO, LONGEVIDADE E SOCIEDADE', 'x': '93.6016', 'y': '408.939', 'dx': None, 'dy': None}]
+{'id': 'TRABALHO, LONGEVIDADE E SOCIEDADE', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'font-weight': '600', 'letter-spacing': '1.17px'}
+
+013 | ['Container_5', 'Heading 1', 'Idade não é barreira. É trajetória.']
+É trajetória.
+[{'text': 'É trajetória.', 'x': '72', 'y': '779.756', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '108', 'font-style': 'italic', 'letter-spacing': '-5.4px'}
+
+014 | ['Container_5', 'Heading 1', 'Idade não é barreira. É trajetória.']
+Idade não é
+barreira.
+
+[{'text': 'Idade não é\n', 'x': '72', 'y': '554.036', 'dx': None, 'dy': None}, {'text': 'barreira.\n', 'x': '72', 'y': '666.896', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '108', 'letter-spacing': '-4.5px'}
+
+015 | ['Container_4', 'Container_5', 'Paragraph']
+Etarismo no mercado de trabalho
+[{'text': 'Etarismo no mercado de trabalho', 'x': '72', 'y': '866.357', 'dx': None, 'dy': None}]
+{'id': 'Etarismo no mercado de trabalho', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '21.6', 'font-weight': '500', 'letter-spacing': '0px'}
+
+016 | ['Container_4', 'Container_5', 'Paragraph_2']
+Quando a idade substitui a competência.
+[{'text': 'Quando a idade substitui a competência.', 'x': '72', 'y': '901.49', 'dx': None, 'dy': None}]
+{'id': 'Quando a idade substitui a competÃªncia.', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+017 | ['Container_5', 'Container_7', 'Button_2']
+Começar a leitura
+[{'text': 'Começar a leitura', 'x': '99.0755', 'y': '1001.93', 'dx': None, 'dy': None}]
+{'id': 'ComeÃ§ar a leitura', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '500', 'letter-spacing': '0px'}
+
+018 | ['Container_5', 'Container_7', 'Button_3']
+Ver sumário
+[{'text': 'Ver sumário', 'x': '352.485', 'y': '1001.03', 'dx': None, 'dy': None}]
+{'id': 'Ver sumÃ¡rio', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '500', 'letter-spacing': '0px'}
+
+019 | ['Container_8', 'Container_9', 'Text_7']
+GM
+[{'text': 'GM', 'x': '84.6016', 'y': '1112.53', 'dx': None, 'dy': None}]
+{'id': 'GM', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+020 | ['Container_9', 'Text:margin', 'Text_8']
+AV
+[{'text': 'AV', 'x': '119', 'y': '1112.53', 'dx': None, 'dy': None}]
+{'id': 'AV', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+021 | ['Container_9', 'Text:margin_2', 'Text_9']
+MR
+[{'text': 'MR', 'x': '150.402', 'y': '1112.53', 'dx': None, 'dy': None}]
+{'id': 'MR', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+022 | ['Container_9', 'Text:margin_3', 'Text_10']
++3
+[{'text': '+3', 'x': '184.301', 'y': '1112.53', 'dx': None, 'dy': None}]
+{'id': '+3', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+023 | ['Container_8', 'Container_10', 'Text_11']
+Pesquisa que conecta gerações.
+[{'text': 'Pesquisa que conecta gerações.', 'x': '226.801', 'y': '1099.1', 'dx': None, 'dy': None}]
+{'id': 'Pesquisa que conecta geraÃ§Ãµes.', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+024 | ['Container_8', 'Container_10', 'Link_5']
+Conheça os 6 integrantes
+[{'text': 'Conheça os 6 integrantes', 'x': '226.801', 'y': '1125.7', 'dx': None, 'dy': None}]
+{'id': 'ConheÃ§a os 6 integrantes', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+025 | ['Container:margin_2', 'Container_11', 'Container_12']
+01 — CAPA
+[{'text': '01 — CAPA', 'x': '1174.72', 'y': '422.911', 'dx': None, 'dy': None}]
+{'id': '01 â\x80\x94 CAPA', 'fill': '#F7F6F0', 'fill-opacity': '0.83', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'letter-spacing': '3.6px'}
+
+026 | ['Container_12', 'Container_14', 'Text_12']
+O TEMPO CONTA HISTÓRIAS.
+[{'text': 'O TEMPO CONTA HISTÓRIAS.', 'x': '775.797', 'y': '964.219', 'dx': None, 'dy': None}]
+{'id': 'O TEMPO CONTA HISTÃ\x93RIAS.', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '3.6px'}
+
+027 | ['Container_12', 'Container_14', 'Text_13']
+A gente precisa ouvir.
+[{'text': 'A gente precisa ouvir.', 'x': '775.797', 'y': '1026.2', 'dx': None, 'dy': None}]
+{'id': 'A gente precisa ouvir.', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '37.8', 'font-style': 'italic', 'letter-spacing': '0px'}
+
+028 | ['Container_11', 'Button_4', 'Text_14']
+04
+[{'text': '04', 'x': '979.199', 'y': '1143.43', 'dx': None, 'dy': None}]
+{'id': '04', 'fill': '#7A8565', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '54', 'letter-spacing': '0px'}
+
+029 | ['Button_4', 'Text_15', 'Small']
+NESTA EDIÇÃO
+[{'text': 'NESTA EDIÇÃO', 'x': '1081.2', 'y': '1095.38', 'dx': None, 'dy': None}]
+{'id': 'NESTA EDIÃ\x87Ã\x83O', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'letter-spacing': '2.88px'}
+
+030 | ['Button_4', 'Text_15', 'Bold Text']
+Um currículo elogiado,
+uma porta fechada.
+[{'text': 'Um currículo elogiado,\n', 'x': '1081.2', 'y': '1131.69', 'dx': None, 'dy': None}, {'text': 'uma porta fechada.', 'x': '1081.2', 'y': '1157.61', 'dx': None, 'dy': None}]
+{'id': 'Um currÃ\xadculo elogiado, uma porta fechada.', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'letter-spacing': '0px'}
+
+031 | ['Hero', 'Container_15', 'Text_16']
+IDADE NÃO DEFINE COMPETÊNCIA.
+[{'text': 'IDADE NÃO DEFINE COMPETÊNCIA.', 'x': '72', 'y': '1319.35', 'dx': None, 'dy': None}]
+{'id': 'IDADE NÃ\x83O DEFINE COMPETÃ\x8aNCIA.', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '2.7px'}
+
+032 | ['Hero', 'Container_15', 'Link_6']
+Deslize para descobrir
+[{'text': 'Deslize para descobrir', 'x': '625.898', 'y': '1320.27', 'dx': None, 'dy': None}]
+{'id': 'Deslize para descobrir', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'letter-spacing': '0.45px'}
+
+033 | ['Container_15', 'Link_6', 'Text_17']
+↓
+[{'text': '↓', 'x': '828.098', 'y': '1324.06', 'dx': None, 'dy': None}]
+{'id': 'â\x86\x93', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '27', 'letter-spacing': '0.45px'}
+
+034 | ['Hero', 'Container_15', 'Text_18']
+LEITURA SEM PRECONCEITOS.
+[{'text': 'LEITURA SEM PRECONCEITOS.', 'x': '1128', 'y': '1319.35', 'dx': None, 'dy': None}]
+{'id': 'LEITURA SEM PRECONCEITOS.', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '2.7px'}
+
+035 | ['QuickNumbers', 'Container_16', 'Text_19']
+PARA ENTENDER
+O CENÁRIO
+[{'text': 'PARA ENTENDER\n', 'x': '102.602', 'y': '1472.05', 'dx': None, 'dy': None}, {'text': 'O CENÁRIO', 'x': '102.602', 'y': '1490.41', 'dx': None, 'dy': None}]
+{'id': 'PARA ENTENDER O CENÃ\x81RIO', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'font-weight': '600', 'letter-spacing': '2.7px'}
+
+036 | ['Container_16', 'Text_20', 'Além dos estereótipos.']
+estereótipos.
+[{'text': 'estereótipos.', 'x': '102.602', 'y': '1599.98', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '39.6', 'font-style': 'italic', 'letter-spacing': '0px'}
+
+037 | ['Container_16', 'Text_20', 'Além dos estereótipos.']
+Além dos
+
+[{'text': 'Além dos\n', 'x': '102.602', 'y': '1554.44', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '39.6', 'letter-spacing': '0px'}
+
+038 | ['QuickNumbers', 'Button_5', 'Text_21']
+32,1
+[{'text': '32,1', 'x': '353.672', 'y': '1522.4', 'dx': None, 'dy': None}]
+{'id': '32,1', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '64.8', 'letter-spacing': '-1.8px'}
+
+039 | ['QuickNumbers', 'Button_5', 'Text_21']
+milhões
+[{'text': 'milhões', 'x': '461.152', 'y': '1522.78', 'dx': None, 'dy': None}]
+{'id': 'milhÃµes', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'letter-spacing': '-0.54px'}
+
+040 | ['QuickNumbers', 'Button_5', 'Text_22']
+de brasileiros têm 60 anos ou mais
+[{'text': 'de brasileiros têm 60 anos ou mais', 'x': '353.672', 'y': '1564.1', 'dx': None, 'dy': None}]
+{'id': 'de brasileiros tÃªm 60 anos ou mais', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+041 | ['QuickNumbers', 'Button_5', 'Text_23']
+IBGE · CENSO 2022
+[{'text': 'IBGE · CENSO 2022', 'x': '353.672', 'y': '1601.98', 'dx': None, 'dy': None}]
+{'id': 'IBGE Â· CENSO 2022', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '7.2', 'font-weight': '500', 'letter-spacing': '1.44px'}
+
+042 | ['QuickNumbers', 'Button_6', 'Text_24']
+24,4
+[{'text': '24,4', 'x': '701.383', 'y': '1522.4', 'dx': None, 'dy': None}]
+{'id': '24,4', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '64.8', 'letter-spacing': '-1.8px'}
+
+043 | ['QuickNumbers', 'Button_6', 'Text_24']
+%
+[{'text': '%', 'x': '821.434', 'y': '1522.78', 'dx': None, 'dy': None}]
+{'id': '%', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'letter-spacing': '-0.54px'}
+
+044 | ['QuickNumbers', 'Button_6', 'Text_25']
+das pessoas 60+ estavam ocupadas
+[{'text': 'das pessoas 60+ estavam ocupadas', 'x': '701.383', 'y': '1564.1', 'dx': None, 'dy': None}]
+{'id': 'das pessoas 60+ estavam ocupadas', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+045 | ['QuickNumbers', 'Button_6', 'Text_26']
+IBGE · PNAD CONTÍNUA 2024
+[{'text': 'IBGE · PNAD CONTÍNUA 2024', 'x': '701.383', 'y': '1601.98', 'dx': None, 'dy': None}]
+{'id': 'IBGE Â· PNAD CONTÃ\x8dNUA 2024', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '7.2', 'font-weight': '500', 'letter-spacing': '1.44px'}
+
+046 | ['QuickNumbers', 'Button_7', 'Text_27']
+43,3
+[{'text': '43,3', 'x': '1049.09', 'y': '1522.4', 'dx': None, 'dy': None}]
+{'id': '43,3', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '64.8', 'letter-spacing': '-1.8px'}
+
+047 | ['QuickNumbers', 'Button_7', 'Text_27']
+%
+[{'text': '%', 'x': '1168.75', 'y': '1522.78', 'dx': None, 'dy': None}]
+{'id': '%_2', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'letter-spacing': '-0.54px'}
+
+048 | ['QuickNumbers', 'Button_7', 'Text_28']
+dos ocupados 60+ eram conta própria
+[{'text': 'dos ocupados 60+ eram conta própria', 'x': '1049.09', 'y': '1564.1', 'dx': None, 'dy': None}]
+{'id': 'dos ocupados 60+ eram conta prÃ³pria', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+049 | ['QuickNumbers', 'Button_7', 'Text_29']
+IBGE · PNAD CONTÍNUA 2024
+[{'text': 'IBGE · PNAD CONTÍNUA 2024', 'x': '1049.09', 'y': '1601.98', 'dx': None, 'dy': None}]
+{'id': 'IBGE Â· PNAD CONTÃ\x8dNUA 2024_2', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '7.2', 'font-weight': '500', 'letter-spacing': '1.44px'}
+
+050 | ['Container_18', 'Container_19', 'Text_30']
+01 /
+[{'text': '01 /', 'x': '72', 'y': '1816.21', 'dx': None, 'dy': None}]
+{'id': '01 /', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '1.8px'}
+
+051 | ['Container_17', 'Container_18', 'Container_19']
+NESTA EDIÇÃO
+[{'text': 'NESTA EDIÇÃO', 'x': '144', 'y': '1816.01', 'dx': None, 'dy': None}]
+{'id': 'NESTA EDIÃ\x87Ã\x83O_2', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '3.06px'}
+
+052 | ['Container_18', 'Heading 2', 'Histórias que merecem um novo olhar.']
+um novo olhar.
+[{'text': 'um novo olhar.', 'x': '72', 'y': '2004.22', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '73.8', 'font-style': 'italic', 'letter-spacing': '-1.98px'}
+
+053 | ['Container_18', 'Heading 2', 'Histórias que merecem um novo olhar.']
+Histórias que merecem
+
+[{'text': 'Histórias que merecem\n', 'x': '72', 'y': '1921.57', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '73.8', 'letter-spacing': '-1.98px'}
+
+054 | ['Container_17', 'Button:margin', 'Button_8']
+Todas as matérias
+[{'text': 'Todas as matérias', 'x': '1161.24', 'y': '1981.11', 'dx': None, 'dy': None}]
+{'id': 'Todas as matÃ©rias', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '500', 'letter-spacing': '0px'}
+
+055 | ['Container_20', 'Filtrar matérias por tema', 'Button_9']
+Todas as matérias
+[{'text': 'Todas as matérias', 'x': '72.0059', 'y': '2122.41', 'dx': None, 'dy': None}]
+{'id': 'Todas as matÃ©rias_2', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '0px'}
+
+056 | ['Filtrar matérias por tema', 'Button_9', 'Text_31']
+14
+[{'text': '14', 'x': '251.611', 'y': '2120.52', 'dx': None, 'dy': None}]
+{'id': '14', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'font-weight': '600', 'letter-spacing': '0px'}
+
+057 | ['Container_20', 'Filtrar matérias por tema', 'Button_10']
+Trabalho
+[{'text': 'Trabalho', 'x': '311.437', 'y': '2122.41', 'dx': None, 'dy': None}]
+{'id': 'Trabalho', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+058 | ['Container_20', 'Filtrar matérias por tema', 'Button_11']
+Sociedade
+[{'text': 'Sociedade', 'x': '421.221', 'y': '2122.41', 'dx': None, 'dy': None}]
+{'id': 'Sociedade', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+059 | ['Container_20', 'Filtrar matérias por tema', 'Button_12']
+Economia
+[{'text': 'Economia', 'x': '548.168', 'y': '2122.41', 'dx': None, 'dy': None}]
+{'id': 'Economia', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+060 | ['Container_20', 'Filtrar matérias por tema', 'Button_13']
+Direitos
+[{'text': 'Direitos', 'x': '669.083', 'y': '2122.41', 'dx': None, 'dy': None}]
+{'id': 'Direitos', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+061 | ['ArticleCard', 'Container_22', 'Text_33']
+TRABALHO
+[{'text': 'TRABALHO', 'x': '118.801', 'y': '2264.12', 'dx': None, 'dy': None}]
+{'id': 'Trabalho_2', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0.54px'}
+
+062 | ['Container_21', 'ArticleCard', 'Container_22']
+04
+[{'text': '04', 'x': '100.801', 'y': '2477.2', 'dx': None, 'dy': None}]
+{'id': '04_2', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '63', 'letter-spacing': '0px'}
+
+063 | ['Container_23', 'Container_24', 'Text_34']
+TRABALHO E LONGEVIDADE
+[{'text': 'TRABALHO E LONGEVIDADE', 'x': '72', 'y': '2568.81', 'dx': None, 'dy': None}]
+{'id': 'TRABALHO E LONGEVIDADE', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '8.1', 'letter-spacing': '0.9px'}
+
+064 | ['Container_23', 'Container_24', 'Text_35']
+2 MIN DE LEITURA
+[{'text': '2 MIN DE LEITURA', 'x': '399.996', 'y': '2568.81', 'dx': None, 'dy': None}]
+{'id': '2 MIN DE LEITURA', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '8.1', 'letter-spacing': '0.9px'}
+
+065 | ['Container_23', 'Button_14', 'Heading 3']
+Um currículo elogiado, uma porta fechada
+[{'text': 'Um currículo ', 'x': '72', 'y': '2633.51', 'dx': None, 'dy': None}, {'text': 'elogiado, uma porta ', 'x': '72', 'y': '2682.36', 'dx': None, 'dy': None}, {'text': 'fechada', 'x': '72', 'y': '2731.21', 'dx': None, 'dy': None}]
+{'id': 'Um currÃ\xadculo elogiado, uma porta fechada', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '41.4', 'letter-spacing': '-0.72px'}
+
+066 | ['Container_23', 'Paragraph:margin', 'Paragraph_3']
+Sibele Monice continuava aprendendo e trabalhando.
+[{'text': 'Sibele Monice continuava aprendendo e ', 'x': '72', 'y': '2783.71', 'dx': None, 'dy': None}, {'text': 'trabalhando.', 'x': '72', 'y': '2816.11', 'dx': None, 'dy': None}]
+{'id': 'Sibele Monice continuava aprendendo e trabalhando.', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+067 | ['ArticleCard_2', 'Container_25', 'Text_36']
+SOCIEDADE
+[{'text': 'SOCIEDADE', 'x': '562.797', 'y': '2264.12', 'dx': None, 'dy': None}]
+{'id': 'Sociedade_2', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0.54px'}
+
+068 | ['Container_21', 'ArticleCard_2', 'Container_25']
+05
+[{'text': '05', 'x': '544.797', 'y': '2477.2', 'dx': None, 'dy': None}]
+{'id': '05', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '63', 'letter-spacing': '0px'}
+
+069 | ['Container_26', 'Container_27', 'Text_37']
+UM PAÍS QUE ENVELHECE
+[{'text': 'UM PAÍS QUE ENVELHECE', 'x': '515.996', 'y': '2568.81', 'dx': None, 'dy': None}]
+{'id': 'um paÃ\xads que envelhece', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '8.1', 'letter-spacing': '0.9px'}
+
+070 | ['Container_26', 'Container_27', 'Text_38']
+1 MIN DE LEITURA
+[{'text': '1 MIN DE LEITURA', 'x': '843.992', 'y': '2568.81', 'dx': None, 'dy': None}]
+{'id': '1 MIN DE LEITURA', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '8.1', 'letter-spacing': '0.9px'}
+
+071 | ['Container_26', 'Button_15', 'Heading 3_2']
+O mercado muda com o país?
+[{'text': 'O mercado muda ', 'x': '515.996', 'y': '2633.51', 'dx': None, 'dy': None}, {'text': 'com o país?', 'x': '515.996', 'y': '2682.36', 'dx': None, 'dy': None}]
+{'id': 'O mercado muda com o paÃ\xads?', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '41.4', 'letter-spacing': '-0.72px'}
+
+072 | ['Container_26', 'Paragraph:margin_2', 'Paragraph_4']
+A procura de Sibele acontece em um Brasil que já mudou de idade.
+[{'text': 'A procura de Sibele acontece em um Brasil que ', 'x': '515.996', 'y': '2734.71', 'dx': None, 'dy': None}, {'text': 'já mudou de idade.', 'x': '515.996', 'y': '2767.11', 'dx': None, 'dy': None}]
+{'id': 'A procura de Sibele acontece em um Brasil que jÃ¡ m', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+073 | ['ArticleCard_3', 'Container_28', 'Text_39']
+TRABALHO
+[{'text': 'TRABALHO', 'x': '1006.79', 'y': '2264.12', 'dx': None, 'dy': None}]
+{'id': 'Trabalho_3', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0.54px'}
+
+074 | ['Container_21', 'ArticleCard_3', 'Container_28']
+06
+[{'text': '06', 'x': '988.793', 'y': '2477.2', 'dx': None, 'dy': None}]
+{'id': '06', 'fill': 'white', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '63', 'letter-spacing': '0px'}
+
+075 | ['Container_29', 'Container_30', 'Text_40']
+SELEÇÃO E NEGOCIAÇÃO
+[{'text': 'SELEÇÃO E NEGOCIAÇÃO', 'x': '959.992', 'y': '2568.81', 'dx': None, 'dy': None}]
+{'id': 'seleÃ§Ã£o e negociaÃ§Ã£o', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '8.1', 'letter-spacing': '0.9px'}
+
+076 | ['Container_29', 'Container_30', 'Text_41']
+2 MIN DE LEITURA
+[{'text': '2 MIN DE LEITURA', 'x': '1288', 'y': '2568.81', 'dx': None, 'dy': None}]
+{'id': '2 MIN DE LEITURA_2', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '8.1', 'letter-spacing': '0.9px'}
+
+077 | ['Container_29', 'Button_16', 'Heading 3_3']
+Quando a experiência vira custo
+[{'text': 'Quando a ', 'x': '959.992', 'y': '2633.51', 'dx': None, 'dy': None}, {'text': 'experiência vira ', 'x': '959.992', 'y': '2682.36', 'dx': None, 'dy': None}, {'text': 'custo', 'x': '959.992', 'y': '2731.21', 'dx': None, 'dy': None}]
+{'id': 'Quando a experiÃªncia vira custo', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '41.4', 'letter-spacing': '-0.72px'}
+
+078 | ['Container_29', 'Paragraph:margin_3', 'Paragraph_5']
+Sibele relatou ouvir que era qualificada demais e que não poderiam pagar o que ela valia.
+[{'text': 'Sibele relatou ouvir que era qualificada demais e ', 'x': '959.992', 'y': '2783.71', 'dx': None, 'dy': None}, {'text': 'que não poderiam pagar o que ela valia.', 'x': '959.992', 'y': '2816.11', 'dx': None, 'dy': None}]
+{'id': 'Sibele relatou ouvir que era qualificada demais e ', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+079 | ['Container:margin_5', 'Container_31', 'Text_42']
+Uma leitura. Muitas perspectivas.
+[{'text': 'Uma leitura. Muitas perspectivas.', 'x': '72', 'y': '2974.08', 'dx': None, 'dy': None}]
+{'id': 'Uma leitura. Muitas perspectivas.', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+080 | ['Container_34', 'Container_35', 'Text_43']
+02 /
+[{'text': '02 /', 'x': '72', 'y': '3267.68', 'dx': None, 'dy': None}]
+{'id': '02 /', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '1.8px'}
+
+081 | ['Container_33', 'Container_34', 'Container_35']
+CARTA DE ABERTURA
+[{'text': 'CARTA DE ABERTURA', 'x': '147.602', 'y': '3267.48', 'dx': None, 'dy': None}]
+{'id': 'CARTA DE ABERTURA', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '3.06px'}
+
+082 | ['Container_33', 'Container_34', 'Text_44']
+Editorial
+[{'text': 'Editorial', 'x': '72', 'y': '3397.51', 'dx': None, 'dy': None}]
+{'id': 'Editorial_3', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '97.2', 'letter-spacing': '-3.6px'}
+
+083 | ['Container_36', 'Heading 2_2', 'Quando a idade substitui a competência._2']
+competência.
+[{'text': 'competência.', 'x': '906.446', 'y': '3369.32', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '59.4', 'font-style': 'italic', 'letter-spacing': '-1.08px'}
+
+084 | ['Container_36', 'Heading 2_2', 'Quando a idade substitui a competência._2']
+Quando a idade
+substitui a 
+[{'text': 'Quando a idade\n', 'x': '633.602', 'y': '3301.01', 'dx': None, 'dy': None}, {'text': 'substitui a ', 'x': '633.602', 'y': '3369.32', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '59.4', 'letter-spacing': '-1.08px'}
+
+085 | ['Container_33', 'Container_36', 'Paragraph_6']
+Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as fronteiras etárias são construídas socialmente. No mercado de trabalho brasileiro, essa classificação torna-se desigualdade quando a idade substitui a avaliação de competências.
+[{'text': 'Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as ', 'x': '633.602', 'y': '3448.2', 'dx': None, 'dy': None}, {'text': 'fronteiras etárias são construídas socialmente. No mercado de trabalho ', 'x': '633.602', 'y': '3485.82', 'dx': None, 'dy': None}, {'text': 'brasileiro, essa classificação torna-se desigualdade quando a idade substitui a ', 'x': '633.602', 'y': '3523.44', 'dx': None, 'dy': None}, {'text': 'avaliação de competências.', 'x': '633.602', 'y': '3561.06', 'dx': None, 'dy': None}]
+{'id': 'Em â\x80\x9cA â\x80\x98juventudeâ\x80\x99 Ã© apenas uma palavraâ\x80\x9d, Pierre Bo', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'letter-spacing': '0px'}
+
+086 | ['Container_36', 'Container_37', 'Button_17']
+Ler o editorial completo
+[{'text': 'Ler o editorial completo', 'x': '634.034', 'y': '3649.4', 'dx': None, 'dy': None}]
+{'id': 'Ler o editorial completo', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '21.6', 'font-weight': '500', 'letter-spacing': '0px'}
+
+087 | ['Container_38', 'Container_39', 'Text_45']
+03 /
+[{'text': '03 /', 'x': '72', 'y': '3997.65', 'dx': None, 'dy': None}]
+{'id': '03 /', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '1.8px'}
+
+088 | ['DataExplorer', 'Container_38', 'Container_39']
+A REALIDADE EM NÚMEROS
+[{'text': 'A REALIDADE EM NÚMEROS', 'x': '147.602', 'y': '3997.45', 'dx': None, 'dy': None}]
+{'id': 'A REALIDADE EM NÃ\x9aMEROS', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '3.06px'}
+
+089 | ['Container_38', 'Heading 2_3', 'O país mudou. E o mercado?']
+E o mercado?
+[{'text': 'E o mercado?', 'x': '72', 'y': '4197.85', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '75.6', 'font-style': 'italic', 'letter-spacing': '-1.8px'}
+
+090 | ['Container_38', 'Heading 2_3', 'O país mudou. E o mercado?']
+O país mudou.
+
+[{'text': 'O país mudou.\n', 'x': '72', 'y': '4114.69', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '75.6', 'letter-spacing': '-1.8px'}
+
+091 | ['DataExplorer', 'Container_38', 'Paragraph_7']
+A procura de Sibele acontece em um Brasil que já mudou de idade. Nas Projeções da População revistas pelo IBGE em 2024, o grupo com 60 anos ou mais passou de 8,7% da população em 2000 para 15,6% em 2023. Para 2070, a projeção chega a 37,8%.
+[{'text': 'A procura de Sibele acontece em um Brasil que já mudou de ', 'x': '72', 'y': '4284.58', 'dx': None, 'dy': None}, {'text': 'idade. Nas Projeções da População revistas pelo IBGE em ', 'x': '72', 'y': '4322.2', 'dx': None, 'dy': None}, {'text': '2024, o grupo com 60 anos ou mais passou de 8,7% da ', 'x': '72', 'y': '4359.82', 'dx': None, 'dy': None}, {'text': 'população em 2000 para 15,6% em 2023. Para 2070, a ', 'x': '72', 'y': '4397.44', 'dx': None, 'dy': None}, {'text': 'projeção chega a 37,8%.', 'x': '72', 'y': '4435.06', 'dx': None, 'dy': None}]
+{'id': 'A procura de Sibele acontece em um Brasil que jÃ¡ m_2', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'letter-spacing': '0px'}
+
+092 | ['Container_38', 'Container_40', 'Button_18']
+Entenda os dados
+[{'text': 'Entenda os dados', 'x': '72.2063', 'y': '4525.58', 'dx': None, 'dy': None}]
+{'id': 'Entenda os dados', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '21.6', 'font-weight': '500', 'letter-spacing': '0px'}
+
+093 | ['Container_41', 'Text_46', 'Dados com contexto. Informação sem estereótipos.']
+Informação sem estereótipos.
+[{'text': 'Informação sem estereótipos.', 'x': '129.602', 'y': '4704.28', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '500', 'letter-spacing': '0px'}
+
+094 | ['Container_41', 'Text_46', 'Dados com contexto. Informação sem estereótipos.']
+Dados com contexto.
+
+[{'text': 'Dados com contexto.\n', 'x': '129.602', 'y': '4675.12', 'dx': None, 'dy': None}]
+{'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'letter-spacing': '0px'}
+
+095 | ['Container_42', 'Container_43', 'Text_47']
+Um Brasil que envelhece
+[{'text': 'Um Brasil que envelhece', 'x': '746.285', 'y': '3977.38', 'dx': None, 'dy': None}]
+{'id': 'Um Brasil que envelhece', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '500', 'letter-spacing': '0px'}
+
+096 | ['Container_42', 'Container_43', 'Text_48']
+POPULAÇÃO 60+
+[{'text': 'POPULAÇÃO 60+', 'x': '1259.19', 'y': '3974.56', 'dx': None, 'dy': None}]
+{'id': 'POPULAÃ\x87Ã\x83O 60+', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '7.2', 'font-weight': '500', 'letter-spacing': '1.08px'}
+
+097 | ['Container_42', 'Container_44', 'Bold Text_2']
+15,6%
+[{'text': '15,6%', 'x': '746.285', 'y': '4104.69', 'dx': None, 'dy': None}]
+{'id': '15,6%', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '86.4', 'letter-spacing': '0px'}
+
+098 | ['Container_42', 'Container_44', 'Text_49']
+da população brasileira
+em 2023
+[{'text': 'da população brasileira\n', 'x': '1002.68', 'y': '4067.64', 'dx': None, 'dy': None}, {'text': 'em 2023', 'x': '1002.68', 'y': '4090.68', 'dx': None, 'dy': None}]
+{'id': 'da populaÃ§Ã£o brasileira em 2023', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'letter-spacing': '0px'}
+
+099 | ['População com 60 anos ou mais por ano', 'Container_45', 'Text_50']
+40%
+[{'text': '40%', 'x': '746.285', 'y': '4167.66', 'dx': None, 'dy': None}]
+{'id': '40%', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+100 | ['População com 60 anos ou mais por ano', 'Container_45', 'Text_52']
+30%
+[{'text': '30%', 'x': '746.285', 'y': '4247.06', 'dx': None, 'dy': None}]
+{'id': '30%', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+101 | ['População com 60 anos ou mais por ano', 'Container_45', 'Text_54']
+20%
+[{'text': '20%', 'x': '746.285', 'y': '4326.46', 'dx': None, 'dy': None}]
+{'id': '20%', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+102 | ['População com 60 anos ou mais por ano', 'Container_45', 'Text_56']
+10%
+[{'text': '10%', 'x': '746.285', 'y': '4405.86', 'dx': None, 'dy': None}]
+{'id': '10%', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+103 | ['População com 60 anos ou mais por ano', 'Container_45', 'Text_58']
+0%
+[{'text': '0%', 'x': '746.285', 'y': '4485.26', 'dx': None, 'dy': None}]
+{'id': '0%', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+104 | ['População com 60 anos ou mais por ano', 'Button - 2000: 8,7%', 'Text_60']
+8,7%
+[{'text': '8,7%', 'x': '877.302', 'y': '4398.52', 'dx': None, 'dy': None}]
+{'id': '8,7%', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '500', 'letter-spacing': '0px'}
+
+105 | ['População com 60 anos ou mais por ano', 'Button - 2000: 8,7%', 'Text_61']
+2000
+[{'text': '2000', 'x': '872.846', 'y': '4526.18', 'dx': None, 'dy': None}]
+{'id': '2000', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '600', 'letter-spacing': '0px'}
+
+106 | ['População com 60 anos ou mais por ano', 'Button - 2000: 8,7%', 'Text_61']
+ESTIMATIVA
+[{'text': 'ESTIMATIVA', 'x': '863.729', 'y': '4548.73', 'dx': None, 'dy': None}]
+{'id': 'ESTIMATIVA', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.44px'}
+
+107 | ['População com 60 anos ou mais por ano', 'Button - 2023: 15,6%', 'Text_62']
+15,6%
+[{'text': '15,6%', 'x': '1049.15', 'y': '4340.46', 'dx': None, 'dy': None}]
+{'id': '15,6%_2', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '500', 'letter-spacing': '0px'}
+
+108 | ['População com 60 anos ou mais por ano', 'Button - 2023: 15,6%', 'Text_63']
+2023
+[{'text': '2023', 'x': '1049.57', 'y': '4526.18', 'dx': None, 'dy': None}]
+{'id': '2023', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '600', 'letter-spacing': '0px'}
+
+109 | ['População com 60 anos ou mais por ano', 'Button - 2023: 15,6%', 'Text_63']
+ESTIMATIVA
+[{'text': 'ESTIMATIVA', 'x': '1038.57', 'y': '4548.73', 'dx': None, 'dy': None}]
+{'id': 'ESTIMATIVA_2', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.44px'}
+
+110 | ['População com 60 anos ou mais por ano', 'Button - 2070: 37,8%, projeção', 'Text_64']
+37,8%
+[{'text': '37,8%', 'x': '1223.07', 'y': '4153.65', 'dx': None, 'dy': None}]
+{'id': '37,8%', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '500', 'letter-spacing': '0px'}
+
+111 | ['População com 60 anos ou mais por ano', 'Button - 2070: 37,8%, projeção', 'Text_65']
+2070
+[{'text': '2070', 'x': '1223.61', 'y': '4526.18', 'dx': None, 'dy': None}]
+{'id': '2070', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'font-weight': '600', 'letter-spacing': '0px'}
+
+112 | ['População com 60 anos ou mais por ano', 'Button - 2070: 37,8%, projeção', 'Text_65']
+PROJEÇÃO
+[{'text': 'PROJEÇÃO', 'x': '1215.95', 'y': '4548.73', 'dx': None, 'dy': None}]
+{'id': 'PROJEÃ\x87Ã\x83O', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.44px'}
+
+113 | ['Container:margin_8', 'Container_46', 'Text_66']
+IBGE · PROJEÇÕES DA POPULAÇÃO, REVISÃO 2024
+[{'text': 'IBGE · PROJEÇÕES DA POPULAÇÃO, REVISÃO 2024', 'x': '746.285', 'y': '4633.53', 'dx': None, 'dy': None}]
+{'id': 'IBGE Â· PROJEÃ\x87Ã\x95ES DA POPULAÃ\x87Ã\x83O, REVISÃ\x83O 2024', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '0.99px'}
+
+114 | ['Container:margin_8', 'Container_46', 'Text_67']
+Clique nas barras para explorar
+[{'text': 'Clique nas barras para explorar', 'x': '746.285', 'y': '4666.19', 'dx': None, 'dy': None}]
+{'id': 'Clique nas barras para explorar', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'letter-spacing': '0px'}
+
+115 | ['DataExplorer', 'Container_42', 'Paragraph_8']
+Estimativas retrospectivas para 2000 e 2023. A projeção para 2070 está condicionada às hipóteses demográficas.
+[{'text': 'Estimativas retrospectivas para 2000 e 2023. A projeção para 2070 está condicionada às ', 'x': '746.285', 'y': '4702.49', 'dx': None, 'dy': None}, {'text': 'hipóteses demográficas.', 'x': '746.285', 'y': '4722.65', 'dx': None, 'dy': None}]
+{'id': 'Estimativas retrospectivas para 2000 e 2023. A pro', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '0px'}
+
+116 | ['Container_48', 'Container_49', 'Text_68']
+04 /
+[{'text': '04 /', 'x': '72', 'y': '5044.05', 'dx': None, 'dy': None}]
+{'id': '04 /', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '1.8px'}
+
+117 | ['Container_47', 'Container_48', 'Container_49']
+GLOSSÁRIO DE LEITURA
+[{'text': 'GLOSSÁRIO DE LEITURA', 'x': '147.602', 'y': '5043.85', 'dx': None, 'dy': None}]
+{'id': 'GLOSSÃ\x81RIO DE LEITURA', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '3.06px'}
+
+118 | ['Container_48', 'Heading 2_4', 'Entender também é transformar.']
+transformar.
+[{'text': 'transformar.', 'x': '115.715', 'y': '5223.91', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '64.8', 'font-style': 'italic', 'letter-spacing': '-1.62px'}
+
+119 | ['Container_48', 'Heading 2_4', 'Entender também é transformar.']
+Entender também
+é 
+[{'text': 'Entender também\n', 'x': '72', 'y': '5149.39', 'dx': None, 'dy': None}, {'text': 'é ', 'x': '72', 'y': '5223.91', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '64.8', 'letter-spacing': '-1.62px'}
+
+120 | ['Container_47', 'Container_48', 'Paragraph_9']
+Os conceitos que atravessam esta edição.
+Clique e amplie seu repertório.
+[{'text': 'Os conceitos que atravessam esta edição.\n', 'x': '72', 'y': '5300.38', 'dx': None, 'dy': None}, {'text': 'Clique e amplie seu repertório.', 'x': '72', 'y': '5338', 'dx': None, 'dy': None}]
+{'id': 'Os conceitos que atravessam esta ediÃ§Ã£o. Clique e ', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'letter-spacing': '0px'}
+
+121 | ['Container_51', 'Button_19', 'Text_69']
+01
+[{'text': '01', 'x': '713.293', 'y': '5079.32', 'dx': None, 'dy': None}]
+{'id': '01', 'fill': '#7A8565', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '1.08px'}
+
+122 | ['Container_51', 'Button_19', 'Text_70']
+Etarismo
+[{'text': 'Etarismo', 'x': '752.691', 'y': '5081.22', 'dx': None, 'dy': None}]
+{'id': 'Etarismo', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+123 | ['Container_50', 'Container_51', 'Container_52']
+estereótipos, preconceitos e discriminação relacionados à idade; pode atingir diferentes faixas etárias.
+[{'text': 'estereótipos, preconceitos e discriminação relacionados à ', 'x': '770.895', 'y': '5150.08', 'dx': None, 'dy': None}, {'text': 'idade; pode atingir diferentes faixas etárias.', 'x': '770.895', 'y': '5186.71', 'dx': None, 'dy': None}]
+{'id': 'estereÃ³tipos, preconceitos e discriminaÃ§Ã£o relacio', 'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'letter-spacing': '0px'}
+
+124 | ['Container_53', 'Button_20', 'Text_71']
+02
+[{'text': '02', 'x': '713.293', 'y': '5295.52', 'dx': None, 'dy': None}]
+{'id': '02', 'fill': '#7A8565', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '1.08px'}
+
+125 | ['Container_53', 'Button_20', 'Text_72']
+Nível de ocupação
+[{'text': 'Nível de ocupação', 'x': '756.691', 'y': '5297.42', 'dx': None, 'dy': None}]
+{'id': 'NÃ\xadvel de ocupaÃ§Ã£o', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+126 | ['Container_54', 'Button_21', 'Text_73']
+03
+[{'text': '03', 'x': '713.293', 'y': '5398.12', 'dx': None, 'dy': None}]
+{'id': '03', 'fill': '#7A8565', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '1.08px'}
+
+127 | ['Container_54', 'Button_21', 'Text_74']
+Trabalho por conta própria
+[{'text': 'Trabalho por conta própria', 'x': '756.691', 'y': '5400.02', 'dx': None, 'dy': None}]
+{'id': 'Trabalho por conta prÃ³pria', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+128 | ['Container_55', 'Button_22', 'Text_75']
+04
+[{'text': '04', 'x': '713.293', 'y': '5500.73', 'dx': None, 'dy': None}]
+{'id': '04_3', 'fill': '#7A8565', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '1.08px'}
+
+129 | ['Container_55', 'Button_22', 'Text_76']
+Economia prateada
+[{'text': 'Economia prateada', 'x': '756.691', 'y': '5502.62', 'dx': None, 'dy': None}]
+{'id': 'Economia prateada', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+130 | ['Container_56', 'Button_23', 'Text_77']
+05
+[{'text': '05', 'x': '713.293', 'y': '5603.32', 'dx': None, 'dy': None}]
+{'id': '05_2', 'fill': '#7A8565', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '1.08px'}
+
+131 | ['Container_56', 'Button_23', 'Text_78']
+Violência patrimonial
+[{'text': 'Violência patrimonial', 'x': '756.691', 'y': '5605.22', 'dx': None, 'dy': None}]
+{'id': 'ViolÃªncia patrimonial', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+132 | ['Container_57', 'Button_24', 'Text_79']
+06
+[{'text': '06', 'x': '713.293', 'y': '5705.92', 'dx': None, 'dy': None}]
+{'id': '06_2', 'fill': '#7A8565', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '500', 'letter-spacing': '1.08px'}
+
+133 | ['Container_57', 'Button_24', 'Text_80']
+Autonomia
+[{'text': 'Autonomia', 'x': '757.691', 'y': '5707.82', 'dx': None, 'dy': None}]
+{'id': 'Autonomia', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+134 | ['Container_59', 'Container_60', 'Text_81']
+05 /
+[{'text': '05 /', 'x': '72', 'y': '6031.69', 'dx': None, 'dy': None}]
+{'id': '05 /', 'fill': '#B95D40', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '1.8px'}
+
+135 | ['Container_58', 'Container_59', 'Container_60']
+QUEM FAZ A REVISTA
+[{'text': 'QUEM FAZ A REVISTA', 'x': '147.602', 'y': '6031.49', 'dx': None, 'dy': None}]
+{'id': 'QUEM FAZ A REVISTA', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '600', 'letter-spacing': '3.06px'}
+
+136 | ['Container_59', 'Heading 2_5', 'Uma pesquisa. Seis perspectivas.']
+Seis perspectivas.
+[{'text': 'Seis perspectivas.', 'x': '72', 'y': '6219.7', 'dx': None, 'dy': None}]
+{'fill': '#47533B', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '73.8', 'font-style': 'italic', 'letter-spacing': '-1.98px'}
+
+137 | ['Container_59', 'Heading 2_5', 'Uma pesquisa. Seis perspectivas.']
+Uma pesquisa.
+
+[{'text': 'Uma pesquisa.\n', 'x': '72', 'y': '6137.05', 'dx': None, 'dy': None}]
+{'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '73.8', 'letter-spacing': '-1.98px'}
+
+138 | ['Team', 'Container_58', 'Paragraph_10']
+Grupo de pesquisa sobre etarismo.
+Um trabalho para ampliar a conversa.
+[{'text': 'Grupo de pesquisa sobre etarismo.\n', 'x': '1045.96', 'y': '6179.02', 'dx': None, 'dy': None}, {'text': 'Um trabalho para ampliar a conversa.', 'x': '1027.76', 'y': '6214.66', 'dx': None, 'dy': None}]
+{'id': 'Grupo de pesquisa sobre etarismo. Um trabalho para', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'letter-spacing': '0px'}
+
+139 | ['Container_62', 'Heading 3:margin', 'Heading 3_4']
+Giovanna Medeiros Veloso
+[{'text': 'Giovanna Medeiros Veloso', 'x': '158.047', 'y': '6501.65', 'dx': None, 'dy': None}]
+{'id': 'Giovanna Medeiros Veloso', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+140 | ['Container_61', 'Container_62', 'Container_63']
+GRUPO DE PESQUISA
+[{'text': 'GRUPO DE PESQUISA', 'x': '223.553', 'y': '6568.17', 'dx': None, 'dy': None}]
+{'id': 'GRUPO DE PESQUISA', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.8px'}
+
+141 | ['Container_64', 'Heading 3:margin_2', 'Heading 3_5']
+Arthur do Vale Silva
+[{'text': 'Arthur do Vale Silva', 'x': '629.537', 'y': '6501.65', 'dx': None, 'dy': None}]
+{'id': 'Arthur do Vale Silva', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+142 | ['Container_61', 'Container_64', 'Container_65']
+GRUPO DE PESQUISA
+[{'text': 'GRUPO DE PESQUISA', 'x': '662.752', 'y': '6568.17', 'dx': None, 'dy': None}]
+{'id': 'GRUPO DE PESQUISA_2', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.8px'}
+
+143 | ['Container_66', 'Heading 3:margin_3', 'Heading 3_6']
+Murilo Rosa Fonseca
+[{'text': 'Murilo Rosa Fonseca', 'x': '1064.32', 'y': '6501.65', 'dx': None, 'dy': None}]
+{'id': 'Murilo Rosa Fonseca', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+144 | ['Container_61', 'Container_66', 'Container_67']
+GRUPO DE PESQUISA
+[{'text': 'GRUPO DE PESQUISA', 'x': '1101.95', 'y': '6568.17', 'dx': None, 'dy': None}]
+{'id': 'GRUPO DE PESQUISA_3', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.8px'}
+
+145 | ['Container_68', 'Heading 3:margin_4', 'Heading 3_7']
+Kevin Jun
+[{'text': 'Kevin Jun', 'x': '236.87', 'y': '6796.85', 'dx': None, 'dy': None}]
+{'id': 'Kevin Jun', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+146 | ['Container_61', 'Container_68', 'Container_69']
+GRUPO DE PESQUISA
+[{'text': 'GRUPO DE PESQUISA', 'x': '223.553', 'y': '6863.37', 'dx': None, 'dy': None}]
+{'id': 'GRUPO DE PESQUISA_4', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.8px'}
+
+147 | ['Container_70', 'Heading 3:margin_5', 'Heading 3_8']
+Davi Dias
+[{'text': 'Davi Dias', 'x': '677.519', 'y': '6796.85', 'dx': None, 'dy': None}]
+{'id': 'Davi Dias', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+148 | ['Container_61', 'Container_70', 'Container_71']
+GRUPO DE PESQUISA
+[{'text': 'GRUPO DE PESQUISA', 'x': '662.752', 'y': '6863.37', 'dx': None, 'dy': None}]
+{'id': 'GRUPO DE PESQUISA_5', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.8px'}
+
+149 | ['Container_72', 'Heading 3:margin_6', 'Heading 3_9']
+Davi Alcanfor
+[{'text': 'Davi Alcanfor', 'x': '1097.65', 'y': '6796.85', 'dx': None, 'dy': None}]
+{'id': 'Davi Alcanfor', 'fill': '#252525', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '19.8', 'font-weight': '500', 'letter-spacing': '0px'}
+
+150 | ['Container_61', 'Container_72', 'Container_73']
+GRUPO DE PESQUISA
+[{'text': 'GRUPO DE PESQUISA', 'x': '1101.95', 'y': '6863.37', 'dx': None, 'dy': None}]
+{'id': 'GRUPO DE PESQUISA_6', 'fill': '#666666', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'letter-spacing': '1.8px'}
+
+151 | ['Container_75', 'Container_76', 'Text_82']
+O RESPEITO NÃO TEM IDADE.
+[{'text': 'O RESPEITO NÃO TEM IDADE.', 'x': '72', 'y': '7190.14', 'dx': None, 'dy': None}]
+{'id': 'O RESPEITO NÃ\x83O TEM IDADE.', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '14.4', 'font-weight': '600', 'letter-spacing': '3.24px'}
+
+152 | ['Container_76', 'Heading 2_6', 'Continuar não pode ser um privilégio.']
+Continuar não pode
+ser um 
+[{'text': 'Continuar não pode\n', 'x': '72', 'y': '7313.87', 'dx': None, 'dy': None}, {'text': 'ser um ', 'x': '72', 'y': '7414.67', 'dx': None, 'dy': None}]
+{'fill': '#F7F6F0', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '90', 'letter-spacing': '-1.08px'}
+
+153 | ['Container_76', 'Heading 2_6', 'Continuar não pode ser um privilégio.']
+privilégio.
+[{'text': 'privilégio.', 'x': '357.643', 'y': '7414.67', 'dx': None, 'dy': None}]
+{'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '90', 'font-style': 'italic', 'letter-spacing': '-1.08px'}
+
+154 | ['Container_76', 'Container_77', 'Button_25']
+Leia a reflexão final
+[{'text': 'Leia a reflexão final', 'x': '72.1855', 'y': '7515.26', 'dx': None, 'dy': None}]
+{'id': 'Leia a reflexÃ£o final', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'font-weight': '500', 'letter-spacing': '0px'}
+
+155 | ['Container_78', 'Text:margin_10', 'Text_83']
+CONTINUE EXPLORANDO
+[{'text': 'CONTINUE EXPLORANDO', 'x': '936', 'y': '7199.6', 'dx': None, 'dy': None}]
+{'id': 'CONTINUE EXPLORANDO', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '12.6', 'letter-spacing': '3.24px'}
+
+156 | ['Container_75', 'Container_78', 'Button_26']
+Sumário da edição
+[{'text': 'Sumário da edição', 'x': '936', 'y': '7265.79', 'dx': None, 'dy': None}]
+{'id': 'SumÃ¡rio da ediÃ§Ã£o', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+157 | ['Container_75', 'Container_78', 'Button_27']
+Referências e notas
+[{'text': 'Referências e notas', 'x': '936', 'y': '7325.19', 'dx': None, 'dy': None}]
+{'id': 'ReferÃªncias e notas', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+158 | ['Container_75', 'Container_78', 'Button_28']
+Fontes de dados e legislação
+[{'text': 'Fontes de dados e legislação', 'x': '936', 'y': '7384.59', 'dx': None, 'dy': None}]
+{'id': 'Fontes de dados e legislaÃ§Ã£o', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+159 | ['Container_75', 'Container_78', 'Link_7']
+Participantes
+[{'text': 'Participantes', 'x': '936', 'y': '7443.99', 'dx': None, 'dy': None}]
+{'id': 'Participantes_2', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '18', 'letter-spacing': '0px'}
+
+160 | ['Container_79', 'Brand_2', 'etarismo._2']
+etarismo
+[{'text': 'etarismo', 'x': '72', 'y': '7737.57', 'dx': None, 'dy': None}]
+{'fill': '#F7F6F0', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '61.2', 'letter-spacing': '-3.24px'}
+
+161 | ['Container_79', 'Brand_2', 'etarismo._2']
+.
+[{'text': '.', 'x': '287.055', 'y': '7737.57', 'dx': None, 'dy': None}]
+{'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Serif Display', 'font-size': '61.2', 'letter-spacing': '-3.24px'}
+
+162 | ['Container_79', 'Brand_2', 'Text_84']
+REVISTA DIGITAL
+[{'text': 'REVISTA DIGITAL', 'x': '77.3984', 'y': '7768.69', 'dx': None, 'dy': None}]
+{'id': 'REVISTA DIGITAL_2', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '9', 'font-weight': '500', 'letter-spacing': '6.12px'}
+
+163 | ['Container_74', 'Container_79', 'Paragraph_11']
+REVISTA DIGITAL · EDIÇÃO ESPECIAL 2026
+[{'text': 'REVISTA DIGITAL · EDIÇÃO ESPECIAL 2026', 'x': '602.898', 'y': '7731.5', 'dx': None, 'dy': None}]
+{'id': 'REVISTA DIGITAL Â· EDIÃ\x87Ã\x83O ESPECIAL 2026', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'letter-spacing': '2.7px'}
+
+164 | ['Container_74', 'Container_79', 'Link_8']
+Voltar ao topo
+[{'text': 'Voltar ao topo', 'x': '1208.8', 'y': '7733.39', 'dx': None, 'dy': None}]
+{'id': 'Voltar ao topo', 'fill': '#F7F6F0', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '16.2', 'letter-spacing': '0px'}
+
+165 | ['Container:margin_11', 'Container_74', 'Paragraph_12']
+Fotografias ilustrativas: Danie Franco, Ravi Patel e Vitaly Gariev / Unsplash. As pessoas retratadas não representam as personagens da reportagem.
+[{'text': 'Fotografias ilustrativas: Danie Franco, Ravi Patel e Vitaly Gariev / Unsplash. As pessoas retratadas não representam as personagens da reportagem.', 'x': '72', 'y': '7825.72', 'dx': None, 'dy': None}]
+{'id': 'Fotografias ilustrativas: Danie Franco, Ravi Patel', 'fill': '#E9EBDF', 'style': 'white-space: pre', '{http://www.w3.org/XML/1998/namespace}space': 'preserve', 'font-family': 'DM Sans', 'font-size': '10.8', 'letter-spacing': '0px'}

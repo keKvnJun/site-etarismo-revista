@@ -1,0 +1,408 @@
+[
+  {
+    "id": "curriculo-elogiado",
+    "photo": "franco",
+    "src": "assets/img/retrato-danie-franco.jpg",
+    "sourceImageId": "image0_194_3869",
+    "sourceWidth": 1200,
+    "sourceHeight": 1798,
+    "slot": {
+      "x": 14203.0,
+      "y": 5220.57,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14203.0,
+      "y": 5220.57,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "patternTransform": "matrix(0.000833333 0 0 0.00107935 0 -0.470338)",
+    "texts": [
+      "TRABALHO",
+      "04",
+      "TRABALHO E LONGEVIDADE",
+      "2 MIN DE LEITURA",
+      "Um currículo elogiado, uma porta fechada",
+      "Sibele Monice continuava aprendendo e trabalhando."
+    ]
+  },
+  {
+    "id": "mercado-muda",
+    "photo": "patel",
+    "src": "assets/img/retrato-ravi-patel.jpg",
+    "sourceImageId": "image1_194_3869",
+    "sourceWidth": 1000,
+    "sourceHeight": 667,
+    "slot": {
+      "x": 14647.0,
+      "y": 5220.57,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14647.0,
+      "y": 5220.57,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "patternTransform": "matrix(0.00115752 0 0 0.00149925 -0.0787614 0)",
+    "texts": [
+      "SOCIEDADE",
+      "05",
+      "UM PAÍS QUE ENVELHECE",
+      "1 MIN DE LEITURA",
+      "O mercado muda com o país?",
+      "A procura de Sibele acontece em um Brasil que já mudou de idade."
+    ]
+  },
+  {
+    "id": "experiencia-custo",
+    "photo": "gariev",
+    "src": "assets/img/profissional-vitaly-gariev.jpg",
+    "sourceImageId": "image2_194_3869",
+    "sourceWidth": 1000,
+    "sourceHeight": 563,
+    "slot": {
+      "x": 15091.0,
+      "y": 5220.57,
+      "width": 408.009,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 15091.0,
+      "y": 5220.57,
+      "width": 408.009,
+      "height": 315.0
+    },
+    "patternTransform": "matrix(0.0013713 0 0 0.0017762 -0.185649 0)",
+    "texts": [
+      "TRABALHO",
+      "06",
+      "SELEÇÃO E NEGOCIAÇÃO",
+      "2 MIN DE LEITURA",
+      "Quando a experiência vira custo",
+      "Sibele relatou ouvir que era qualificada demais e que não poderiam pagar o que ela valia."
+    ]
+  },
+  {
+    "id": "trabalhar-vaga",
+    "photo": "trabalhar-vaga",
+    "src": "assets/img/materia-trabalhar-vaga.png",
+    "sourceImageId": "image19_194_3869",
+    "sourceWidth": 626,
+    "sourceHeight": 417,
+    "slot": {
+      "x": 14203.0,
+      "y": 5886.84,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14203.0,
+      "y": 5887.0,
+      "width": 626.0,
+      "height": 417.0
+    },
+    "patternTransform": "scale(0.00159744 0.00239808)",
+    "texts": [
+      "TRABALHO",
+      "07",
+      "INSERÇÃO PROFISSIONAL",
+      "1 MIN DE LEITURA",
+      "Trabalhar não é o mesmo que ter uma vaga",
+      "Em 2024, cerca de um quarto da população brasileira com 60 anos ou mais estava ocupado."
+    ]
+  },
+  {
+    "id": "idade-decide",
+    "photo": "idade-decide",
+    "src": "assets/img/materia-idade-decide.png",
+    "sourceImageId": "image20_194_3869",
+    "sourceWidth": 700,
+    "sourceHeight": 800,
+    "slot": {
+      "x": 14647.0,
+      "y": 5886.84,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14647.0,
+      "y": 5887.0,
+      "width": 408.0,
+      "height": 466.0
+    },
+    "patternTransform": "matrix(0.00142857 0 0 0.00125077 0 -0.00030656)",
+    "texts": [
+      "TRABALHO",
+      "08",
+      "ANTES DA ENTREVISTA",
+      "2 MIN DE LEITURA",
+      "A idade pode decidir antes da conversa",
+      "A dificuldade narrada por Sibele não se resume a uma impressão sem paralelo na pesquisa."
+    ]
+  },
+  {
+    "id": "curriculo-impressiona",
+    "photo": "curriculo-impressiona",
+    "src": "assets/img/materia-curriculo-impressiona.png",
+    "sourceImageId": "image21_194_3869",
+    "sourceWidth": 547,
+    "sourceHeight": 365,
+    "slot": {
+      "x": 15091.0,
+      "y": 5886.84,
+      "width": 408.009,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 15021.0,
+      "y": 5862.0,
+      "width": 547.0,
+      "height": 365.0
+    },
+    "patternTransform": "scale(0.00182815 0.00273973)",
+    "texts": [
+      "TRABALHO",
+      "09",
+      "EXPERIÊNCIA E RECONHECIMENTO",
+      "2 MIN DE LEITURA",
+      "O currículo impressiona. Por que não abre portas?",
+      "Sibele dizia nunca ter parado de aprender."
+    ]
+  },
+  {
+    "id": "mesma-idade",
+    "photo": "mesma-idade",
+    "src": "assets/img/materia-mesma-idade.png",
+    "sourceImageId": "image22_194_3869",
+    "sourceWidth": 678,
+    "sourceHeight": 452,
+    "slot": {
+      "x": 14203.0,
+      "y": 6569.54,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14179.0,
+      "y": 6554.0,
+      "width": 497.0,
+      "height": 331.0
+    },
+    "patternTransform": "matrix(0.00147493 0 0 0.00221462 0 -0.000503525)",
+    "texts": [
+      "SOCIEDADE",
+      "10",
+      "TRAJETÓRIAS DESIGUAIS",
+      "1 MIN DE LEITURA",
+      "A mesma idade, recursos diferentes",
+      "O ano de nascimento não conta tudo o que chegou antes dele."
+    ]
+  },
+  {
+    "id": "distancia-carreira",
+    "photo": "distancia-carreira",
+    "src": "assets/img/materia-distancia-carreira.png",
+    "sourceImageId": "image23_194_3869",
+    "sourceWidth": 300,
+    "sourceHeight": 200,
+    "slot": {
+      "x": 14647.0,
+      "y": 6569.54,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14647.0,
+      "y": 6569.54,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "patternTransform": "matrix(0.00386034 0 0 0.005 -0.0790508 0)",
+    "texts": [
+      "SOCIEDADE",
+      "11",
+      "GÊNERO E OPORTUNIDADE",
+      "1 MIN DE LEITURA",
+      "Uma distância que atravessa a carreira",
+      "Entre 60 e 69 anos, a distância de ocupação entre homens e mulheres era de 21,8 pontos percentuais."
+    ]
+  },
+  {
+    "id": "renda-geracoes",
+    "photo": "renda-geracoes",
+    "src": "assets/img/materia-renda-geracoes.png",
+    "sourceImageId": "image24_194_3869",
+    "sourceWidth": 651,
+    "sourceHeight": 471,
+    "slot": {
+      "x": 15091.0,
+      "y": 6569.54,
+      "width": 408.009,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 15091.0,
+      "y": 6569.54,
+      "width": 408.009,
+      "height": 315.0
+    },
+    "patternTransform": "matrix(0.00163915 0 0 0.00212314 -0.0335443 0)",
+    "texts": [
+      "ECONOMIA",
+      "12",
+      "ECONOMIA PRATEADA",
+      "2 MIN DE LEITURA",
+      "A renda que atravessa gerações",
+      "A imagem da pessoa idosa como dependente não explica muitos orçamentos familiares brasileiros."
+    ]
+  },
+  {
+    "id": "dinheiro-nao-para",
+    "photo": "dinheiro-nao-para",
+    "src": "assets/img/materia-dinheiro-nao-para.png",
+    "sourceImageId": "image25_194_3869",
+    "sourceWidth": 678,
+    "sourceHeight": 452,
+    "slot": {
+      "x": 14203.0,
+      "y": 7186.97,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14186.0,
+      "y": 7166.0,
+      "width": 504.0,
+      "height": 336.0
+    },
+    "patternTransform": "scale(0.00147493 0.00221239)",
+    "texts": [
+      "ECONOMIA",
+      "13",
+      "ORÇAMENTO COMPARTILHADO",
+      "1 MIN DE LEITURA",
+      "O dinheiro não para em quem o recebe",
+      "Os números do Ipea mostram o alcance familiar da renda das pessoas idosas."
+    ]
+  },
+  {
+    "id": "dados-permitem",
+    "photo": "dados-permitem",
+    "src": "assets/img/materia-dados-permitem.png",
+    "sourceImageId": "image26_194_3869",
+    "sourceWidth": 576,
+    "sourceHeight": 330,
+    "slot": {
+      "x": 14647.0,
+      "y": 7186.97,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14527.0,
+      "y": 7187.0,
+      "width": 550.0,
+      "height": 315.0
+    },
+    "patternTransform": "scale(0.00173611 0.00303131)",
+    "texts": [
+      "ECONOMIA",
+      "14",
+      "PARTICIPAÇÃO NO CONSUMO",
+      "2 MIN DE LEITURA",
+      "O que os dados permitem responder",
+      "As pessoas mais velhas participam do consumo e da sustentação econômica das famílias."
+    ]
+  },
+  {
+    "id": "aposentadoria",
+    "photo": "aposentadoria",
+    "src": "assets/img/materia-aposentadoria.png",
+    "sourceImageId": "image27_194_3869",
+    "sourceWidth": 1080,
+    "sourceHeight": 1080,
+    "slot": {
+      "x": 15091.0,
+      "y": 7186.97,
+      "width": 408.009,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 15091.0,
+      "y": 7166.0,
+      "width": 408.0,
+      "height": 408.0
+    },
+    "patternTransform": "scale(0.000925926)",
+    "texts": [
+      "ECONOMIA",
+      "15",
+      "PROTEÇÃO DE RENDA",
+      "1 MIN DE LEITURA",
+      "Aposentadoria não é um detalhe",
+      "Recuperar uma vaga não pode ser a única resposta à perda de renda na maturidade."
+    ]
+  },
+  {
+    "id": "alternativas-encolhem",
+    "photo": "alternativas-encolhem",
+    "src": "assets/img/materia-alternativas-encolhem.png",
+    "sourceImageId": "image28_194_3869",
+    "sourceWidth": 1920,
+    "sourceHeight": 1279,
+    "slot": {
+      "x": 14203.0,
+      "y": 7853.24,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14203.0,
+      "y": 7853.0,
+      "width": 473.0,
+      "height": 315.0
+    },
+    "patternTransform": "scale(0.000520833 0.000782077)",
+    "texts": [
+      "DIREITOS",
+      "16",
+      "TRABALHO, RENDA E AUTONOMIA",
+      "2 MIN DE LEITURA",
+      "Quando as alternativas encolhem",
+      "A perda de uma vaga pode continuar pesando depois de uma recusa."
+    ]
+  },
+  {
+    "id": "mudanca-contrata",
+    "photo": "mudanca-contrata",
+    "src": "assets/img/materia-mudanca-contrata.png",
+    "sourceImageId": "image29_194_3869",
+    "sourceWidth": 614,
+    "sourceHeight": 412,
+    "slot": {
+      "x": 14647.0,
+      "y": 7853.24,
+      "width": 407.995,
+      "height": 315.0
+    },
+    "visiblePhotoRect": {
+      "x": 14589.0,
+      "y": 7840.0,
+      "width": 489.0,
+      "height": 328.0
+    },
+    "patternTransform": "scale(0.00162866 0.0024281)",
+    "texts": [
+      "DIREITOS",
+      "17",
+      "QUEM PODE MUDAR A SELEÇÃO",
+      "2 MIN DE LEITURA",
+      "A mudança começa em quem contrata",
+      "A empresa decide quem chega à entrevista e quem recebe a oferta."
+    ]
+  }
+]

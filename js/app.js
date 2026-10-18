@@ -5,22 +5,26 @@
   const ED = window.EDITION;
   const BODY = Object.fromEntries((window.ARTICLES || []).map(a => [a.id, a]));
   const ORDER = ED.order;
+  const READING_ORDER = ORDER.flatMap(o => o.id === "editorial" ? [o, ED.summary] : [o]);
+  const TOTAL_PAGES = Math.max(...READING_ORDER.map(o => Number(o.page)));
   const STORIES = ORDER.filter(o => o.theme);          // as 14 matérias dos cards
-  const byId = id => ORDER.find(o => o.id === id);
+  const byId = id => READING_ORDER.find(o => o.id === id);
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const icon = name => `<span class="design-icon icon--${name}" aria-hidden="true"></span>`;
   const ICON = {
-    arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>',
-    right: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
-    left: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>',
-    mark: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h11v16l-5.5-4-5.5 4z"/></svg>',
-    clock: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2"/></svg>',
-    moon: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5z"/></svg>',
-    link: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>',
+    arrow: icon("card-open"),
+    right: icon("reader-next"),
+    left: icon("reader-previous"),
+    mark: icon("reader-bookmark"),
+    cardMark: icon("bookmark-card"),
+    clock: icon("clock"),
+    moon: icon("moon"),
+    link: icon("share"),
     zoom: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.4-4.4M11 8.5v5M8.5 11h5"/></svg>',
-    check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
-    close: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>'
+    check: icon("check"),
+    close: icon("close")
   };
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -111,18 +115,21 @@
 
   function cardHTML(o) {
     const ph = ED.PHOTOS[o.photo];
+    const crop = ph.crop;
+    const photoStyle = crop ? ` style="--photo-x:${crop.x}%;--photo-y:${crop.y}%;--photo-w:${crop.width}%;--photo-h:${crop.height}%"` : "";
     return `
-      <article class="card is-entering">
+      <article class="card is-entering"${photoStyle}>
         <div class="card__media">
           <button type="button" class="card__open" data-open-article="${o.id}" aria-label="Ler ${esc(o.title)}" tabindex="-1">
             ${mediaHTML(ph.src, ph.alt)}
           </button>
           <span class="card__theme">${o.theme}</span>
+          <span class="card__number" aria-hidden="true">${o.page}</span>
           <button type="button" class="card__save" data-save="${o.id}" aria-pressed="false" aria-label="Salvar ${esc(o.title)}">
-            ${ICON.mark}<span data-save-label>Salvar</span>
+            ${ICON.cardMark}<span data-save-label>Salvar</span>
           </button>
         </div>
-        <p class="card__meta"><span>${esc(o.tag)}</span><span>Pág. ${o.page} · 2 min de leitura</span></p>
+        <p class="card__meta"><span>${esc(o.tag)}</span><span>${o.minutes} min de leitura</span></p>
         <h3 class="card__title">
           <button type="button" data-open-article="${o.id}">${esc(o.title)}${ICON.arrow}</button>
         </h3>
@@ -130,7 +137,7 @@
       </article>`;
   }
 
-  function renderStories() {
+  function renderStories({ animate = true } = {}) {
     const list = state.theme ? STORIES.filter(s => s.theme === state.theme) : STORIES;
     const pages = Math.max(1, Math.ceil(list.length / PER_PAGE));
     state.page = Math.min(state.page, pages - 1);
@@ -140,6 +147,15 @@
       `<p class="cards__empty">Nenhuma matéria neste tema.</p>`;
     hydrateMedia(cardsEl);
     syncSaved();
+    if (animate && !reduceMotion.matches) {
+      $$(".card", cardsEl).forEach((card, i) => {
+        if (typeof card.animate !== "function") return;
+        card.animate([
+          { opacity: 0.82, transform: "translateY(6px)" },
+          { opacity: 1, transform: "translateY(0)" }
+        ], { duration: 560, delay: Math.min(i, 2) * 40, easing: "cubic-bezier(.22,.61,.36,1)" });
+      });
+    }
 
     const showPager = !state.all && pages > 1;
     pagerEl.hidden = !showPager;
@@ -200,7 +216,7 @@
     return `
       <div class="acc">
         <button type="button" class="acc__btn" id="acc-b-${i}" aria-expanded="${open}" aria-controls="acc-p-${i}">
-          <span class="acc__num">${n}</span><span class="acc__term">${esc(g.term)}</span><span class="acc__icon" aria-hidden="true"></span>
+          <span class="acc__num">${n}</span><span class="acc__term">${esc(g.term)}</span><span class="acc__icon" aria-hidden="true">${icon(open ? "minus" : "plus")}</span>
         </button>
         <div class="acc__panel${open ? " is-open" : ""}" id="acc-p-${i}" role="region" aria-labelledby="acc-b-${i}">
           <div>${g.def ? `<p>${esc(g.def)}</p>` : `<p class="is-pending">Definição em preparação para esta prévia.</p>`}</div>
@@ -211,13 +227,14 @@
     const b = e.target.closest(".acc__btn"); if (!b) return;
     const open = b.getAttribute("aria-expanded") !== "true";
     b.setAttribute("aria-expanded", String(open));
+    $(".acc__icon", b).innerHTML = icon(open ? "minus" : "plus");
     $("#" + b.getAttribute("aria-controls")).classList.toggle("is-open", open);
   });
 
   /* ---------- equipe ---------- */
   $("[data-team]").innerHTML = ED.team.map(m => `
     <li class="member">
-      <div class="member__photo" data-team-photo="${esc(m.photo)}" data-name="${esc(m.name)}"><span aria-hidden="true">${m.initials}</span></div>
+      <div class="member__photo" style="--portrait-position:${esc(m.position || "50% 50%")}" data-team-photo="${esc(m.photo)}" data-name="${esc(m.name)}"><span aria-hidden="true">${m.initials}</span></div>
       <p class="member__name">${esc(m.name)}</p>
       <p class="member__role">Grupo de pesquisa</p>
     </li>`).join("");
@@ -250,22 +267,32 @@
           <figcaption>${esc(b)}</figcaption>
         </figure>`;
     }
+    if (Array.isArray(b)) {
+      const runs = b.map(run => {
+        const text = esc(run.text);
+        if (run.href && /^https?:\/\//i.test(run.href)) return `<a href="${esc(run.href)}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+        return run.underline ? `<span class="reader__source-label">${text}</span>` : text;
+      }).join("");
+      return `<p>${runs}</p>`;
+    }
     return `<p>${esc(a)}</p>`;
   }
 
   function renderArticle(id) {
     const meta = byId(id);
     const body = BODY[id];
-    const i = ORDER.indexOf(meta);
-    const prev = ORDER[i - 1], next = ORDER[i + 1];
-    $("[data-reader-page]").textContent = `Página ${meta.page} / 20`;
+    const isSummary = id === ED.summary.id;
+    const i = READING_ORDER.indexOf(meta);
+    const prev = READING_ORDER[i - 1], next = READING_ORDER[i + 1];
+    articleEl.classList.toggle("reader__article--summary", isSummary);
+    $("[data-reader-page]").textContent = `Página ${meta.page} / ${TOTAL_PAGES}`;
     articleEl.innerHTML = `
       <p class="reader__kicker">${esc(meta.kicker)}</p>
       <h2 class="reader__title" id="reader-title" tabindex="-1">${esc(meta.title)}</h2>
-      <div class="reader__meta">
-        <span>${ICON.clock} 2 min de leitura</span>
+      ${isSummary ? "" : `<div class="reader__meta">
+        <span>${ICON.clock} ${meta.minutes} min de leitura</span>
         <small>Grupo de pesquisa sobre etarismo</small>
-      </div>
+      </div>`}
       <div class="reader__tools">
         <div>
           <button class="icon-btn txt" type="button" data-size="-1" aria-label="Diminuir texto">A−</button>
@@ -274,21 +301,25 @@
           <button class="icon-btn" type="button" data-dark aria-pressed="${prefs.dark}" aria-label="Ativar leitura escura">${ICON.moon}</button>
         </div>
         <div>
-          <button class="icon-btn" type="button" data-save="${id}" aria-pressed="false" aria-label="Salvar matéria">${ICON.mark}</button>
+          ${isSummary ? "" : `<button class="icon-btn" type="button" data-save="${id}" aria-pressed="false" aria-label="Salvar matéria">${ICON.mark}</button>`}
           <button class="icon-btn" type="button" data-copy aria-label="Copiar link da matéria">${ICON.link}</button>
         </div>
       </div>
-      <div class="reader__body">
+      ${isSummary ? `<div class="reader__summary">
+        <p class="reader__summary-intro">${esc(meta.intro)}</p>
+        <p class="reader__summary-count">${ORDER.length} leituras nesta edição</p>
+        <ol class="toc" aria-label="Sumário da edição">${ORDER.map(o => tocItem(o)).join("")}</ol>
+      </div>` : `<div class="reader__body">
         ${body ? body.blocks.map(blockHTML).join("") : `
           <div class="reader__pending">
             <strong>O texto desta página ainda não está nesta prévia.</strong>
             Ele entra na próxima atualização da edição. Enquanto isso, siga para a próxima leitura ou volte ao sumário.
           </div>`}
       </div>
-      <div class="reader__end"><span>Você chegou ao fim desta leitura.</span>${ICON.check}</div>
+      <div class="reader__end"><span>Você chegou ao fim desta leitura.</span>${ICON.check}</div>`}
       <nav class="reader__nav" aria-label="Navegar entre leituras">
-        ${prev ? `<button type="button" data-open-article="${prev.id}"><small>${ICON.left} Anterior</small><strong>${esc(prev.title)}</strong></button>` : ""}
-        ${next ? `<button type="button" class="is-next" data-open-article="${next.id}"><small>Próxima leitura ${ICON.right}</small><strong>${esc(next.title)}</strong></button>`
+        ${prev ? `<button type="button" data-open-article="${prev.id}"><small>${ICON.left} Anterior</small><strong>${esc(prev.id === ED.summary.id ? prev.kicker : prev.title)}</strong></button>` : ""}
+        ${next ? `<button type="button" class="is-next" data-open-article="${next.id}"><small>Próxima leitura ${ICON.right}</small><strong>${esc(next.id === ED.summary.id ? next.kicker : next.title)}</strong></button>`
                : `<button type="button" class="is-next" data-close-reader><small>Edição completa</small><strong>Voltar à revista</strong></button>`}
       </nav>`;
     hydrateMedia(articleEl);
@@ -302,7 +333,8 @@
   }
 
   function applyPrefs() {
-    paper.style.setProperty("--r-size", SIZES[prefs.size + 1] + "rem");
+    const size = SIZES[prefs.size + 1];
+    paper.style.setProperty("--r-size", `clamp(${size}rem, ${size * 2}vw, ${size * 1.8}rem)`);
     paper.classList.toggle("is-dark", prefs.dark);
     const dark = $("[data-dark]", articleEl);
     if (dark) {
@@ -328,7 +360,7 @@
     currentId = id;
     renderArticle(id);
     $("#reader-title").focus({ preventScroll: true });
-    if (push) history.pushState({ id }, "", "#/leitura/" + id);
+    if (push) history.pushState({ id }, "", id === ED.summary.id ? "#/sumario" : "#/leitura/" + id);
     document.title = byId(id).title + " — etarismo.";
   }
   function closeReader({ push = true } = {}) {
@@ -354,7 +386,7 @@
   });
 
   async function copyLink() {
-    const url = location.href.split("#")[0] + "#/leitura/" + currentId;
+    const url = location.href.split("#")[0] + (currentId === ED.summary.id ? "#/sumario" : "#/leitura/" + currentId);
     try { await navigator.clipboard.writeText(url); toast("Link da matéria copiado."); }
     catch (_) { window.prompt("Copie o link da matéria:", url); }
   }
@@ -371,16 +403,14 @@
     d.showModal();
   }
 
-  /* ---------- sheets: sumário, busca, salvos ---------- */
-  const summary = $("[data-summary]"), search = $("[data-search]"), savedDlg = $("[data-saved]");
+  /* ---------- sumário e painéis de busca e salvos ---------- */
+  const search = $("[data-search]"), savedDlg = $("[data-saved]");
   function tocItem(o, extra = "") {
     return `<li><button type="button" data-open-article="${o.id}">
       <span class="toc__num">${o.page}</span>
       <span class="toc__kicker">${esc(o.kicker)}</span>
       <span class="toc__title">${extra || esc(o.title)}</span></button></li>`;
   }
-  $("[data-summary-list]").innerHTML = ORDER.map(o => tocItem(o)).join("");
-  $("[data-summary-count]").textContent = `${ORDER.length} leituras nesta edição`;
 
   function openSheet(d) {
     closeSheets();
@@ -388,11 +418,10 @@
     lastFocus = document.activeElement;
     d.showModal();
   }
-  function closeSheets() { [summary, search, savedDlg].forEach(d => d.open && d.close()); }
-  [summary, search, savedDlg].forEach(d => {
+  function closeSheets() { [search, savedDlg].forEach(d => d.open && d.close()); }
+  [search, savedDlg].forEach(d => {
     d.addEventListener("click", e => { if (e.target === d || e.target.closest("[data-close-sheet]")) d.close(); });
     d.addEventListener("close", () => {
-      if (location.hash === "#/sumario") history.pushState({}, "", location.pathname + location.search);
       if (!reader.open && lastFocus && document.contains(lastFocus)) lastFocus.focus();
     });
   });
@@ -429,7 +458,7 @@
     if (open) { e.preventDefault(); openArticle(open.dataset.openArticle); return; }
     const save = e.target.closest("[data-save]");
     if (save) { setSaved(save.dataset.save, !saved.has(save.dataset.save)); return; }
-    if (e.target.closest("[data-open-summary]")) { openSheet(summary); history.pushState({}, "", "#/sumario"); return; }
+    if (e.target.closest("[data-open-summary]")) { openArticle(ED.summary.id); return; }
     if (e.target.closest("[data-open-search]")) { openSheet(search); runSearch(); qInput.focus(); return; }
     if (e.target.closest("[data-open-saved]")) { renderSavedList(); openSheet(savedDlg); return; }
   });
@@ -453,7 +482,7 @@
     header.classList.toggle("is-scrolled", window.scrollY > 8);
     const y = window.scrollY + window.innerHeight * 0.35;
     let active = sections[0];
-    sections.forEach(s => { if (s.offsetTop <= y) active = s; });
+    sections.slice().sort((a, b) => a.offsetTop - b.offsetTop).forEach(s => { if (s.offsetTop <= y) active = s; });
     spyLinks.forEach(a => a.setAttribute("aria-current", a.dataset.spy === active.id ? "true" : "false"));
   }
   window.addEventListener("scroll", onScroll, { passive: true });
@@ -462,16 +491,26 @@
   function route() {
     const m = location.hash.match(/^#\/leitura\/([\w-]+)/);
     if (m && byId(m[1])) { openArticle(m[1], { push: false }); return; }
-    if (location.hash === "#/sumario") { if (!summary.open) openSheet(summary); return; }
+    if (location.hash === "#/sumario") { openArticle(ED.summary.id, { push: false }); return; }
     if (reader.open) reader.close();
   }
   window.addEventListener("popstate", route);
 
   /* ---------- init ---------- */
-  renderStories();
+  renderStories({ animate: false });
   hydrateMedia();
   syncSaved();
   onScroll();
   route();
-  requestAnimationFrame(() => document.documentElement.classList.add("is-ready"));
+  requestAnimationFrame(() => {
+    document.documentElement.classList.add("is-ready");
+    if (reduceMotion.matches || location.hash.startsWith("#/")) return;
+    $$(".hero__copy, .hero__visual").forEach((el, i) => {
+      if (typeof el.animate !== "function") return;
+      el.animate([
+        { opacity: 0.9, transform: "translateY(6px)" },
+        { opacity: 1, transform: "translateY(0)" }
+      ], { duration: 900, delay: i * 70, easing: "cubic-bezier(.22,.61,.36,1)" });
+    });
+  });
 })();

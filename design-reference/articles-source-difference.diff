@@ -1,0 +1,11 @@
+--- Telas — Section 1
++++ Conteudo Revista
+@@ -68,7 +68,7 @@
+     "blocks": [
+       [
+         "p",
+-        "A procura de Sibele acontece em um Brasil que já mudou de idade. Nas Projeções da População revistas pelo IBGE em 2024, o grupo com 60 anos ou mais passou de 8,7% da população em 2000 para 15,6% em 2023. Para 2070, a projeção chega a 37,8%. A presença de profissionais maduros não é uma exceção que as empresas possam tratar como desvio de um padrão permanentemente jovem."
++        "A procura de Sibele acontece em um Brasil que envelhece. Segundo as Projeções da População do IBGE, revisão 2024, a parcela de pessoas com 60 anos ou mais passou de 8,7% em 2000 para 15,6% em 2023. Para 2070, projeta-se 37,8%. Os dois primeiros valores são estimativas retrospectivas; o último depende das hipóteses demográficas."
+       ],
+       [
+         "figure",

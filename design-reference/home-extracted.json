@@ -1,0 +1,6665 @@
+{
+  "frame": {
+    "width": "1440",
+    "height": "7876",
+    "viewBox": "0 0 1440 7876",
+    "fill": "none"
+  },
+  "images": [
+    {
+      "id": "image0_234_13827",
+      "file": "assets/img/retrato-danie-franco.jpg",
+      "width": 1200,
+      "height": 1798,
+      "bytes": 302544,
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "image1_234_13827",
+      "file": "assets/img/retrato-ravi-patel.jpg",
+      "width": 1000,
+      "height": 667,
+      "bytes": 148362,
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "image2_234_13827",
+      "file": "assets/img/profissional-vitaly-gariev.jpg",
+      "width": 1000,
+      "height": 563,
+      "bytes": 77306,
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "image3_234_13827",
+      "file": "assets/img/equipe-giovanna.png",
+      "width": 640,
+      "height": 640,
+      "bytes": 508530,
+      "mime": "image/png"
+    },
+    {
+      "id": "image4_234_13827",
+      "file": "assets/img/equipe-arthur.jpg",
+      "width": 899,
+      "height": 1599,
+      "bytes": 127746,
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "image5_234_13827",
+      "file": "assets/img/equipe-murilo.png",
+      "width": 1104,
+      "height": 1472,
+      "bytes": 774706,
+      "mime": "image/png"
+    },
+    {
+      "id": "image6_234_13827",
+      "file": "assets/img/equipe-kevin.jpg",
+      "width": 720,
+      "height": 1280,
+      "bytes": 49694,
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "image7_234_13827",
+      "file": "assets/img/equipe-davi-dias.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 291692,
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "image8_234_13827",
+      "file": "assets/img/equipe-davi-alcanfor.png",
+      "width": 901,
+      "height": 1600,
+      "bytes": 1353749,
+      "mime": "image/png"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern0_234_13827",
+      "image": "image0_234_13827",
+      "transform": "matrix(0.000833333 0 0 0.000594444 0 -0.0344055)",
+      "slots": [
+        {
+          "attrs": {
+            "width": "577.8",
+            "height": "810",
+            "transform": "translate(743.398 365.8)",
+            "fill": "url(#pattern0_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Hero:margin",
+            "Hero",
+            "Container_4",
+            "Container:margin_2",
+            "Container_11",
+            "Container_12",
+            "Image (Retrato em preto e branco de uma mulher idosa. Fotografia ilustrativa de Danie Franco, Unsplash.)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern1_234_13827",
+      "image": "image0_234_13827",
+      "transform": "matrix(0.000833333 0 0 0.00107935 0 -0.470338)",
+      "slots": [
+        {
+          "attrs": {
+            "width": "407.995",
+            "height": "315",
+            "transform": "translate(72 2212.57)",
+            "fill": "url(#pattern1_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Stories:margin",
+            "Stories",
+            "Container:margin_4",
+            "Container_21",
+            "ArticleCard",
+            "Container_22",
+            "Button - Ler Um currículo elogiado, uma porta fechada",
+            "Image (Retrato ilustrativo de uma mulher idosa, por Danie Franco)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern2_234_13827",
+      "image": "image1_234_13827",
+      "transform": "matrix(0.00115752 0 0 0.00149925 -0.0787614 0)",
+      "slots": [
+        {
+          "attrs": {
+            "width": "407.995",
+            "height": "315",
+            "transform": "translate(515.996 2212.57)",
+            "fill": "url(#pattern2_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Stories:margin",
+            "Stories",
+            "Container:margin_4",
+            "Container_21",
+            "ArticleCard_2",
+            "Container_25",
+            "Button - Ler O mercado muda com o país?",
+            "Image (Retrato ilustrativo de uma mulher sorrindo, por Ravi Patel)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern3_234_13827",
+      "image": "image2_234_13827",
+      "transform": "matrix(0.0013713 0 0 0.0017762 -0.185649 0)",
+      "slots": [
+        {
+          "attrs": {
+            "width": "408.009",
+            "height": "315",
+            "transform": "translate(959.992 2212.57)",
+            "fill": "url(#pattern3_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Stories:margin",
+            "Stories",
+            "Container:margin_4",
+            "Container_21",
+            "ArticleCard_3",
+            "Container_28",
+            "Button - Ler Quando a experiência vira custo",
+            "Image (Fotografia ilustrativa de um profissional maduro usando um computador, por Vitaly Gariev)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern4_234_13827",
+      "image": "image3_234_13827",
+      "transform": "scale(0.0015625)",
+      "slots": [
+        {
+          "attrs": {
+            "id": "image 2",
+            "x": "218.801",
+            "y": "6329.05",
+            "width": "124",
+            "height": "124",
+            "rx": "62",
+            "fill": "url(#pattern4_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Team:margin",
+            "Team",
+            "Container:margin_10",
+            "Container_61",
+            "Container_62",
+            "Text:margin_4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern5_234_13827",
+      "image": "image4_234_13827",
+      "transform": "translate(0 -0.389321) scale(0.00111235)",
+      "slots": [
+        {
+          "attrs": {
+            "id": "WhatsApp Image 2026-10-15 at 08.22.21 1",
+            "x": "658",
+            "y": "6329.05",
+            "width": "124",
+            "height": "124",
+            "rx": "62",
+            "fill": "url(#pattern5_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Team:margin",
+            "Team",
+            "Container:margin_10",
+            "Container_61",
+            "Container_64",
+            "Text:margin_5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern6_234_13827",
+      "image": "image5_234_13827",
+      "transform": "translate(0 -0.166667) scale(0.000905797)",
+      "slots": [
+        {
+          "attrs": {
+            "id": "image 3",
+            "x": "1097.2",
+            "y": "6329.05",
+            "width": "124",
+            "height": "124",
+            "rx": "62",
+            "fill": "url(#pattern6_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Team:margin",
+            "Team",
+            "Container:margin_10",
+            "Container_61",
+            "Container_66",
+            "Text:margin_6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern7_234_13827",
+      "image": "image6_234_13827",
+      "transform": "translate(0 -0.388889) scale(0.00138889)",
+      "slots": [
+        {
+          "attrs": {
+            "id": "WhatsApp Image 2026-10-15 at 08.24.19 1",
+            "x": "218.801",
+            "y": "6624.25",
+            "width": "124",
+            "height": "124",
+            "rx": "62",
+            "fill": "url(#pattern7_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Team:margin",
+            "Team",
+            "Container:margin_10",
+            "Container_61",
+            "Container_68",
+            "Text:margin_7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern8_234_13827",
+      "image": "image7_234_13827",
+      "transform": "translate(0 -0.166667) scale(0.000833333)",
+      "slots": [
+        {
+          "attrs": {
+            "id": "WhatsApp Image 2026-10-18 at 16.38.37 1",
+            "x": "658",
+            "y": "6624.25",
+            "width": "124",
+            "height": "124",
+            "rx": "62",
+            "fill": "url(#pattern8_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Team:margin",
+            "Team",
+            "Container:margin_10",
+            "Container_61",
+            "Container_70",
+            "Text:margin_8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern9_234_13827",
+      "image": "image8_234_13827",
+      "transform": "translate(0 -0.387902) scale(0.00110988)",
+      "slots": [
+        {
+          "attrs": {
+            "id": "image 1",
+            "x": "1097.2",
+            "y": "6624.25",
+            "width": "124",
+            "height": "124",
+            "rx": "62",
+            "fill": "url(#pattern9_234_13827)"
+          },
+          "ancestry": [
+            "Revista interativa moderna (cópia)",
+            "Body",
+            "App",
+            "Team:margin",
+            "Team",
+            "Container:margin_10",
+            "Container_61",
+            "Container_72",
+            "Text:margin_9"
+          ]
+        }
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "id": "",
+      "text": ".",
+      "attrs": {
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "57.6",
+        "letter-spacing": "-3.24px"
+      },
+      "lines": [
+        {
+          "text": ".",
+          "x": "245.88",
+          "y": "87.4888",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Brand",
+        "etarismo."
+      ]
+    },
+    {
+      "id": "",
+      "text": "etarismo",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "57.6",
+        "letter-spacing": "-3.24px"
+      },
+      "lines": [
+        {
+          "text": "etarismo",
+          "x": "45",
+          "y": "87.4888",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Brand",
+        "etarismo."
+      ]
+    },
+    {
+      "id": "REVISTA DIGITAL",
+      "text": "REVISTA DIGITAL",
+      "attrs": {
+        "id": "REVISTA DIGITAL",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "font-weight": "500",
+        "letter-spacing": "6.12px"
+      },
+      "lines": [
+        {
+          "text": "REVISTA DIGITAL",
+          "x": "50.3984",
+          "y": "118.069",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Brand",
+        "Text"
+      ]
+    },
+    {
+      "id": "Início",
+      "text": "Início",
+      "attrs": {
+        "id": "InÃ­cio",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Início",
+          "x": "480.199",
+          "y": "85.338",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Navigation - Navegação principal",
+        "Link"
+      ]
+    },
+    {
+      "id": "Editorial",
+      "text": "Editorial",
+      "attrs": {
+        "id": "Editorial",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Editorial",
+          "x": "565.637",
+          "y": "85.338",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Navigation - Navegação principal",
+        "Button"
+      ]
+    },
+    {
+      "id": "Matérias",
+      "text": "Matérias",
+      "attrs": {
+        "id": "MatÃ©rias",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Matérias",
+          "x": "675",
+          "y": "85.338",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Navigation - Navegação principal",
+        "Link_2"
+      ]
+    },
+    {
+      "id": "Em números",
+      "text": "Em números",
+      "attrs": {
+        "id": "Em nÃºmeros",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Em números",
+          "x": "788.398",
+          "y": "85.338",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Navigation - Navegação principal",
+        "Link_3"
+      ]
+    },
+    {
+      "id": "Participantes",
+      "text": "Participantes",
+      "attrs": {
+        "id": "Participantes",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Participantes",
+          "x": "933.801",
+          "y": "85.338",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Header",
+        "Container:margin",
+        "Container",
+        "Navigation - Navegação principal",
+        "Link_4"
+      ]
+    },
+    {
+      "id": "UM NOVO OLHAR SOBRE A IDADE",
+      "text": "UM NOVO OLHAR SOBRE A IDADE",
+      "attrs": {
+        "id": "UM NOVO OLHAR SOBRE A IDADE",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "3.15px"
+      },
+      "lines": [
+        {
+          "text": "UM NOVO OLHAR SOBRE A IDADE",
+          "x": "72",
+          "y": "224.511",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_3",
+        "Text_3"
+      ]
+    },
+    {
+      "id": "EDIÇÃO ESPECIAL",
+      "text": "EDIÇÃO ESPECIAL",
+      "attrs": {
+        "id": "EDIÃÃO ESPECIAL",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "3.15px"
+      },
+      "lines": [
+        {
+          "text": "EDIÇÃO ESPECIAL",
+          "x": "1101.2",
+          "y": "224.51",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_3",
+        "Text_4"
+      ]
+    },
+    {
+      "id": "2026",
+      "text": "2026",
+      "attrs": {
+        "id": "2026",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "3.15px"
+      },
+      "lines": [
+        {
+          "text": "2026",
+          "x": "1323",
+          "y": "224.51",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_3",
+        "Text_4"
+      ]
+    },
+    {
+      "id": "TRABALHO, LONGEVIDADE E SOCIEDADE",
+      "text": "TRABALHO, LONGEVIDADE E SOCIEDADE",
+      "attrs": {
+        "id": "TRABALHO, LONGEVIDADE E SOCIEDADE",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "font-weight": "600",
+        "letter-spacing": "1.17px"
+      },
+      "lines": [
+        {
+          "text": "TRABALHO, LONGEVIDADE E SOCIEDADE",
+          "x": "93.6016",
+          "y": "408.939",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_6"
+      ]
+    },
+    {
+      "id": "",
+      "text": "É trajetória.",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "108",
+        "font-style": "italic",
+        "letter-spacing": "-5.4px"
+      },
+      "lines": [
+        {
+          "text": "É trajetória.",
+          "x": "72",
+          "y": "779.756",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Heading 1",
+        "Idade não é barreira. É trajetória."
+      ]
+    },
+    {
+      "id": "",
+      "text": "Idade não é\nbarreira.\n",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "108",
+        "letter-spacing": "-4.5px"
+      },
+      "lines": [
+        {
+          "text": "Idade não é\n",
+          "x": "72",
+          "y": "554.036",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "barreira.\n",
+          "x": "72",
+          "y": "666.896",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Heading 1",
+        "Idade não é barreira. É trajetória."
+      ]
+    },
+    {
+      "id": "Etarismo no mercado de trabalho",
+      "text": "Etarismo no mercado de trabalho",
+      "attrs": {
+        "id": "Etarismo no mercado de trabalho",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "21.6",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Etarismo no mercado de trabalho",
+          "x": "72",
+          "y": "866.357",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Paragraph"
+      ]
+    },
+    {
+      "id": "Quando a idade substitui a competência.",
+      "text": "Quando a idade substitui a competência.",
+      "attrs": {
+        "id": "Quando a idade substitui a competÃªncia.",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Quando a idade substitui a competência.",
+          "x": "72",
+          "y": "901.49",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Paragraph_2"
+      ]
+    },
+    {
+      "id": "Começar a leitura",
+      "text": "Começar a leitura",
+      "attrs": {
+        "id": "ComeÃ§ar a leitura",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Começar a leitura",
+          "x": "99.0755",
+          "y": "1001.93",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_7",
+        "Button_2"
+      ]
+    },
+    {
+      "id": "Ver sumário",
+      "text": "Ver sumário",
+      "attrs": {
+        "id": "Ver sumÃ¡rio",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Ver sumário",
+          "x": "352.485",
+          "y": "1001.03",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_7",
+        "Button_3"
+      ]
+    },
+    {
+      "id": "GM",
+      "text": "GM",
+      "attrs": {
+        "id": "GM",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "GM",
+          "x": "84.6016",
+          "y": "1112.53",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_8",
+        "Container_9",
+        "Text_7"
+      ]
+    },
+    {
+      "id": "AV",
+      "text": "AV",
+      "attrs": {
+        "id": "AV",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "AV",
+          "x": "119",
+          "y": "1112.53",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_8",
+        "Container_9",
+        "Text:margin",
+        "Text_8"
+      ]
+    },
+    {
+      "id": "MR",
+      "text": "MR",
+      "attrs": {
+        "id": "MR",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "MR",
+          "x": "150.402",
+          "y": "1112.53",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_8",
+        "Container_9",
+        "Text:margin_2",
+        "Text_9"
+      ]
+    },
+    {
+      "id": "+3",
+      "text": "+3",
+      "attrs": {
+        "id": "+3",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "+3",
+          "x": "184.301",
+          "y": "1112.53",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_8",
+        "Container_9",
+        "Text:margin_3",
+        "Text_10"
+      ]
+    },
+    {
+      "id": "Pesquisa que conecta gerações.",
+      "text": "Pesquisa que conecta gerações.",
+      "attrs": {
+        "id": "Pesquisa que conecta geraÃ§Ãµes.",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Pesquisa que conecta gerações.",
+          "x": "226.801",
+          "y": "1099.1",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_8",
+        "Container_10",
+        "Text_11"
+      ]
+    },
+    {
+      "id": "Conheça os 6 integrantes",
+      "text": "Conheça os 6 integrantes",
+      "attrs": {
+        "id": "ConheÃ§a os 6 integrantes",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Conheça os 6 integrantes",
+          "x": "226.801",
+          "y": "1125.7",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container_5",
+        "Container_8",
+        "Container_10",
+        "Link_5"
+      ]
+    },
+    {
+      "id": "01 — CAPA",
+      "text": "01 — CAPA",
+      "attrs": {
+        "id": "01 â CAPA",
+        "fill": "#F7F6F0",
+        "fill-opacity": "0.83",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "letter-spacing": "3.6px"
+      },
+      "lines": [
+        {
+          "text": "01 — CAPA",
+          "x": "1174.72",
+          "y": "422.911",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Container_12"
+      ]
+    },
+    {
+      "id": "O TEMPO CONTA HISTÓRIAS.",
+      "text": "O TEMPO CONTA HISTÓRIAS.",
+      "attrs": {
+        "id": "O TEMPO CONTA HISTÃRIAS.",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "3.6px"
+      },
+      "lines": [
+        {
+          "text": "O TEMPO CONTA HISTÓRIAS.",
+          "x": "775.797",
+          "y": "964.219",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Container_12",
+        "Container_14",
+        "Text_12"
+      ]
+    },
+    {
+      "id": "A gente precisa ouvir.",
+      "text": "A gente precisa ouvir.",
+      "attrs": {
+        "id": "A gente precisa ouvir.",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "37.8",
+        "font-style": "italic",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "A gente precisa ouvir.",
+          "x": "775.797",
+          "y": "1026.2",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Container_12",
+        "Container_14",
+        "Text_13"
+      ]
+    },
+    {
+      "id": "04",
+      "text": "04",
+      "attrs": {
+        "id": "04",
+        "fill": "#7A8565",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "54",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "04",
+          "x": "979.199",
+          "y": "1143.43",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Button_4",
+        "Text_14"
+      ]
+    },
+    {
+      "id": "NESTA EDIÇÃO",
+      "text": "NESTA EDIÇÃO",
+      "attrs": {
+        "id": "NESTA EDIÃÃO",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "letter-spacing": "2.88px"
+      },
+      "lines": [
+        {
+          "text": "NESTA EDIÇÃO",
+          "x": "1081.2",
+          "y": "1095.38",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Button_4",
+        "Text_15",
+        "Small"
+      ]
+    },
+    {
+      "id": "Um currículo elogiado, uma porta fechada.",
+      "text": "Um currículo elogiado,\numa porta fechada.",
+      "attrs": {
+        "id": "Um currÃ­culo elogiado, uma porta fechada.",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Um currículo elogiado,\n",
+          "x": "1081.2",
+          "y": "1131.69",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "uma porta fechada.",
+          "x": "1081.2",
+          "y": "1157.61",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Button_4",
+        "Text_15",
+        "Bold Text"
+      ]
+    },
+    {
+      "id": "IDADE NÃO DEFINE COMPETÊNCIA.",
+      "text": "IDADE NÃO DEFINE COMPETÊNCIA.",
+      "attrs": {
+        "id": "IDADE NÃO DEFINE COMPETÃNCIA.",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "2.7px"
+      },
+      "lines": [
+        {
+          "text": "IDADE NÃO DEFINE COMPETÊNCIA.",
+          "x": "72",
+          "y": "1319.35",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_15",
+        "Text_16"
+      ]
+    },
+    {
+      "id": "Deslize para descobrir",
+      "text": "Deslize para descobrir",
+      "attrs": {
+        "id": "Deslize para descobrir",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "letter-spacing": "0.45px"
+      },
+      "lines": [
+        {
+          "text": "Deslize para descobrir",
+          "x": "625.898",
+          "y": "1320.27",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_15",
+        "Link_6"
+      ]
+    },
+    {
+      "id": "↓",
+      "text": "↓",
+      "attrs": {
+        "id": "â",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "27",
+        "letter-spacing": "0.45px"
+      },
+      "lines": [
+        {
+          "text": "↓",
+          "x": "828.098",
+          "y": "1324.06",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_15",
+        "Link_6",
+        "Text_17"
+      ]
+    },
+    {
+      "id": "LEITURA SEM PRECONCEITOS.",
+      "text": "LEITURA SEM PRECONCEITOS.",
+      "attrs": {
+        "id": "LEITURA SEM PRECONCEITOS.",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "2.7px"
+      },
+      "lines": [
+        {
+          "text": "LEITURA SEM PRECONCEITOS.",
+          "x": "1128",
+          "y": "1319.35",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_15",
+        "Text_18"
+      ]
+    },
+    {
+      "id": "PARA ENTENDER O CENÁRIO",
+      "text": "PARA ENTENDER\nO CENÁRIO",
+      "attrs": {
+        "id": "PARA ENTENDER O CENÃRIO",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "font-weight": "600",
+        "letter-spacing": "2.7px"
+      },
+      "lines": [
+        {
+          "text": "PARA ENTENDER\n",
+          "x": "102.602",
+          "y": "1472.05",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "O CENÁRIO",
+          "x": "102.602",
+          "y": "1490.41",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Container_16",
+        "Text_19"
+      ]
+    },
+    {
+      "id": "",
+      "text": "estereótipos.",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "39.6",
+        "font-style": "italic",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "estereótipos.",
+          "x": "102.602",
+          "y": "1599.98",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Container_16",
+        "Text_20",
+        "Além dos estereótipos."
+      ]
+    },
+    {
+      "id": "",
+      "text": "Além dos\n",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "39.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Além dos\n",
+          "x": "102.602",
+          "y": "1554.44",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Container_16",
+        "Text_20",
+        "Além dos estereótipos."
+      ]
+    },
+    {
+      "id": "32,1",
+      "text": "32,1",
+      "attrs": {
+        "id": "32,1",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "64.8",
+        "letter-spacing": "-1.8px"
+      },
+      "lines": [
+        {
+          "text": "32,1",
+          "x": "353.672",
+          "y": "1522.4",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_5",
+        "Text_21"
+      ]
+    },
+    {
+      "id": "milhões",
+      "text": "milhões",
+      "attrs": {
+        "id": "milhÃµes",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "letter-spacing": "-0.54px"
+      },
+      "lines": [
+        {
+          "text": "milhões",
+          "x": "461.152",
+          "y": "1522.78",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_5",
+        "Text_21"
+      ]
+    },
+    {
+      "id": "de brasileiros têm 60 anos ou mais",
+      "text": "de brasileiros têm 60 anos ou mais",
+      "attrs": {
+        "id": "de brasileiros tÃªm 60 anos ou mais",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "de brasileiros têm 60 anos ou mais",
+          "x": "353.672",
+          "y": "1564.1",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_5",
+        "Text_22"
+      ]
+    },
+    {
+      "id": "IBGE · CENSO 2022",
+      "text": "IBGE · CENSO 2022",
+      "attrs": {
+        "id": "IBGE Â· CENSO 2022",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "7.2",
+        "font-weight": "500",
+        "letter-spacing": "1.44px"
+      },
+      "lines": [
+        {
+          "text": "IBGE · CENSO 2022",
+          "x": "353.672",
+          "y": "1601.98",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_5",
+        "Text_23"
+      ]
+    },
+    {
+      "id": "24,4",
+      "text": "24,4",
+      "attrs": {
+        "id": "24,4",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "64.8",
+        "letter-spacing": "-1.8px"
+      },
+      "lines": [
+        {
+          "text": "24,4",
+          "x": "701.383",
+          "y": "1522.4",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_6",
+        "Text_24"
+      ]
+    },
+    {
+      "id": "%",
+      "text": "%",
+      "attrs": {
+        "id": "%",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "letter-spacing": "-0.54px"
+      },
+      "lines": [
+        {
+          "text": "%",
+          "x": "821.434",
+          "y": "1522.78",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_6",
+        "Text_24"
+      ]
+    },
+    {
+      "id": "das pessoas 60+ estavam ocupadas",
+      "text": "das pessoas 60+ estavam ocupadas",
+      "attrs": {
+        "id": "das pessoas 60+ estavam ocupadas",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "das pessoas 60+ estavam ocupadas",
+          "x": "701.383",
+          "y": "1564.1",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_6",
+        "Text_25"
+      ]
+    },
+    {
+      "id": "IBGE · PNAD CONTÍNUA 2024",
+      "text": "IBGE · PNAD CONTÍNUA 2024",
+      "attrs": {
+        "id": "IBGE Â· PNAD CONTÃNUA 2024",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "7.2",
+        "font-weight": "500",
+        "letter-spacing": "1.44px"
+      },
+      "lines": [
+        {
+          "text": "IBGE · PNAD CONTÍNUA 2024",
+          "x": "701.383",
+          "y": "1601.98",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_6",
+        "Text_26"
+      ]
+    },
+    {
+      "id": "43,3",
+      "text": "43,3",
+      "attrs": {
+        "id": "43,3",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "64.8",
+        "letter-spacing": "-1.8px"
+      },
+      "lines": [
+        {
+          "text": "43,3",
+          "x": "1049.09",
+          "y": "1522.4",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_7",
+        "Text_27"
+      ]
+    },
+    {
+      "id": "%_2",
+      "text": "%",
+      "attrs": {
+        "id": "%_2",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "letter-spacing": "-0.54px"
+      },
+      "lines": [
+        {
+          "text": "%",
+          "x": "1168.75",
+          "y": "1522.78",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_7",
+        "Text_27"
+      ]
+    },
+    {
+      "id": "dos ocupados 60+ eram conta própria",
+      "text": "dos ocupados 60+ eram conta própria",
+      "attrs": {
+        "id": "dos ocupados 60+ eram conta prÃ³pria",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "dos ocupados 60+ eram conta própria",
+          "x": "1049.09",
+          "y": "1564.1",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_7",
+        "Text_28"
+      ]
+    },
+    {
+      "id": "IBGE · PNAD CONTÍNUA 2024_2",
+      "text": "IBGE · PNAD CONTÍNUA 2024",
+      "attrs": {
+        "id": "IBGE Â· PNAD CONTÃNUA 2024_2",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "7.2",
+        "font-weight": "500",
+        "letter-spacing": "1.44px"
+      },
+      "lines": [
+        {
+          "text": "IBGE · PNAD CONTÍNUA 2024",
+          "x": "1049.09",
+          "y": "1601.98",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers",
+        "Button_7",
+        "Text_29"
+      ]
+    },
+    {
+      "id": "01 /",
+      "text": "01 /",
+      "attrs": {
+        "id": "01 /",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "01 /",
+          "x": "72",
+          "y": "1816.21",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container_17",
+        "Container_18",
+        "Container_19",
+        "Text_30"
+      ]
+    },
+    {
+      "id": "NESTA EDIÇÃO_2",
+      "text": "NESTA EDIÇÃO",
+      "attrs": {
+        "id": "NESTA EDIÃÃO_2",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "3.06px"
+      },
+      "lines": [
+        {
+          "text": "NESTA EDIÇÃO",
+          "x": "144",
+          "y": "1816.01",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container_17",
+        "Container_18",
+        "Container_19"
+      ]
+    },
+    {
+      "id": "",
+      "text": "um novo olhar.",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "73.8",
+        "font-style": "italic",
+        "letter-spacing": "-1.98px"
+      },
+      "lines": [
+        {
+          "text": "um novo olhar.",
+          "x": "72",
+          "y": "2004.22",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container_17",
+        "Container_18",
+        "Heading 2",
+        "Histórias que merecem um novo olhar."
+      ]
+    },
+    {
+      "id": "",
+      "text": "Histórias que merecem\n",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "73.8",
+        "letter-spacing": "-1.98px"
+      },
+      "lines": [
+        {
+          "text": "Histórias que merecem\n",
+          "x": "72",
+          "y": "1921.57",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container_17",
+        "Container_18",
+        "Heading 2",
+        "Histórias que merecem um novo olhar."
+      ]
+    },
+    {
+      "id": "Todas as matérias",
+      "text": "Todas as matérias",
+      "attrs": {
+        "id": "Todas as matÃ©rias",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Todas as matérias",
+          "x": "1161.24",
+          "y": "1981.11",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container_17",
+        "Button:margin",
+        "Button_8"
+      ]
+    },
+    {
+      "id": "Todas as matérias_2",
+      "text": "Todas as matérias",
+      "attrs": {
+        "id": "Todas as matÃ©rias_2",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Todas as matérias",
+          "x": "72.0059",
+          "y": "2122.41",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_3",
+        "Container_20",
+        "Filtrar matérias por tema",
+        "Button_9"
+      ]
+    },
+    {
+      "id": "14",
+      "text": "14",
+      "attrs": {
+        "id": "14",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "font-weight": "600",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "14",
+          "x": "251.611",
+          "y": "2120.52",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_3",
+        "Container_20",
+        "Filtrar matérias por tema",
+        "Button_9",
+        "Text_31"
+      ]
+    },
+    {
+      "id": "Trabalho",
+      "text": "Trabalho",
+      "attrs": {
+        "id": "Trabalho",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Trabalho",
+          "x": "311.437",
+          "y": "2122.41",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_3",
+        "Container_20",
+        "Filtrar matérias por tema",
+        "Button_10"
+      ]
+    },
+    {
+      "id": "Sociedade",
+      "text": "Sociedade",
+      "attrs": {
+        "id": "Sociedade",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Sociedade",
+          "x": "421.221",
+          "y": "2122.41",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_3",
+        "Container_20",
+        "Filtrar matérias por tema",
+        "Button_11"
+      ]
+    },
+    {
+      "id": "Economia",
+      "text": "Economia",
+      "attrs": {
+        "id": "Economia",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Economia",
+          "x": "548.168",
+          "y": "2122.41",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_3",
+        "Container_20",
+        "Filtrar matérias por tema",
+        "Button_12"
+      ]
+    },
+    {
+      "id": "Direitos",
+      "text": "Direitos",
+      "attrs": {
+        "id": "Direitos",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Direitos",
+          "x": "669.083",
+          "y": "2122.41",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_3",
+        "Container_20",
+        "Filtrar matérias por tema",
+        "Button_13"
+      ]
+    },
+    {
+      "id": "Trabalho_2",
+      "text": "TRABALHO",
+      "attrs": {
+        "id": "Trabalho_2",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0.54px"
+      },
+      "lines": [
+        {
+          "text": "TRABALHO",
+          "x": "118.801",
+          "y": "2264.12",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_22",
+        "Text_33"
+      ]
+    },
+    {
+      "id": "04_2",
+      "text": "04",
+      "attrs": {
+        "id": "04_2",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "63",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "04",
+          "x": "100.801",
+          "y": "2477.2",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_22"
+      ]
+    },
+    {
+      "id": "TRABALHO E LONGEVIDADE",
+      "text": "TRABALHO E LONGEVIDADE",
+      "attrs": {
+        "id": "TRABALHO E LONGEVIDADE",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "8.1",
+        "letter-spacing": "0.9px"
+      },
+      "lines": [
+        {
+          "text": "TRABALHO E LONGEVIDADE",
+          "x": "72",
+          "y": "2568.81",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_23",
+        "Container_24",
+        "Text_34"
+      ]
+    },
+    {
+      "id": "2 MIN DE LEITURA",
+      "text": "2 MIN DE LEITURA",
+      "attrs": {
+        "id": "2 MIN DE LEITURA",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "8.1",
+        "letter-spacing": "0.9px"
+      },
+      "lines": [
+        {
+          "text": "2 MIN DE LEITURA",
+          "x": "399.996",
+          "y": "2568.81",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_23",
+        "Container_24",
+        "Text_35"
+      ]
+    },
+    {
+      "id": "Um currículo elogiado, uma porta fechada",
+      "text": "Um currículo elogiado, uma porta fechada",
+      "attrs": {
+        "id": "Um currÃ­culo elogiado, uma porta fechada",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "41.4",
+        "letter-spacing": "-0.72px"
+      },
+      "lines": [
+        {
+          "text": "Um currículo ",
+          "x": "72",
+          "y": "2633.51",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "elogiado, uma porta ",
+          "x": "72",
+          "y": "2682.36",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "fechada",
+          "x": "72",
+          "y": "2731.21",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_23",
+        "Button_14",
+        "Heading 3"
+      ]
+    },
+    {
+      "id": "Sibele Monice continuava aprendendo e trabalhando.",
+      "text": "Sibele Monice continuava aprendendo e trabalhando.",
+      "attrs": {
+        "id": "Sibele Monice continuava aprendendo e trabalhando.",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Sibele Monice continuava aprendendo e ",
+          "x": "72",
+          "y": "2783.71",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "trabalhando.",
+          "x": "72",
+          "y": "2816.11",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_23",
+        "Paragraph:margin",
+        "Paragraph_3"
+      ]
+    },
+    {
+      "id": "Sociedade_2",
+      "text": "SOCIEDADE",
+      "attrs": {
+        "id": "Sociedade_2",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0.54px"
+      },
+      "lines": [
+        {
+          "text": "SOCIEDADE",
+          "x": "562.797",
+          "y": "2264.12",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_25",
+        "Text_36"
+      ]
+    },
+    {
+      "id": "05",
+      "text": "05",
+      "attrs": {
+        "id": "05",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "63",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "05",
+          "x": "544.797",
+          "y": "2477.2",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_25"
+      ]
+    },
+    {
+      "id": "um país que envelhece",
+      "text": "UM PAÍS QUE ENVELHECE",
+      "attrs": {
+        "id": "um paÃ­s que envelhece",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "8.1",
+        "letter-spacing": "0.9px"
+      },
+      "lines": [
+        {
+          "text": "UM PAÍS QUE ENVELHECE",
+          "x": "515.996",
+          "y": "2568.81",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_26",
+        "Container_27",
+        "Text_37"
+      ]
+    },
+    {
+      "id": "1 MIN DE LEITURA",
+      "text": "1 MIN DE LEITURA",
+      "attrs": {
+        "id": "1 MIN DE LEITURA",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "8.1",
+        "letter-spacing": "0.9px"
+      },
+      "lines": [
+        {
+          "text": "1 MIN DE LEITURA",
+          "x": "843.992",
+          "y": "2568.81",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_26",
+        "Container_27",
+        "Text_38"
+      ]
+    },
+    {
+      "id": "O mercado muda com o país?",
+      "text": "O mercado muda com o país?",
+      "attrs": {
+        "id": "O mercado muda com o paÃ­s?",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "41.4",
+        "letter-spacing": "-0.72px"
+      },
+      "lines": [
+        {
+          "text": "O mercado muda ",
+          "x": "515.996",
+          "y": "2633.51",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "com o país?",
+          "x": "515.996",
+          "y": "2682.36",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_26",
+        "Button_15",
+        "Heading 3_2"
+      ]
+    },
+    {
+      "id": "A procura de Sibele acontece em um Brasil que já m",
+      "text": "A procura de Sibele acontece em um Brasil que já mudou de idade.",
+      "attrs": {
+        "id": "A procura de Sibele acontece em um Brasil que jÃ¡ m",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "A procura de Sibele acontece em um Brasil que ",
+          "x": "515.996",
+          "y": "2734.71",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "já mudou de idade.",
+          "x": "515.996",
+          "y": "2767.11",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_26",
+        "Paragraph:margin_2",
+        "Paragraph_4"
+      ]
+    },
+    {
+      "id": "Trabalho_3",
+      "text": "TRABALHO",
+      "attrs": {
+        "id": "Trabalho_3",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0.54px"
+      },
+      "lines": [
+        {
+          "text": "TRABALHO",
+          "x": "1006.79",
+          "y": "2264.12",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_28",
+        "Text_39"
+      ]
+    },
+    {
+      "id": "06",
+      "text": "06",
+      "attrs": {
+        "id": "06",
+        "fill": "white",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "63",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "06",
+          "x": "988.793",
+          "y": "2477.2",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_28"
+      ]
+    },
+    {
+      "id": "seleção e negociação",
+      "text": "SELEÇÃO E NEGOCIAÇÃO",
+      "attrs": {
+        "id": "seleÃ§Ã£o e negociaÃ§Ã£o",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "8.1",
+        "letter-spacing": "0.9px"
+      },
+      "lines": [
+        {
+          "text": "SELEÇÃO E NEGOCIAÇÃO",
+          "x": "959.992",
+          "y": "2568.81",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_29",
+        "Container_30",
+        "Text_40"
+      ]
+    },
+    {
+      "id": "2 MIN DE LEITURA_2",
+      "text": "2 MIN DE LEITURA",
+      "attrs": {
+        "id": "2 MIN DE LEITURA_2",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "8.1",
+        "letter-spacing": "0.9px"
+      },
+      "lines": [
+        {
+          "text": "2 MIN DE LEITURA",
+          "x": "1288",
+          "y": "2568.81",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_29",
+        "Container_30",
+        "Text_41"
+      ]
+    },
+    {
+      "id": "Quando a experiência vira custo",
+      "text": "Quando a experiência vira custo",
+      "attrs": {
+        "id": "Quando a experiÃªncia vira custo",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "41.4",
+        "letter-spacing": "-0.72px"
+      },
+      "lines": [
+        {
+          "text": "Quando a ",
+          "x": "959.992",
+          "y": "2633.51",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "experiência vira ",
+          "x": "959.992",
+          "y": "2682.36",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "custo",
+          "x": "959.992",
+          "y": "2731.21",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_29",
+        "Button_16",
+        "Heading 3_3"
+      ]
+    },
+    {
+      "id": "Sibele relatou ouvir que era qualificada demais e ",
+      "text": "Sibele relatou ouvir que era qualificada demais e que não poderiam pagar o que ela valia.",
+      "attrs": {
+        "id": "Sibele relatou ouvir que era qualificada demais e ",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Sibele relatou ouvir que era qualificada demais e ",
+          "x": "959.992",
+          "y": "2783.71",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "que não poderiam pagar o que ela valia.",
+          "x": "959.992",
+          "y": "2816.11",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_29",
+        "Paragraph:margin_3",
+        "Paragraph_5"
+      ]
+    },
+    {
+      "id": "Uma leitura. Muitas perspectivas.",
+      "text": "Uma leitura. Muitas perspectivas.",
+      "attrs": {
+        "id": "Uma leitura. Muitas perspectivas.",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Uma leitura. Muitas perspectivas.",
+          "x": "72",
+          "y": "2974.08",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_5",
+        "Container_31",
+        "Text_42"
+      ]
+    },
+    {
+      "id": "02 /",
+      "text": "02 /",
+      "attrs": {
+        "id": "02 /",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "02 /",
+          "x": "72",
+          "y": "3267.68",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Editorial_2",
+        "Container:margin_6",
+        "Container_33",
+        "Container_34",
+        "Container_35",
+        "Text_43"
+      ]
+    },
+    {
+      "id": "CARTA DE ABERTURA",
+      "text": "CARTA DE ABERTURA",
+      "attrs": {
+        "id": "CARTA DE ABERTURA",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "3.06px"
+      },
+      "lines": [
+        {
+          "text": "CARTA DE ABERTURA",
+          "x": "147.602",
+          "y": "3267.48",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Editorial_2",
+        "Container:margin_6",
+        "Container_33",
+        "Container_34",
+        "Container_35"
+      ]
+    },
+    {
+      "id": "Editorial_3",
+      "text": "Editorial",
+      "attrs": {
+        "id": "Editorial_3",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "97.2",
+        "letter-spacing": "-3.6px"
+      },
+      "lines": [
+        {
+          "text": "Editorial",
+          "x": "72",
+          "y": "3397.51",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Editorial_2",
+        "Container:margin_6",
+        "Container_33",
+        "Container_34",
+        "Text_44"
+      ]
+    },
+    {
+      "id": "",
+      "text": "competência.",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "59.4",
+        "font-style": "italic",
+        "letter-spacing": "-1.08px"
+      },
+      "lines": [
+        {
+          "text": "competência.",
+          "x": "906.446",
+          "y": "3369.32",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Editorial_2",
+        "Container:margin_6",
+        "Container_33",
+        "Container_36",
+        "Heading 2_2",
+        "Quando a idade substitui a competência._2"
+      ]
+    },
+    {
+      "id": "",
+      "text": "Quando a idade\nsubstitui a ",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "59.4",
+        "letter-spacing": "-1.08px"
+      },
+      "lines": [
+        {
+          "text": "Quando a idade\n",
+          "x": "633.602",
+          "y": "3301.01",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "substitui a ",
+          "x": "633.602",
+          "y": "3369.32",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Editorial_2",
+        "Container:margin_6",
+        "Container_33",
+        "Container_36",
+        "Heading 2_2",
+        "Quando a idade substitui a competência._2"
+      ]
+    },
+    {
+      "id": "Em “A ‘juventude’ é apenas uma palavra”, Pierre Bo",
+      "text": "Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as fronteiras etárias são construídas socialmente. No mercado de trabalho brasileiro, essa classificação torna-se desigualdade quando a idade substitui a avaliação de competências.",
+      "attrs": {
+        "id": "Em âA âjuventudeâ Ã© apenas uma palavraâ, Pierre Bo",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as ",
+          "x": "633.602",
+          "y": "3448.2",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "fronteiras etárias são construídas socialmente. No mercado de trabalho ",
+          "x": "633.602",
+          "y": "3485.82",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "brasileiro, essa classificação torna-se desigualdade quando a idade substitui a ",
+          "x": "633.602",
+          "y": "3523.44",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "avaliação de competências.",
+          "x": "633.602",
+          "y": "3561.06",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Editorial_2",
+        "Container:margin_6",
+        "Container_33",
+        "Container_36",
+        "Paragraph_6"
+      ]
+    },
+    {
+      "id": "Ler o editorial completo",
+      "text": "Ler o editorial completo",
+      "attrs": {
+        "id": "Ler o editorial completo",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "21.6",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Ler o editorial completo",
+          "x": "634.034",
+          "y": "3649.4",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Editorial_2",
+        "Container:margin_6",
+        "Container_33",
+        "Container_36",
+        "Container_37",
+        "Button_17"
+      ]
+    },
+    {
+      "id": "03 /",
+      "text": "03 /",
+      "attrs": {
+        "id": "03 /",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "03 /",
+          "x": "72",
+          "y": "3997.65",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Container_39",
+        "Text_45"
+      ]
+    },
+    {
+      "id": "A REALIDADE EM NÚMEROS",
+      "text": "A REALIDADE EM NÚMEROS",
+      "attrs": {
+        "id": "A REALIDADE EM NÃMEROS",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "3.06px"
+      },
+      "lines": [
+        {
+          "text": "A REALIDADE EM NÚMEROS",
+          "x": "147.602",
+          "y": "3997.45",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Container_39"
+      ]
+    },
+    {
+      "id": "",
+      "text": "E o mercado?",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "75.6",
+        "font-style": "italic",
+        "letter-spacing": "-1.8px"
+      },
+      "lines": [
+        {
+          "text": "E o mercado?",
+          "x": "72",
+          "y": "4197.85",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Heading 2_3",
+        "O país mudou. E o mercado?"
+      ]
+    },
+    {
+      "id": "",
+      "text": "O país mudou.\n",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "75.6",
+        "letter-spacing": "-1.8px"
+      },
+      "lines": [
+        {
+          "text": "O país mudou.\n",
+          "x": "72",
+          "y": "4114.69",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Heading 2_3",
+        "O país mudou. E o mercado?"
+      ]
+    },
+    {
+      "id": "A procura de Sibele acontece em um Brasil que já m_2",
+      "text": "A procura de Sibele acontece em um Brasil que já mudou de idade. Nas Projeções da População revistas pelo IBGE em 2024, o grupo com 60 anos ou mais passou de 8,7% da população em 2000 para 15,6% em 2023. Para 2070, a projeção chega a 37,8%.",
+      "attrs": {
+        "id": "A procura de Sibele acontece em um Brasil que jÃ¡ m_2",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "A procura de Sibele acontece em um Brasil que já mudou de ",
+          "x": "72",
+          "y": "4284.58",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "idade. Nas Projeções da População revistas pelo IBGE em ",
+          "x": "72",
+          "y": "4322.2",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "2024, o grupo com 60 anos ou mais passou de 8,7% da ",
+          "x": "72",
+          "y": "4359.82",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "população em 2000 para 15,6% em 2023. Para 2070, a ",
+          "x": "72",
+          "y": "4397.44",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "projeção chega a 37,8%.",
+          "x": "72",
+          "y": "4435.06",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Paragraph_7"
+      ]
+    },
+    {
+      "id": "Entenda os dados",
+      "text": "Entenda os dados",
+      "attrs": {
+        "id": "Entenda os dados",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "21.6",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Entenda os dados",
+          "x": "72.2063",
+          "y": "4525.58",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Container_40",
+        "Button_18"
+      ]
+    },
+    {
+      "id": "",
+      "text": "Informação sem estereótipos.",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Informação sem estereótipos.",
+          "x": "129.602",
+          "y": "4704.28",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Container:margin_7",
+        "Container_41",
+        "Text_46",
+        "Dados com contexto. Informação sem estereótipos."
+      ]
+    },
+    {
+      "id": "",
+      "text": "Dados com contexto.\n",
+      "attrs": {
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Dados com contexto.\n",
+          "x": "129.602",
+          "y": "4675.12",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_38",
+        "Container:margin_7",
+        "Container_41",
+        "Text_46",
+        "Dados com contexto. Informação sem estereótipos."
+      ]
+    },
+    {
+      "id": "Um Brasil que envelhece",
+      "text": "Um Brasil que envelhece",
+      "attrs": {
+        "id": "Um Brasil que envelhece",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Um Brasil que envelhece",
+          "x": "746.285",
+          "y": "3977.38",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "Container_43",
+        "Text_47"
+      ]
+    },
+    {
+      "id": "POPULAÇÃO 60+",
+      "text": "POPULAÇÃO 60+",
+      "attrs": {
+        "id": "POPULAÃÃO 60+",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "7.2",
+        "font-weight": "500",
+        "letter-spacing": "1.08px"
+      },
+      "lines": [
+        {
+          "text": "POPULAÇÃO 60+",
+          "x": "1259.19",
+          "y": "3974.56",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "Container_43",
+        "Text_48"
+      ]
+    },
+    {
+      "id": "15,6%",
+      "text": "15,6%",
+      "attrs": {
+        "id": "15,6%",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "86.4",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "15,6%",
+          "x": "746.285",
+          "y": "4104.69",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "Container_44",
+        "Bold Text_2"
+      ]
+    },
+    {
+      "id": "da população brasileira em 2023",
+      "text": "da população brasileira\nem 2023",
+      "attrs": {
+        "id": "da populaÃ§Ã£o brasileira em 2023",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "da população brasileira\n",
+          "x": "1002.68",
+          "y": "4067.64",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "em 2023",
+          "x": "1002.68",
+          "y": "4090.68",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "Container_44",
+        "Text_49"
+      ]
+    },
+    {
+      "id": "40%",
+      "text": "40%",
+      "attrs": {
+        "id": "40%",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "40%",
+          "x": "746.285",
+          "y": "4167.66",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_50"
+      ]
+    },
+    {
+      "id": "30%",
+      "text": "30%",
+      "attrs": {
+        "id": "30%",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "30%",
+          "x": "746.285",
+          "y": "4247.06",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_52"
+      ]
+    },
+    {
+      "id": "20%",
+      "text": "20%",
+      "attrs": {
+        "id": "20%",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "20%",
+          "x": "746.285",
+          "y": "4326.46",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_54"
+      ]
+    },
+    {
+      "id": "10%",
+      "text": "10%",
+      "attrs": {
+        "id": "10%",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "10%",
+          "x": "746.285",
+          "y": "4405.86",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_56"
+      ]
+    },
+    {
+      "id": "0%",
+      "text": "0%",
+      "attrs": {
+        "id": "0%",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "0%",
+          "x": "746.285",
+          "y": "4485.26",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_58"
+      ]
+    },
+    {
+      "id": "8,7%",
+      "text": "8,7%",
+      "attrs": {
+        "id": "8,7%",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "8,7%",
+          "x": "877.302",
+          "y": "4398.52",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2000: 8,7%",
+        "Text_60"
+      ]
+    },
+    {
+      "id": "2000",
+      "text": "2000",
+      "attrs": {
+        "id": "2000",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "600",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "2000",
+          "x": "872.846",
+          "y": "4526.18",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2000: 8,7%",
+        "Text_61"
+      ]
+    },
+    {
+      "id": "ESTIMATIVA",
+      "text": "ESTIMATIVA",
+      "attrs": {
+        "id": "ESTIMATIVA",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.44px"
+      },
+      "lines": [
+        {
+          "text": "ESTIMATIVA",
+          "x": "863.729",
+          "y": "4548.73",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2000: 8,7%",
+        "Text_61"
+      ]
+    },
+    {
+      "id": "15,6%_2",
+      "text": "15,6%",
+      "attrs": {
+        "id": "15,6%_2",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "15,6%",
+          "x": "1049.15",
+          "y": "4340.46",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2023: 15,6%",
+        "Text_62"
+      ]
+    },
+    {
+      "id": "2023",
+      "text": "2023",
+      "attrs": {
+        "id": "2023",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "600",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "2023",
+          "x": "1049.57",
+          "y": "4526.18",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2023: 15,6%",
+        "Text_63"
+      ]
+    },
+    {
+      "id": "ESTIMATIVA_2",
+      "text": "ESTIMATIVA",
+      "attrs": {
+        "id": "ESTIMATIVA_2",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.44px"
+      },
+      "lines": [
+        {
+          "text": "ESTIMATIVA",
+          "x": "1038.57",
+          "y": "4548.73",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2023: 15,6%",
+        "Text_63"
+      ]
+    },
+    {
+      "id": "37,8%",
+      "text": "37,8%",
+      "attrs": {
+        "id": "37,8%",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "37,8%",
+          "x": "1223.07",
+          "y": "4153.65",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2070: 37,8%, projeção",
+        "Text_64"
+      ]
+    },
+    {
+      "id": "2070",
+      "text": "2070",
+      "attrs": {
+        "id": "2070",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "font-weight": "600",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "2070",
+          "x": "1223.61",
+          "y": "4526.18",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2070: 37,8%, projeção",
+        "Text_65"
+      ]
+    },
+    {
+      "id": "PROJEÇÃO",
+      "text": "PROJEÇÃO",
+      "attrs": {
+        "id": "PROJEÃÃO",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.44px"
+      },
+      "lines": [
+        {
+          "text": "PROJEÇÃO",
+          "x": "1215.95",
+          "y": "4548.73",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Button - 2070: 37,8%, projeção",
+        "Text_65"
+      ]
+    },
+    {
+      "id": "IBGE · PROJEÇÕES DA POPULAÇÃO, REVISÃO 2024",
+      "text": "IBGE · PROJEÇÕES DA POPULAÇÃO, REVISÃO 2024",
+      "attrs": {
+        "id": "IBGE Â· PROJEÃÃES DA POPULAÃÃO, REVISÃO 2024",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "0.99px"
+      },
+      "lines": [
+        {
+          "text": "IBGE · PROJEÇÕES DA POPULAÇÃO, REVISÃO 2024",
+          "x": "746.285",
+          "y": "4633.53",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "Container:margin_8",
+        "Container_46",
+        "Text_66"
+      ]
+    },
+    {
+      "id": "Clique nas barras para explorar",
+      "text": "Clique nas barras para explorar",
+      "attrs": {
+        "id": "Clique nas barras para explorar",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Clique nas barras para explorar",
+          "x": "746.285",
+          "y": "4666.19",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "Container:margin_8",
+        "Container_46",
+        "Text_67"
+      ]
+    },
+    {
+      "id": "Estimativas retrospectivas para 2000 e 2023. A pro",
+      "text": "Estimativas retrospectivas para 2000 e 2023. A projeção para 2070 está condicionada às hipóteses demográficas.",
+      "attrs": {
+        "id": "Estimativas retrospectivas para 2000 e 2023. A pro",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Estimativas retrospectivas para 2000 e 2023. A projeção para 2070 está condicionada às ",
+          "x": "746.285",
+          "y": "4702.49",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "hipóteses demográficas.",
+          "x": "746.285",
+          "y": "4722.65",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "Paragraph_8"
+      ]
+    },
+    {
+      "id": "04 /",
+      "text": "04 /",
+      "attrs": {
+        "id": "04 /",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "04 /",
+          "x": "72",
+          "y": "5044.05",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_48",
+        "Container_49",
+        "Text_68"
+      ]
+    },
+    {
+      "id": "GLOSSÁRIO DE LEITURA",
+      "text": "GLOSSÁRIO DE LEITURA",
+      "attrs": {
+        "id": "GLOSSÃRIO DE LEITURA",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "3.06px"
+      },
+      "lines": [
+        {
+          "text": "GLOSSÁRIO DE LEITURA",
+          "x": "147.602",
+          "y": "5043.85",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_48",
+        "Container_49"
+      ]
+    },
+    {
+      "id": "",
+      "text": "transformar.",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "64.8",
+        "font-style": "italic",
+        "letter-spacing": "-1.62px"
+      },
+      "lines": [
+        {
+          "text": "transformar.",
+          "x": "115.715",
+          "y": "5223.91",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_48",
+        "Heading 2_4",
+        "Entender também é transformar."
+      ]
+    },
+    {
+      "id": "",
+      "text": "Entender também\né ",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "64.8",
+        "letter-spacing": "-1.62px"
+      },
+      "lines": [
+        {
+          "text": "Entender também\n",
+          "x": "72",
+          "y": "5149.39",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "é ",
+          "x": "72",
+          "y": "5223.91",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_48",
+        "Heading 2_4",
+        "Entender também é transformar."
+      ]
+    },
+    {
+      "id": "Os conceitos que atravessam esta edição. Clique e ",
+      "text": "Os conceitos que atravessam esta edição.\nClique e amplie seu repertório.",
+      "attrs": {
+        "id": "Os conceitos que atravessam esta ediÃ§Ã£o. Clique e ",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Os conceitos que atravessam esta edição.\n",
+          "x": "72",
+          "y": "5300.38",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "Clique e amplie seu repertório.",
+          "x": "72",
+          "y": "5338",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_48",
+        "Paragraph_9"
+      ]
+    },
+    {
+      "id": "01",
+      "text": "01",
+      "attrs": {
+        "id": "01",
+        "fill": "#7A8565",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "1.08px"
+      },
+      "lines": [
+        {
+          "text": "01",
+          "x": "713.293",
+          "y": "5079.32",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_51",
+        "Button_19",
+        "Text_69"
+      ]
+    },
+    {
+      "id": "Etarismo",
+      "text": "Etarismo",
+      "attrs": {
+        "id": "Etarismo",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Etarismo",
+          "x": "752.691",
+          "y": "5081.22",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_51",
+        "Button_19",
+        "Text_70"
+      ]
+    },
+    {
+      "id": "estereótipos, preconceitos e discriminação relacio",
+      "text": "estereótipos, preconceitos e discriminação relacionados à idade; pode atingir diferentes faixas etárias.",
+      "attrs": {
+        "id": "estereÃ³tipos, preconceitos e discriminaÃ§Ã£o relacio",
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "estereótipos, preconceitos e discriminação relacionados à ",
+          "x": "770.895",
+          "y": "5150.08",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "idade; pode atingir diferentes faixas etárias.",
+          "x": "770.895",
+          "y": "5186.71",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_51",
+        "Container_52"
+      ]
+    },
+    {
+      "id": "02",
+      "text": "02",
+      "attrs": {
+        "id": "02",
+        "fill": "#7A8565",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "1.08px"
+      },
+      "lines": [
+        {
+          "text": "02",
+          "x": "713.293",
+          "y": "5295.52",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_53",
+        "Button_20",
+        "Text_71"
+      ]
+    },
+    {
+      "id": "Nível de ocupação",
+      "text": "Nível de ocupação",
+      "attrs": {
+        "id": "NÃ­vel de ocupaÃ§Ã£o",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Nível de ocupação",
+          "x": "756.691",
+          "y": "5297.42",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_53",
+        "Button_20",
+        "Text_72"
+      ]
+    },
+    {
+      "id": "03",
+      "text": "03",
+      "attrs": {
+        "id": "03",
+        "fill": "#7A8565",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "1.08px"
+      },
+      "lines": [
+        {
+          "text": "03",
+          "x": "713.293",
+          "y": "5398.12",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_54",
+        "Button_21",
+        "Text_73"
+      ]
+    },
+    {
+      "id": "Trabalho por conta própria",
+      "text": "Trabalho por conta própria",
+      "attrs": {
+        "id": "Trabalho por conta prÃ³pria",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Trabalho por conta própria",
+          "x": "756.691",
+          "y": "5400.02",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_54",
+        "Button_21",
+        "Text_74"
+      ]
+    },
+    {
+      "id": "04_3",
+      "text": "04",
+      "attrs": {
+        "id": "04_3",
+        "fill": "#7A8565",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "1.08px"
+      },
+      "lines": [
+        {
+          "text": "04",
+          "x": "713.293",
+          "y": "5500.73",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_55",
+        "Button_22",
+        "Text_75"
+      ]
+    },
+    {
+      "id": "Economia prateada",
+      "text": "Economia prateada",
+      "attrs": {
+        "id": "Economia prateada",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Economia prateada",
+          "x": "756.691",
+          "y": "5502.62",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_55",
+        "Button_22",
+        "Text_76"
+      ]
+    },
+    {
+      "id": "05_2",
+      "text": "05",
+      "attrs": {
+        "id": "05_2",
+        "fill": "#7A8565",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "1.08px"
+      },
+      "lines": [
+        {
+          "text": "05",
+          "x": "713.293",
+          "y": "5603.32",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_56",
+        "Button_23",
+        "Text_77"
+      ]
+    },
+    {
+      "id": "Violência patrimonial",
+      "text": "Violência patrimonial",
+      "attrs": {
+        "id": "ViolÃªncia patrimonial",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Violência patrimonial",
+          "x": "756.691",
+          "y": "5605.22",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_56",
+        "Button_23",
+        "Text_78"
+      ]
+    },
+    {
+      "id": "06_2",
+      "text": "06",
+      "attrs": {
+        "id": "06_2",
+        "fill": "#7A8565",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "500",
+        "letter-spacing": "1.08px"
+      },
+      "lines": [
+        {
+          "text": "06",
+          "x": "713.293",
+          "y": "5705.92",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_57",
+        "Button_24",
+        "Text_79"
+      ]
+    },
+    {
+      "id": "Autonomia",
+      "text": "Autonomia",
+      "attrs": {
+        "id": "Autonomia",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Autonomia",
+          "x": "757.691",
+          "y": "5707.82",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Glossary",
+        "Container:margin_9",
+        "Container_47",
+        "Container_50",
+        "Container_57",
+        "Button_24",
+        "Text_80"
+      ]
+    },
+    {
+      "id": "05 /",
+      "text": "05 /",
+      "attrs": {
+        "id": "05 /",
+        "fill": "#B95D40",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "05 /",
+          "x": "72",
+          "y": "6031.69",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container_58",
+        "Container_59",
+        "Container_60",
+        "Text_81"
+      ]
+    },
+    {
+      "id": "QUEM FAZ A REVISTA",
+      "text": "QUEM FAZ A REVISTA",
+      "attrs": {
+        "id": "QUEM FAZ A REVISTA",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "600",
+        "letter-spacing": "3.06px"
+      },
+      "lines": [
+        {
+          "text": "QUEM FAZ A REVISTA",
+          "x": "147.602",
+          "y": "6031.49",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container_58",
+        "Container_59",
+        "Container_60"
+      ]
+    },
+    {
+      "id": "",
+      "text": "Seis perspectivas.",
+      "attrs": {
+        "fill": "#47533B",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "73.8",
+        "font-style": "italic",
+        "letter-spacing": "-1.98px"
+      },
+      "lines": [
+        {
+          "text": "Seis perspectivas.",
+          "x": "72",
+          "y": "6219.7",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container_58",
+        "Container_59",
+        "Heading 2_5",
+        "Uma pesquisa. Seis perspectivas."
+      ]
+    },
+    {
+      "id": "",
+      "text": "Uma pesquisa.\n",
+      "attrs": {
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "73.8",
+        "letter-spacing": "-1.98px"
+      },
+      "lines": [
+        {
+          "text": "Uma pesquisa.\n",
+          "x": "72",
+          "y": "6137.05",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container_58",
+        "Container_59",
+        "Heading 2_5",
+        "Uma pesquisa. Seis perspectivas."
+      ]
+    },
+    {
+      "id": "Grupo de pesquisa sobre etarismo. Um trabalho para",
+      "text": "Grupo de pesquisa sobre etarismo.\nUm trabalho para ampliar a conversa.",
+      "attrs": {
+        "id": "Grupo de pesquisa sobre etarismo. Um trabalho para",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Grupo de pesquisa sobre etarismo.\n",
+          "x": "1045.96",
+          "y": "6179.02",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "Um trabalho para ampliar a conversa.",
+          "x": "1027.76",
+          "y": "6214.66",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container_58",
+        "Paragraph_10"
+      ]
+    },
+    {
+      "id": "Giovanna Medeiros Veloso",
+      "text": "Giovanna Medeiros Veloso",
+      "attrs": {
+        "id": "Giovanna Medeiros Veloso",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Giovanna Medeiros Veloso",
+          "x": "158.047",
+          "y": "6501.65",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_62",
+        "Heading 3:margin",
+        "Heading 3_4"
+      ]
+    },
+    {
+      "id": "GRUPO DE PESQUISA",
+      "text": "GRUPO DE PESQUISA",
+      "attrs": {
+        "id": "GRUPO DE PESQUISA",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "GRUPO DE PESQUISA",
+          "x": "223.553",
+          "y": "6568.17",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_62",
+        "Container_63"
+      ]
+    },
+    {
+      "id": "Arthur do Vale Silva",
+      "text": "Arthur do Vale Silva",
+      "attrs": {
+        "id": "Arthur do Vale Silva",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Arthur do Vale Silva",
+          "x": "629.537",
+          "y": "6501.65",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_64",
+        "Heading 3:margin_2",
+        "Heading 3_5"
+      ]
+    },
+    {
+      "id": "GRUPO DE PESQUISA_2",
+      "text": "GRUPO DE PESQUISA",
+      "attrs": {
+        "id": "GRUPO DE PESQUISA_2",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "GRUPO DE PESQUISA",
+          "x": "662.752",
+          "y": "6568.17",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_64",
+        "Container_65"
+      ]
+    },
+    {
+      "id": "Murilo Rosa Fonseca",
+      "text": "Murilo Rosa Fonseca",
+      "attrs": {
+        "id": "Murilo Rosa Fonseca",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Murilo Rosa Fonseca",
+          "x": "1064.32",
+          "y": "6501.65",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_66",
+        "Heading 3:margin_3",
+        "Heading 3_6"
+      ]
+    },
+    {
+      "id": "GRUPO DE PESQUISA_3",
+      "text": "GRUPO DE PESQUISA",
+      "attrs": {
+        "id": "GRUPO DE PESQUISA_3",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "GRUPO DE PESQUISA",
+          "x": "1101.95",
+          "y": "6568.17",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_66",
+        "Container_67"
+      ]
+    },
+    {
+      "id": "Kevin Jun",
+      "text": "Kevin Jun",
+      "attrs": {
+        "id": "Kevin Jun",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Kevin Jun",
+          "x": "236.87",
+          "y": "6796.85",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_68",
+        "Heading 3:margin_4",
+        "Heading 3_7"
+      ]
+    },
+    {
+      "id": "GRUPO DE PESQUISA_4",
+      "text": "GRUPO DE PESQUISA",
+      "attrs": {
+        "id": "GRUPO DE PESQUISA_4",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "GRUPO DE PESQUISA",
+          "x": "223.553",
+          "y": "6863.37",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_68",
+        "Container_69"
+      ]
+    },
+    {
+      "id": "Davi Dias",
+      "text": "Davi Dias",
+      "attrs": {
+        "id": "Davi Dias",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Davi Dias",
+          "x": "677.519",
+          "y": "6796.85",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_70",
+        "Heading 3:margin_5",
+        "Heading 3_8"
+      ]
+    },
+    {
+      "id": "GRUPO DE PESQUISA_5",
+      "text": "GRUPO DE PESQUISA",
+      "attrs": {
+        "id": "GRUPO DE PESQUISA_5",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "GRUPO DE PESQUISA",
+          "x": "662.752",
+          "y": "6863.37",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_70",
+        "Container_71"
+      ]
+    },
+    {
+      "id": "Davi Alcanfor",
+      "text": "Davi Alcanfor",
+      "attrs": {
+        "id": "Davi Alcanfor",
+        "fill": "#252525",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "19.8",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Davi Alcanfor",
+          "x": "1097.65",
+          "y": "6796.85",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_72",
+        "Heading 3:margin_6",
+        "Heading 3_9"
+      ]
+    },
+    {
+      "id": "GRUPO DE PESQUISA_6",
+      "text": "GRUPO DE PESQUISA",
+      "attrs": {
+        "id": "GRUPO DE PESQUISA_6",
+        "fill": "#666666",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "letter-spacing": "1.8px"
+      },
+      "lines": [
+        {
+          "text": "GRUPO DE PESQUISA",
+          "x": "1101.95",
+          "y": "6863.37",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_72",
+        "Container_73"
+      ]
+    },
+    {
+      "id": "O RESPEITO NÃO TEM IDADE.",
+      "text": "O RESPEITO NÃO TEM IDADE.",
+      "attrs": {
+        "id": "O RESPEITO NÃO TEM IDADE.",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "14.4",
+        "font-weight": "600",
+        "letter-spacing": "3.24px"
+      },
+      "lines": [
+        {
+          "text": "O RESPEITO NÃO TEM IDADE.",
+          "x": "72",
+          "y": "7190.14",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_76",
+        "Text_82"
+      ]
+    },
+    {
+      "id": "",
+      "text": "Continuar não pode\nser um ",
+      "attrs": {
+        "fill": "#F7F6F0",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "90",
+        "letter-spacing": "-1.08px"
+      },
+      "lines": [
+        {
+          "text": "Continuar não pode\n",
+          "x": "72",
+          "y": "7313.87",
+          "dx": null,
+          "dy": null
+        },
+        {
+          "text": "ser um ",
+          "x": "72",
+          "y": "7414.67",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_76",
+        "Heading 2_6",
+        "Continuar não pode ser um privilégio."
+      ]
+    },
+    {
+      "id": "",
+      "text": "privilégio.",
+      "attrs": {
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "90",
+        "font-style": "italic",
+        "letter-spacing": "-1.08px"
+      },
+      "lines": [
+        {
+          "text": "privilégio.",
+          "x": "357.643",
+          "y": "7414.67",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_76",
+        "Heading 2_6",
+        "Continuar não pode ser um privilégio."
+      ]
+    },
+    {
+      "id": "Leia a reflexão final",
+      "text": "Leia a reflexão final",
+      "attrs": {
+        "id": "Leia a reflexÃ£o final",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "font-weight": "500",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Leia a reflexão final",
+          "x": "72.1855",
+          "y": "7515.26",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_76",
+        "Container_77",
+        "Button_25"
+      ]
+    },
+    {
+      "id": "CONTINUE EXPLORANDO",
+      "text": "CONTINUE EXPLORANDO",
+      "attrs": {
+        "id": "CONTINUE EXPLORANDO",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "12.6",
+        "letter-spacing": "3.24px"
+      },
+      "lines": [
+        {
+          "text": "CONTINUE EXPLORANDO",
+          "x": "936",
+          "y": "7199.6",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_78",
+        "Text:margin_10",
+        "Text_83"
+      ]
+    },
+    {
+      "id": "Sumário da edição",
+      "text": "Sumário da edição",
+      "attrs": {
+        "id": "SumÃ¡rio da ediÃ§Ã£o",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Sumário da edição",
+          "x": "936",
+          "y": "7265.79",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_78",
+        "Button_26"
+      ]
+    },
+    {
+      "id": "Referências e notas",
+      "text": "Referências e notas",
+      "attrs": {
+        "id": "ReferÃªncias e notas",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Referências e notas",
+          "x": "936",
+          "y": "7325.19",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_78",
+        "Button_27"
+      ]
+    },
+    {
+      "id": "Fontes de dados e legislação",
+      "text": "Fontes de dados e legislação",
+      "attrs": {
+        "id": "Fontes de dados e legislaÃ§Ã£o",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Fontes de dados e legislação",
+          "x": "936",
+          "y": "7384.59",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_78",
+        "Button_28"
+      ]
+    },
+    {
+      "id": "Participantes_2",
+      "text": "Participantes",
+      "attrs": {
+        "id": "Participantes_2",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "18",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Participantes",
+          "x": "936",
+          "y": "7443.99",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_75",
+        "Container_78",
+        "Link_7"
+      ]
+    },
+    {
+      "id": "",
+      "text": "etarismo",
+      "attrs": {
+        "fill": "#F7F6F0",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "61.2",
+        "letter-spacing": "-3.24px"
+      },
+      "lines": [
+        {
+          "text": "etarismo",
+          "x": "72",
+          "y": "7737.57",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_79",
+        "Brand_2",
+        "etarismo._2"
+      ]
+    },
+    {
+      "id": "",
+      "text": ".",
+      "attrs": {
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Serif Display",
+        "font-size": "61.2",
+        "letter-spacing": "-3.24px"
+      },
+      "lines": [
+        {
+          "text": ".",
+          "x": "287.055",
+          "y": "7737.57",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_79",
+        "Brand_2",
+        "etarismo._2"
+      ]
+    },
+    {
+      "id": "REVISTA DIGITAL_2",
+      "text": "REVISTA DIGITAL",
+      "attrs": {
+        "id": "REVISTA DIGITAL_2",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "9",
+        "font-weight": "500",
+        "letter-spacing": "6.12px"
+      },
+      "lines": [
+        {
+          "text": "REVISTA DIGITAL",
+          "x": "77.3984",
+          "y": "7768.69",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_79",
+        "Brand_2",
+        "Text_84"
+      ]
+    },
+    {
+      "id": "REVISTA DIGITAL · EDIÇÃO ESPECIAL 2026",
+      "text": "REVISTA DIGITAL · EDIÇÃO ESPECIAL 2026",
+      "attrs": {
+        "id": "REVISTA DIGITAL Â· EDIÃÃO ESPECIAL 2026",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "letter-spacing": "2.7px"
+      },
+      "lines": [
+        {
+          "text": "REVISTA DIGITAL · EDIÇÃO ESPECIAL 2026",
+          "x": "602.898",
+          "y": "7731.5",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_79",
+        "Paragraph_11"
+      ]
+    },
+    {
+      "id": "Voltar ao topo",
+      "text": "Voltar ao topo",
+      "attrs": {
+        "id": "Voltar ao topo",
+        "fill": "#F7F6F0",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "16.2",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Voltar ao topo",
+          "x": "1208.8",
+          "y": "7733.39",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Container_79",
+        "Link_8"
+      ]
+    },
+    {
+      "id": "Fotografias ilustrativas: Danie Franco, Ravi Patel",
+      "text": "Fotografias ilustrativas: Danie Franco, Ravi Patel e Vitaly Gariev / Unsplash. As pessoas retratadas não representam as personagens da reportagem.",
+      "attrs": {
+        "id": "Fotografias ilustrativas: Danie Franco, Ravi Patel",
+        "fill": "#E9EBDF",
+        "style": "white-space: pre",
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "font-family": "DM Sans",
+        "font-size": "10.8",
+        "letter-spacing": "0px"
+      },
+      "lines": [
+        {
+          "text": "Fotografias ilustrativas: Danie Franco, Ravi Patel e Vitaly Gariev / Unsplash. As pessoas retratadas não representam as personagens da reportagem.",
+          "x": "72",
+          "y": "7825.72",
+          "dx": null,
+          "dy": null
+        }
+      ],
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer",
+        "Container:margin_11",
+        "Container_74",
+        "Paragraph_12"
+      ]
+    }
+  ],
+  "geometry": [
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "1440",
+        "height": "7875",
+        "fill": "#F7F6F0"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "577.8",
+        "height": "810",
+        "transform": "translate(743.398 365.8)",
+        "fill": "url(#pattern0_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Container_12",
+        "Image (Retrato em preto e branco de uma mulher idosa. Fotografia ilustrativa de Danie Franco, Unsplash.)"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "577.8",
+        "height": "445.5",
+        "transform": "translate(743.398 730.3)",
+        "fill": "url(#paint0_linear_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Container_12",
+        "Container_13"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "414",
+        "height": "131.4",
+        "transform": "translate(954 1058.8)",
+        "fill": "#47533B"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Hero:margin",
+        "Hero",
+        "Container_4",
+        "Container:margin_2",
+        "Container_11",
+        "Button_4"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "1296",
+        "height": "268.172",
+        "transform": "translate(72 1400.4)",
+        "fill": "#E9EBDF"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "QuickNumbers:margin",
+        "QuickNumbers"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "201.08",
+        "height": "3.6",
+        "transform": "translate(72 2156.77)",
+        "fill": "#47533B"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_3",
+        "Container_20",
+        "Filtrar matérias por tema",
+        "Button_9",
+        "Text_32"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "315",
+        "transform": "translate(72 2212.57)",
+        "fill": "#DCDCDC"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_22"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "315",
+        "transform": "translate(72 2212.57)",
+        "fill": "url(#pattern1_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_22",
+        "Button - Ler Um currículo elogiado, uma porta fechada",
+        "Image (Retrato ilustrativo de uma mulher idosa, por Danie Franco)"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "107.6",
+        "height": "40.6",
+        "transform": "translate(99 2239.57)",
+        "fill": "#F7F6F0",
+        "fill-opacity": "0.937"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard",
+        "Container_22",
+        "Text_33"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "315",
+        "transform": "translate(515.996 2212.57)",
+        "fill": "#DCDCDC"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_25"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "315",
+        "transform": "translate(515.996 2212.57)",
+        "fill": "url(#pattern2_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_25",
+        "Button - Ler O mercado muda com o país?",
+        "Image (Retrato ilustrativo de uma mulher sorrindo, por Ravi Patel)"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "112.6",
+        "height": "40.6",
+        "transform": "translate(542.996 2239.57)",
+        "fill": "#F7F6F0",
+        "fill-opacity": "0.937"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_2",
+        "Container_25",
+        "Text_36"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "408.009",
+        "height": "315",
+        "transform": "translate(959.992 2212.57)",
+        "fill": "#DCDCDC"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_28"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "408.009",
+        "height": "315",
+        "transform": "translate(959.992 2212.57)",
+        "fill": "url(#pattern3_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_28",
+        "Button - Ler Quando a experiência vira custo",
+        "Image (Fotografia ilustrativa de um profissional maduro usando um computador, por Vitaly Gariev)"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "107.6",
+        "height": "40.6",
+        "transform": "translate(986.992 2239.57)",
+        "fill": "#F7F6F0",
+        "fill-opacity": "0.937"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Stories:margin",
+        "Stories",
+        "Container:margin_4",
+        "Container_21",
+        "ArticleCard_3",
+        "Container_28",
+        "Text_39"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "520.903",
+        "height": "1.8",
+        "transform": "translate(809.285 4163.36)",
+        "fill": "#E9EBDF"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_50",
+        "Text_51"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "520.903",
+        "height": "1.8",
+        "transform": "translate(809.285 4242.76)",
+        "fill": "#E9EBDF"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_52",
+        "Text_53"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "520.903",
+        "height": "1.8",
+        "transform": "translate(809.285 4322.16)",
+        "fill": "#E9EBDF"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_54",
+        "Text_55"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "520.903",
+        "height": "1.8",
+        "transform": "translate(809.285 4401.56)",
+        "fill": "#E9EBDF"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_56",
+        "Text_57"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "520.903",
+        "height": "1.8",
+        "transform": "translate(809.285 4480.96)",
+        "fill": "#E9EBDF"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "DataExplorer:margin",
+        "DataExplorer",
+        "Container_42",
+        "População com 60 anos ou mais por ano:margin",
+        "População com 60 anos ou mais por ano",
+        "Container_45",
+        "Text_58",
+        "Text_59"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "id": "image 2",
+        "x": "218.801",
+        "y": "6329.05",
+        "width": "124",
+        "height": "124",
+        "rx": "62",
+        "fill": "url(#pattern4_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_62",
+        "Text:margin_4"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "id": "WhatsApp Image 2026-10-15 at 08.22.21 1",
+        "x": "658",
+        "y": "6329.05",
+        "width": "124",
+        "height": "124",
+        "rx": "62",
+        "fill": "url(#pattern5_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_64",
+        "Text:margin_5"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "id": "image 3",
+        "x": "1097.2",
+        "y": "6329.05",
+        "width": "124",
+        "height": "124",
+        "rx": "62",
+        "fill": "url(#pattern6_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_66",
+        "Text:margin_6"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "id": "WhatsApp Image 2026-10-15 at 08.24.19 1",
+        "x": "218.801",
+        "y": "6624.25",
+        "width": "124",
+        "height": "124",
+        "rx": "62",
+        "fill": "url(#pattern7_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_68",
+        "Text:margin_7"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "id": "WhatsApp Image 2026-10-18 at 16.38.37 1",
+        "x": "658",
+        "y": "6624.25",
+        "width": "124",
+        "height": "124",
+        "rx": "62",
+        "fill": "url(#pattern8_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_70",
+        "Text:margin_8"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "id": "image 1",
+        "x": "1097.2",
+        "y": "6624.25",
+        "width": "124",
+        "height": "124",
+        "rx": "62",
+        "fill": "url(#pattern9_234_13827)"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "App",
+        "Team:margin",
+        "Team",
+        "Container:margin_10",
+        "Container_61",
+        "Container_72",
+        "Text:margin_9"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "1440",
+        "height": "817.269",
+        "transform": "translate(0 7058.05)",
+        "fill": "#35422E"
+      },
+      "ancestry": [
+        "Revista interativa moderna (cópia)",
+        "Body",
+        "Footer"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "315",
+        "fill": "white",
+        "transform": "translate(72 2212.57)"
+      },
+      "ancestry": [
+        "clip2_234_13827"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "64.8",
+        "fill": "white",
+        "transform": "translate(72 2761.37)"
+      },
+      "ancestry": [
+        "clip3_234_13827"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "315",
+        "fill": "white",
+        "transform": "translate(515.996 2212.57)"
+      },
+      "ancestry": [
+        "clip4_234_13827"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "407.995",
+        "height": "64.8",
+        "fill": "white",
+        "transform": "translate(515.996 2712.37)"
+      },
+      "ancestry": [
+        "clip5_234_13827"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "408.009",
+        "height": "315",
+        "fill": "white",
+        "transform": "translate(959.992 2212.57)"
+      },
+      "ancestry": [
+        "clip6_234_13827"
+      ]
+    },
+    {
+      "tag": "rect",
+      "attrs": {
+        "width": "408.009",
+        "height": "64.8",
+        "fill": "white",
+        "transform": "translate(959.992 2761.37)"
+      },
+      "ancestry": [
+        "clip7_234_13827"
+      ]
+    }
+  ]
+}

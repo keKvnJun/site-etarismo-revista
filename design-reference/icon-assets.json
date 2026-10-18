@@ -1,0 +1,366 @@
+[
+  {
+    "name": "search",
+    "src": "assets/icons/search.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon",
+    "viewBox": [
+      1279.125,
+      65.9249,
+      28.05,
+      28.05
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "bookmark",
+    "src": "assets/icons/bookmark.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_2",
+    "viewBox": [
+      1352.3249999999998,
+      65.92479999999999,
+      20.55,
+      28.05
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-up-right-white",
+    "src": "assets/icons/arrow-up-right-white.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_3",
+    "viewBox": [
+      267.13849999999996,
+      987.4895,
+      18.524999999999988,
+      18.52299999999998
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-right",
+    "src": "assets/icons/arrow-right.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_4",
+    "viewBox": [
+      469.59675,
+      985.82075,
+      22.612500000000033,
+      20.06549999999995
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-right-small",
+    "src": "assets/icons/arrow-right-small.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_5",
+    "viewBox": [
+      395.21675,
+      1113.7487500000002,
+      17.362499999999965,
+      15.412499999999863
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "cover-open",
+    "src": "assets/icons/cover-open.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_6",
+    "viewBox": [
+      1317.3375,
+      1115.2375000000002,
+      18.525000000000045,
+      18.524999999999817
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-up-right",
+    "src": "assets/icons/arrow-up-right.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_7",
+    "viewBox": [
+      1342.5375000000001,
+      1965.7075,
+      18.525000000000045,
+      18.525000000000045
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "bookmark-card",
+    "src": "assets/icons/bookmark-card.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_8",
+    "viewBox": [
+      421.73775,
+      2250.76375,
+      17.51250000000001,
+      23.89250000000029
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "card-open",
+    "src": "assets/icons/card-open.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_9",
+    "viewBox": [
+      454.53249999999997,
+      2615.0075,
+      18.524999999999988,
+      18.524999999999817
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-left",
+    "src": "assets/icons/arrow-left.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_14",
+    "viewBox": [
+      1242.39375,
+      2957.9037500000004,
+      22.61250000000009,
+      20.062499999999908
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-next",
+    "src": "assets/icons/arrow-next.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_15",
+    "viewBox": [
+      1323.39375,
+      2957.9037500000004,
+      22.61250000000009,
+      20.062499999999908
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "book",
+    "src": "assets/icons/book.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_18",
+    "viewBox": [
+      75.225,
+      4669.745000000001,
+      29.55,
+      28.05
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-up-right-small",
+    "src": "assets/icons/arrow-up-right-small.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_19",
+    "viewBox": [
+      919.659,
+      4656.685,
+      12.449999999999955,
+      12.450000000000182
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "minus",
+    "src": "assets/icons/minus.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_20",
+    "viewBox": [
+      1341.1775,
+      5073.447499999999,
+      21.22500000000009,
+      2.3249999999999997
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "plus",
+    "src": "assets/icons/plus.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_21",
+    "viewBox": [
+      1341.1775,
+      5280.197499999999,
+      21.22500000000009,
+      21.225000000000545
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "chevron-right",
+    "src": "assets/icons/chevron-right.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_27",
+    "viewBox": [
+      1345.3500000000001,
+      7251.4,
+      16.499999999999865,
+      16.500000000000547
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "arrow-up",
+    "src": "assets/icons/arrow-up.svg",
+    "sourceFile": "revisada-home.svg",
+    "sourceGroup": "Icon_31",
+    "viewBox": [
+      1345.3500000000001,
+      7719.97,
+      16.499999999999865,
+      16.499999999999638
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "reader-back",
+    "src": "assets/icons/reader-back.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_31",
+    "viewBox": [
+      17810.75,
+      3099.35,
+      21.30000000000073,
+      18.89999999999973
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "clock",
+    "src": "assets/icons/clock.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_32",
+    "viewBox": [
+      17829.70625,
+      3599.01625,
+      21.18750000000073,
+      21.10749999999989
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "moon",
+    "src": "assets/icons/moon.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_33",
+    "viewBox": [
+      18027.737500000003,
+      3695.7075,
+      25.224999999997817,
+      25.215000000000327
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "reader-bookmark",
+    "src": "assets/icons/reader-bookmark.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_34",
+    "viewBox": [
+      18933.537500000002,
+      3695.7075,
+      18.525000000000727,
+      25.275000000000272
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "share",
+    "src": "assets/icons/share.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_35",
+    "viewBox": [
+      19004.237500000003,
+      3694.3575,
+      21.224999999997817,
+      25.274999999999817
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "check",
+    "src": "assets/icons/check.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_36",
+    "viewBox": [
+      19020.4375,
+      5694.0075,
+      21.225000000001454,
+      15.825
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "reader-previous",
+    "src": "assets/icons/reader-previous.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_37",
+    "viewBox": [
+      17830.0625,
+      5833.5825,
+      18.674999999999272,
+      16.574999999999818
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "reader-next",
+    "src": "assets/icons/reader-next.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_38",
+    "viewBox": [
+      19025.2625,
+      5833.5825,
+      18.674999999999272,
+      16.574999999999818
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "close",
+    "src": "assets/icons/close.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_39",
+    "viewBox": [
+      19045.925,
+      3096.725,
+      20.55,
+      20.55
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "toc-open",
+    "src": "assets/icons/toc-open.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_783",
+    "viewBox": [
+      47760.725,
+      3604.1949999999997,
+      20.55,
+      20.55
+    ],
+    "preservedCompleteGroup": true
+  },
+  {
+    "name": "toc-close",
+    "src": "assets/icons/toc-close.svg",
+    "sourceFile": "revisada-completa.svg",
+    "sourceGroup": "Icon_801",
+    "viewBox": [
+      47816.525,
+      3169.125,
+      20.55,
+      20.55
+    ],
+    "preservedCompleteGroup": true
+  }
+]

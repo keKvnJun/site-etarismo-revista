@@ -1,0 +1,35 @@
+/* Vetores originais exportados do Figma. Dimensões nativas preservadas. */
+.design-icon{display:inline-block;vertical-align:middle;flex:0 0 auto;background-color:currentColor;mask-image:var(--icon-src);mask-position:center;mask-size:contain;mask-repeat:no-repeat}
+.icon--search{--icon-src:url('../assets/icons/search.svg');width:28.05px;height:28.05px}
+.icon--bookmark{--icon-src:url('../assets/icons/bookmark.svg');width:20.55px;height:28.05px}
+.icon--arrow-up-right-white{--icon-src:url('../assets/icons/arrow-up-right-white.svg');width:18.525px;height:18.523px}
+.icon--arrow-right{--icon-src:url('../assets/icons/arrow-right.svg');width:22.6125px;height:20.0655px}
+.icon--arrow-right-small{--icon-src:url('../assets/icons/arrow-right-small.svg');width:17.3625px;height:15.4125px}
+.icon--cover-open{--icon-src:url('../assets/icons/cover-open.svg');width:18.525px;height:18.525px}
+.icon--arrow-up-right{--icon-src:url('../assets/icons/arrow-up-right.svg');width:18.525px;height:18.525px}
+.icon--bookmark-card{--icon-src:url('../assets/icons/bookmark-card.svg');width:17.5125px;height:23.8925px}
+.icon--card-open{--icon-src:url('../assets/icons/card-open.svg');width:18.525px;height:18.525px}
+.icon--arrow-left{--icon-src:url('../assets/icons/arrow-left.svg');width:22.6125px;height:20.0625px}
+.icon--arrow-next{--icon-src:url('../assets/icons/arrow-next.svg');width:22.6125px;height:20.0625px}
+.icon--book{--icon-src:url('../assets/icons/book.svg');width:29.55px;height:28.05px}
+.icon--arrow-up-right-small{--icon-src:url('../assets/icons/arrow-up-right-small.svg');width:12.45px;height:12.45px}
+.icon--minus{--icon-src:url('../assets/icons/minus.svg');width:21.225px;height:2.325px}
+.icon--plus{--icon-src:url('../assets/icons/plus.svg');width:21.225px;height:21.225px}
+.icon--chevron-right{--icon-src:url('../assets/icons/chevron-right.svg');width:16.5px;height:16.5px}
+.icon--arrow-up{--icon-src:url('../assets/icons/arrow-up.svg');width:16.5px;height:16.5px}
+.icon--reader-back{--icon-src:url('../assets/icons/reader-back.svg');width:21.3px;height:18.9px}
+.icon--clock{--icon-src:url('../assets/icons/clock.svg');width:21.1875px;height:21.1075px}
+.icon--moon{--icon-src:url('../assets/icons/moon.svg');width:25.225px;height:25.215px}
+.icon--reader-bookmark{--icon-src:url('../assets/icons/reader-bookmark.svg');width:18.525px;height:25.275px}
+.icon--share{--icon-src:url('../assets/icons/share.svg');width:21.225px;height:25.275px}
+.icon--check{--icon-src:url('../assets/icons/check.svg');width:21.225px;height:15.825px}
+.icon--reader-previous{--icon-src:url('../assets/icons/reader-previous.svg');width:18.675px;height:16.575px}
+.icon--reader-next{--icon-src:url('../assets/icons/reader-next.svg');width:18.675px;height:16.575px}
+.icon--close{--icon-src:url('../assets/icons/close.svg');width:20.55px;height:20.55px}
+.icon--toc-open{--icon-src:url('../assets/icons/toc-open.svg');width:20.55px;height:20.55px}
+.icon--toc-close{--icon-src:url('../assets/icons/toc-close.svg');width:20.55px;height:20.55px}
+.btn .design-icon,.link-arrow .design-icon,.card__title .design-icon{transition:transform .3s var(--ease-out)}
+.btn:hover .design-icon{transform:translateX(3px)}
+.card__save[aria-pressed=true] .design-icon,.reader__tools [aria-pressed=true] .design-icon{background-color:var(--clay)}
+.btn--underline:hover .design-icon,.site-footer__nav a:hover .design-icon,.site-footer__nav button:hover .design-icon{transform:translate(2px,-2px)}
+.data__note .design-icon{color:var(--olive)}
