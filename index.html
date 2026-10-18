@@ -1,363 +1,1324 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>etarismo. — Revista digital · Edição especial 2026</title>
-  <meta name="description" content="Revista digital sobre etarismo no mercado de trabalho brasileiro. Edição especial 2026.">
-  <meta name="theme-color" content="#f7f6f0">
-  <link rel="preload" href="assets/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>etarismo. Revista digital</title>
+<meta name="description" content="Revista digital sobre etarismo no mercado de trabalho brasileiro. Edição especial 2026.">
+<meta name="theme-color" content="#F7F6F0">
+<style>
+@font-face{font-family:"DM Serif Display";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/dm-serif-display-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"DM Serif Display";font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/dm-serif-display-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-style:normal;font-weight:100 1000;font-display:swap;src:url(assets/fonts/dm-sans-latin-opsz-normal.woff2) format("woff2")}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(assets/fonts/lora-latin-wght-normal.woff2) format("woff2")}
+@font-face{font-family:"Lora";font-style:italic;font-weight:400 700;font-display:swap;src:url(assets/fonts/lora-latin-wght-italic.woff2) format("woff2")}
+
+/* Tokens extraídos dos frames do Figma (Page 3). Medidas em px do frame de 1440. */
+:root{
+  --bg:#F7F6F0; --ink:#252525; --muted:#666666; --green:#47533B; --sage:#7A8565;
+  --pale:#E9EBDF; --line:#DCDCDC; --terra:#B95D40; --deep:#35422E; --chip:#ECE8E0;
+  --serif:"DM Serif Display",Georgia,serif; --sans:"DM Sans",system-ui,sans-serif; --read:"Lora",Georgia,serif;
+  /* 1 unidade = 1px no frame de 1440; encolhe proporcionalmente abaixo disso */
+  --u:min(1px, calc(100vw / 1440));
+  --gutter:max(16px, calc(72 * var(--u)));
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(160 * var(--u))}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+body.is-locked{overflow:hidden}
+img{display:block;max-width:100%}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,p,ul,ol,figure{margin:0;padding:0}
+ul,ol{list-style:none}
+.icon{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:2px solid var(--terra);outline-offset:4px}
+.skip{position:absolute;left:16px;top:-80px;z-index:100;background:var(--green);color:#fff;padding:12px 18px;font-size:16px}
+.skip:focus{top:16px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{width:min(1296px, calc(100% - 2 * var(--gutter)));margin-inline:auto}
+.serif{font-family:var(--serif);font-weight:400}
+em,.it{font-style:italic;color:var(--green)}
+
+/* ===== Cabeçalho ===== */
+.hdr{position:sticky;top:0;z-index:30;height:calc(160 * var(--u));min-height:72px;background:rgba(247,246,240,.86);backdrop-filter:blur(25px);-webkit-backdrop-filter:blur(25px);border-bottom:1.8px solid var(--line)}
+.hdr__row{height:100%;display:grid;grid-template-columns:calc(434 * var(--u)) 1fr auto;align-items:center;padding:0 max(16px, calc(66 * var(--u))) 0 max(16px, calc(46 * var(--u)))}
+.logo{display:inline-flex;flex-direction:column;align-items:flex-start;line-height:1}
+.logo__w{font-family:var(--serif);font-size:max(30px, calc(52 * var(--u)));letter-spacing:-.02em;color:var(--ink)}
+.logo__w i{font-style:normal;color:var(--terra)}
+.logo__s{margin-top:max(6px, calc(12 * var(--u)));margin-left:calc(4 * var(--u));font-size:max(8px, calc(10 * var(--u)));letter-spacing:.57em;text-transform:uppercase;font-weight:500}
+.nav ul{display:flex;gap:calc(42 * var(--u))}
+.nav a{position:relative;display:block;padding:12px 0;font-size:calc(18 * var(--u));color:var(--muted);transition:color .3s}
+.nav a:hover,.nav a[aria-current="true"]{color:var(--ink)}
+.nav a::after{content:"";position:absolute;left:50%;bottom:calc(-8 * var(--u));width:5.4px;height:5.4px;margin-left:-2.7px;border-radius:50%;background:var(--green);transform:scale(0);transition:transform .35s var(--ease)}
+.nav a[aria-current="true"]::after{transform:scale(1)}
+.tools{display:flex;gap:calc(38 * var(--u));align-items:center}
+.ibtn{position:relative;display:grid;place-items:center;width:44px;height:44px;font-size:max(22px, calc(30 * var(--u)));color:var(--ink)}
+.ibtn .icon{stroke-width:1.5}
+.ibtn__n{position:absolute;top:4px;right:2px;min-width:16px;height:16px;padding:0 4px;border-radius:8px;background:var(--terra);color:#fff;font-size:10px;line-height:16px;text-align:center}
+.menu-btn{display:none}
+
+/* ===== Abertura ===== */
+.kick{display:flex;justify-content:space-between;align-items:center;height:calc(119 * var(--u));min-height:56px;border-bottom:1.8px solid var(--line);font-size:max(10px, calc(14.4 * var(--u)));letter-spacing:.21em;text-transform:uppercase;font-weight:500}
+.kick__r{color:var(--muted)}
+.kick__r i{display:inline-block;width:5px;height:5px;margin:0 1.5em .2em;border-radius:50%;background:var(--terra);vertical-align:middle}
+.hero{position:relative;display:grid;grid-template-columns:calc(671 * var(--u)) calc(578 * var(--u)) 1fr;padding-top:calc(85 * var(--u));padding-bottom:calc(74 * var(--u));border-bottom:1.8px solid var(--line)}
+.hero__txt{padding-top:calc(33 * var(--u))}
+.eyebrow{display:flex;align-items:center;gap:calc(11 * var(--u));font-size:max(10px, calc(12.6 * var(--u)));font-weight:600;letter-spacing:.01em;text-transform:uppercase}
+.eyebrow::before{content:"";width:calc(11 * var(--u));height:calc(11 * var(--u));min-width:8px;min-height:8px;border-radius:50%;background:var(--green)}
+.h-hero{margin-top:calc(46 * var(--u));font-family:var(--serif);font-weight:400;font-size:calc(100 * var(--u));line-height:1.13;letter-spacing:-.01em}
+.h-hero .ln{display:block;overflow:hidden;padding-bottom:.06em;margin-bottom:-.06em}
+.h-hero .ln>span{display:inline-block}
+.h-hero em{letter-spacing:-.03em}
+.hero__sub{margin-top:calc(46 * var(--u));font-size:calc(22.4 * var(--u))}
+.hero__sub2{margin-top:calc(10 * var(--u));font-size:calc(19.4 * var(--u));color:var(--muted)}
+.hero__cta{display:flex;align-items:center;gap:calc(32 * var(--u));margin-top:calc(48 * var(--u))}
+.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;white-space:nowrap}
+.btn--solid{width:calc(248 * var(--u));min-width:200px;height:calc(86 * var(--u));padding:0 calc(36 * var(--u)) 0 calc(28 * var(--u));background:var(--green);color:#fff;font-size:max(15px, calc(17.6 * var(--u)));transition:background .3s}
+.btn--solid:hover{background:var(--deep)}
+.btn .icon{font-size:max(18px, calc(22 * var(--u)))}
+.lnk{position:relative;display:inline-flex;align-items:center;gap:calc(28 * var(--u));min-height:44px;font-size:calc(17.6 * var(--u));padding-bottom:calc(14 * var(--u))}
+.lnk::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1.8px;background:var(--line)}
+.lnk::before{content:"";position:absolute;left:0;right:0;bottom:0;height:1.8px;background:var(--green);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease);z-index:1}
+.lnk:hover::before{transform:scaleX(1)}
+.lnk .icon{font-size:max(18px, calc(22 * var(--u)));transition:transform .35s var(--ease)}
+.lnk:hover .icon,.btn:hover .icon,.card:hover .card__go,.toc__row:hover .icon,.foot__nav a:hover .icon{transform:translate(3px,-3px)}
+.lnk[data-down]:hover .icon{transform:translateY(3px)}
+.crew{display:flex;align-items:center;gap:calc(16 * var(--u));margin-top:calc(42 * var(--u))}
+.crew__av{display:flex}
+.crew__av span{display:grid;place-items:center;width:calc(50 * var(--u));height:calc(50 * var(--u));min-width:36px;min-height:36px;margin-right:calc(-17.5 * var(--u));border:calc(3.5 * var(--u)) solid var(--bg);border-radius:50%;background:var(--chip);color:var(--green);font-size:max(9px, calc(11 * var(--u)));font-weight:500}
+.crew__av span:nth-child(2){background:var(--pale)}
+.crew__av span:last-child{margin-right:0;background:var(--green);color:#fff}
+.crew__t{font-size:max(12px, calc(13.6 * var(--u)));line-height:1.9;color:var(--muted)}
+.crew__t a{display:inline-flex;align-items:center;gap:calc(18 * var(--u));color:var(--ink)}
+.crew__t a .icon{font-size:max(15px, calc(19 * var(--u)))}
+
+.cover{position:relative;align-self:start;height:calc(810 * var(--u));border-radius:calc(171 * var(--u)) 0 0 0;overflow:hidden;background:#333}
+.cover img{width:100%;height:100%;object-fit:cover;transform-origin:50% 40%}
+.cover::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(rgba(23,32,20,0),rgba(23,32,20,.66));pointer-events:none}
+.cover__tag{position:absolute;top:calc(45 * var(--u));right:calc(45 * var(--u));z-index:1;color:#fff;font-size:max(10px, calc(14.4 * var(--u)));letter-spacing:.24em}
+.cover__cap{position:absolute;left:calc(33 * var(--u));bottom:calc(140 * var(--u));z-index:1;color:#fff}
+.cover__cap small{display:block;font-size:max(8px, calc(10 * var(--u)));letter-spacing:.27em;font-weight:500}
+.cover__cap p{margin-top:calc(18 * var(--u));font-family:var(--serif);font-style:italic;font-size:calc(40 * var(--u));letter-spacing:-.01em}
+.next{position:absolute;right:0;top:calc(85 * var(--u) + 693 * var(--u));z-index:2;display:grid;grid-template-columns:calc(104 * var(--u)) 1fr auto;align-items:center;width:calc(414 * var(--u));height:calc(131 * var(--u));background:var(--green);color:#fff;transition:background .3s}
+.next:hover{background:var(--deep)}
+.next__n{height:calc(81 * var(--u));display:grid;place-items:center;border-right:1.8px solid rgba(255,255,255,.21);font-family:var(--serif);font-size:calc(52 * var(--u));color:var(--sage);letter-spacing:-.02em}
+.next__t{padding-left:calc(23 * var(--u))}
+.next__t small{display:block;font-size:max(9px, calc(11.2 * var(--u)));letter-spacing:.22em;color:var(--pale)}
+.next__t span{display:block;margin-top:calc(10 * var(--u));font-size:calc(16.4 * var(--u));line-height:1.6}
+.next .icon{margin-right:calc(33 * var(--u));font-size:calc(22 * var(--u))}
+
+.scroll{display:flex;justify-content:space-between;align-items:center;height:calc(134 * var(--u));color:var(--muted);font-size:max(9px, calc(13 * var(--u)));letter-spacing:.18em;text-transform:uppercase}
+.scroll a{display:inline-flex;align-items:center;gap:calc(26 * var(--u));min-height:44px;letter-spacing:0;text-transform:none;font-size:calc(18.4 * var(--u))}
+.scroll a .icon{font-size:calc(24 * var(--u));transition:transform .35s var(--ease)}
+.scroll a:hover .icon{transform:translateY(4px)}
+
+.stats{display:grid;grid-template-columns:calc(251 * var(--u)) calc(348 * var(--u)) calc(348 * var(--u)) 1fr;align-items:start;min-height:calc(268 * var(--u));margin-top:calc(16 * var(--u));padding:calc(64 * var(--u)) calc(31 * var(--u)) calc(48 * var(--u));background:var(--pale)}
+.stats__lbl{font-size:max(9px, calc(12.2 * var(--u)));font-weight:600;letter-spacing:.14em;line-height:1.5}
+.stats__h{margin-top:calc(16 * var(--u));font-family:var(--serif);font-size:calc(40 * var(--u));line-height:1.15;letter-spacing:-.02em}
+.stat{padding-top:calc(5 * var(--u))}
+.stat__n{font-family:var(--serif);font-size:calc(70 * var(--u));line-height:1;color:var(--green);letter-spacing:-.02em}
+.stat__n small{font-family:var(--sans);font-size:max(10px, calc(14.4 * var(--u)));letter-spacing:0;margin-left:.15em}
+.stat__l{margin-top:calc(8 * var(--u));font-size:max(12px, calc(14.4 * var(--u)))}
+.stat__s{margin-top:calc(24 * var(--u));font-size:max(8px, calc(9 * var(--u)));letter-spacing:.05em;color:var(--muted);text-transform:uppercase}
+
+/* ===== Seções ===== */
+.sec{padding-top:calc(126 * var(--u))}
+.label{display:flex;align-items:baseline;gap:calc(36 * var(--u));font-size:max(13px, calc(18.4 * var(--u)));font-weight:500;letter-spacing:.155em;text-transform:uppercase}
+.label b{font-weight:500;letter-spacing:.076em;color:var(--terra)}
+.h2{font-family:var(--serif);font-weight:400;font-size:calc(72 * var(--u));line-height:1.1;letter-spacing:-.01em}
+.sec__head{display:flex;justify-content:space-between;align-items:flex-end}
+#expand{margin-bottom:calc(12 * var(--u))}
+.sec__head .h2{margin-top:calc(44 * var(--u))}
+.tabs{display:flex;gap:calc(39 * var(--u));margin-top:calc(85 * var(--u));border-bottom:1.8px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.tab{position:relative;display:inline-flex;align-items:center;gap:calc(15 * var(--u));min-height:44px;padding-bottom:calc(27 * var(--u));font-size:calc(18 * var(--u));color:var(--muted);white-space:nowrap;transition:color .3s}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{color:var(--green);font-weight:500}
+.tab::after{content:"";position:absolute;left:0;right:0;bottom:-1.8px;height:3.6px;background:var(--green);transform:scaleX(0);transform-origin:left;transition:transform .45s var(--ease)}
+.tab[aria-selected="true"]::after{transform:scaleX(1)}
+.tab__c{display:none;min-width:calc(31 * var(--u));height:calc(26 * var(--u));padding:0 8px;border-radius:13px;background:var(--pale);font-size:max(11px, calc(12.5 * var(--u)));line-height:calc(26 * var(--u));text-align:center;font-weight:500}
+.tab[aria-selected="true"] .tab__c{display:inline-block}
+
+.grid{display:grid;grid-template-columns:repeat(3, 1fr);column-gap:calc(36 * var(--u));row-gap:calc(52 * var(--u));margin-top:calc(54 * var(--u))}
+.card{position:relative;display:flex;flex-direction:column;animation:cardIn .6s var(--ease) both}
+.card[hidden]{display:none}
+.card__img{position:relative;aspect-ratio:408/315;overflow:hidden;background:var(--line)}
+.card__img img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease)}
+.card:hover .card__img img{transform:scale(1.045)}
+.card__tag{position:absolute;left:calc(27 * var(--u));top:calc(27 * var(--u));padding:0 calc(20 * var(--u));height:calc(40.6 * var(--u));min-height:28px;display:grid;place-items:center;background:rgba(247,246,240,.937);font-size:max(10px, calc(13.6 * var(--u)));letter-spacing:0;text-transform:uppercase}
+.card__num{position:absolute;left:calc(28 * var(--u));bottom:calc(30 * var(--u));font-family:var(--serif);font-size:calc(64 * var(--u));line-height:1;color:#fff;letter-spacing:-.03em;pointer-events:none}
+.save{position:absolute;right:calc(22 * var(--u));top:calc(22 * var(--u));z-index:2;display:grid;place-items:center;width:calc(56 * var(--u));height:calc(56 * var(--u));min-width:44px;min-height:44px;border-radius:50%;background:rgba(247,246,240,.94);font-size:max(18px, calc(24 * var(--u)));transition:transform .3s var(--ease),background .3s}
+.save:hover{transform:scale(1.06)}
+.save[aria-pressed="true"] .icon{fill:var(--ink)}
+.card__meta{display:flex;justify-content:space-between;margin-top:calc(35 * var(--u));font-size:max(8px, calc(8.6 * var(--u)));letter-spacing:.057em;text-transform:uppercase;font-weight:500}
+.card__meta span:first-child{color:var(--terra)}
+.card__meta span:last-child{color:var(--muted)}
+.card__h{display:flex;justify-content:space-between;gap:16px;margin-top:calc(21 * var(--u))}
+.card__h a{flex:0 1 calc(351 * var(--u));font-family:var(--serif);font-size:calc(40 * var(--u));line-height:1.17;letter-spacing:-.02em}
+.card__h a::before{content:"";position:absolute;inset:0;z-index:1}
+.card__go{margin-top:calc(14 * var(--u));font-size:max(16px, calc(22 * var(--u)));transition:transform .35s var(--ease)}
+.card__x{margin-top:calc(30 * var(--u));font-size:calc(17.6 * var(--u));line-height:1.86;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+@keyframes cardIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.pager{display:flex;justify-content:space-between;align-items:center;margin-top:calc(46 * var(--u));padding-top:calc(56 * var(--u));border-top:1.8px solid var(--line)}
+.pager[hidden]{display:none}
+.pager__t{font-size:calc(17.6 * var(--u));color:var(--muted)}
+.dots{display:flex;gap:calc(16 * var(--u));align-items:center}
+.dot{width:calc(11 * var(--u));height:calc(11 * var(--u));min-width:9px;min-height:9px;border-radius:6px;background:var(--pale);transition:width .45s var(--ease),background .3s;position:relative}
+.dot::before{content:"";position:absolute;inset:-14px -6px}
+.dot[aria-current="true"]{width:calc(38 * var(--u));min-width:30px;background:var(--green)}
+.arrows{display:flex;gap:calc(11 * var(--u))}
+.round{display:grid;place-items:center;width:calc(70 * var(--u));height:calc(70 * var(--u));min-width:44px;min-height:44px;border:1.8px solid var(--line);border-radius:50%;font-size:max(18px, calc(22 * var(--u)));transition:background .3s,border-color .3s,color .3s}
+.round:hover:not(:disabled){background:var(--green);border-color:var(--green);color:#fff}
+.round:disabled{opacity:.35;cursor:default}
+
+.band{margin-top:calc(122 * var(--u));background:var(--pale)}
+.ed{display:grid;grid-template-columns:calc(563 * var(--u)) 1fr;padding:calc(128 * var(--u)) 0 calc(125 * var(--u))}
+.ed__big{margin-top:calc(43 * var(--u));font-family:var(--serif);font-size:calc(96 * var(--u));line-height:1;color:var(--green);letter-spacing:-.037em}
+.ed__h{font-family:var(--serif);font-weight:400;font-size:calc(59 * var(--u));line-height:1.12;letter-spacing:-.01em;margin-top:calc(-8 * var(--u))}
+.ed__p{max-width:calc(725 * var(--u));margin-top:calc(46 * var(--u));font-size:calc(19.6 * var(--u));line-height:1.93;color:var(--green)}
+.ed .lnk{margin-top:calc(53 * var(--u));font-size:calc(22 * var(--u));gap:calc(40 * var(--u))}
+.ed .lnk::after{background:transparent}
+
+.num{display:grid;grid-template-columns:calc(573 * var(--u)) 1fr;column-gap:calc(62 * var(--u));padding-top:calc(123 * var(--u));padding-bottom:calc(122 * var(--u))}
+.num__l{padding-top:calc(63 * var(--u))}
+.num .h2{margin-top:calc(44 * var(--u))}
+.num__p{max-width:calc(556 * var(--u));margin-top:calc(50 * var(--u));font-size:calc(19.4 * var(--u));line-height:1.93;color:var(--muted)}
+.num .lnk{margin-top:calc(54 * var(--u));width:calc(248 * var(--u));min-width:180px;justify-content:space-between;font-size:calc(22.4 * var(--u))}
+.ctx{display:flex;align-items:center;gap:calc(27 * var(--u));margin-top:calc(55 * var(--u));padding-top:calc(50 * var(--u));border-top:1.8px solid var(--line);font-size:max(13px, calc(15.6 * var(--u)));line-height:1.85;color:var(--muted)}
+.ctx .icon{font-size:max(24px, calc(32 * var(--u)));color:var(--green)}
+.ctx b{display:block;font-weight:400;color:var(--green)}
+.chart{padding:calc(40 * var(--u)) calc(39 * var(--u)) calc(30 * var(--u));border:1.8px solid var(--pale)}
+.chart__top{display:flex;justify-content:space-between;align-items:center;font-size:max(14px, calc(16.8 * var(--u)))}
+.chart__leg{display:flex;align-items:center;gap:calc(12 * var(--u));font-size:max(8px, calc(8.6 * var(--u)));letter-spacing:.02em;color:var(--muted)}
+.chart__leg::before{content:"";width:calc(9 * var(--u));height:calc(9 * var(--u));min-width:7px;min-height:7px;border-radius:50%;background:var(--green)}
+.chart__big{display:flex;align-items:flex-start;gap:calc(38 * var(--u));margin-top:calc(54 * var(--u))}
+.chart__big strong{font-family:var(--serif);font-weight:400;font-size:calc(84 * var(--u));line-height:1;color:var(--green);letter-spacing:0}
+.chart__big span{margin-top:calc(10 * var(--u));max-width:calc(170 * var(--u));min-width:120px;font-size:max(12px, calc(14.4 * var(--u)));line-height:1.6;color:var(--muted)}
+.plot{position:relative;display:grid;grid-template-columns:repeat(3, 1fr);column-gap:calc(38 * var(--u));height:calc(318 * var(--u));margin:calc(42 * var(--u)) 0 0 calc(62 * var(--u));padding:0 calc(17 * var(--u))}
+.plot__grid{position:absolute;inset:0 0 0 0;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none}
+.plot__grid span{position:relative;height:1.8px;background:var(--pale)}
+.plot__grid span::before{content:attr(data-v);position:absolute;left:calc(-62 * var(--u));top:50%;transform:translateY(-50%);font-size:max(9px, calc(11.5 * var(--u)));color:var(--muted)}
+.bar{position:relative;align-self:end;display:flex;flex-direction:column;justify-content:flex-end;height:100%;min-height:44px}
+.bar__fill{display:block;height:calc(var(--v) / 40 * 100%);transform-origin:bottom;transition:transform 1.2s var(--ease),filter .3s}
+.bar__val{position:absolute;left:0;right:0;bottom:calc(var(--v) / 40 * 100% + 14 * var(--u));text-align:center;font-size:max(12px, calc(15.5 * var(--u)));color:var(--green)}
+.bar:hover .bar__fill{filter:brightness(1.12)}
+.bar[aria-pressed="true"] .bar__val{font-weight:600}
+.plot__x{display:grid;grid-template-columns:repeat(3, 1fr);column-gap:calc(38 * var(--u));margin-left:calc(62 * var(--u));padding:calc(24 * var(--u)) calc(17 * var(--u)) 0;text-align:center}
+.plot__x b{display:block;font-size:max(13px, calc(16.8 * var(--u)));font-weight:500}
+.plot__x small{display:block;margin-top:calc(10 * var(--u));font-size:max(8px, calc(9 * var(--u)));letter-spacing:.15em;color:var(--muted);text-transform:uppercase}
+.chart__ft{margin-top:calc(42 * var(--u));padding-top:calc(30 * var(--u));border-top:1.8px solid var(--pale);font-size:max(9px, calc(9.4 * var(--u)));letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.chart__ft p{display:flex;align-items:center;gap:calc(16 * var(--u));margin-top:calc(14 * var(--u));letter-spacing:0;text-transform:none;font-size:max(11px, calc(11.5 * var(--u)))}
+.chart__ft p .icon{font-size:max(13px, calc(16 * var(--u)))}
+.chart__ft p+p{display:block;margin-top:calc(18 * var(--u));line-height:1.85;font-size:max(11px, calc(12.6 * var(--u)))}
+
+.rule{border-top:1.8px solid var(--pale)}
+.glo{display:grid;grid-template-columns:calc(641 * var(--u)) 1fr;padding:calc(142 * var(--u)) 0 calc(130 * var(--u))}
+.glo .h2{margin-top:calc(41 * var(--u));font-size:calc(64 * var(--u));line-height:1.2}
+.glo__p{margin-top:calc(31 * var(--u));font-size:calc(19.4 * var(--u));line-height:1.93;color:var(--muted)}
+.acc{margin-top:0;border-top:1.8px solid var(--pale)}
+.acc li{border-bottom:1.8px solid var(--pale)}
+.acc button{display:grid;grid-template-columns:calc(40 * var(--u)) 1fr auto;align-items:center;width:100%;min-height:calc(102 * var(--u));padding-right:calc(6 * var(--u));text-align:left}
+.acc__n{font-size:max(11px, calc(14.4 * var(--u)));letter-spacing:.1em;color:var(--sage)}
+.acc__t{font-size:calc(21.6 * var(--u));transition:color .3s}
+.acc button[aria-expanded="true"] .acc__t{color:var(--green)}
+.acc button:hover .acc__t{color:var(--green)}
+.acc__i{position:relative;width:calc(19 * var(--u));height:calc(19 * var(--u));min-width:16px;min-height:16px;color:var(--sage)}
+.acc__i::before,.acc__i::after{content:"";position:absolute;left:0;right:0;top:50%;height:1.8px;margin-top:-.9px;background:currentColor;transition:transform .4s var(--ease)}
+.acc__i::after{transform:rotate(90deg)}
+.acc button[aria-expanded="true"] .acc__i::after{transform:rotate(0)}
+.acc__d{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease)}
+.acc__d>div{overflow:hidden}
+.acc__d.is-open{grid-template-rows:1fr}
+.acc__d p{padding:0 calc(30 * var(--u)) calc(40 * var(--u)) calc(59 * var(--u));font-size:calc(20.8 * var(--u));line-height:1.78;color:var(--green)}
+
+.team{padding:calc(130 * var(--u)) 0 calc(182 * var(--u))}
+.team__head{display:flex;justify-content:space-between;align-items:flex-end}
+.team .h2{margin-top:calc(31 * var(--u))}
+.team__p{padding-bottom:calc(7 * var(--u));text-align:right;font-size:calc(19.4 * var(--u));line-height:1.82;color:var(--muted)}
+.people{display:grid;grid-template-columns:repeat(3, 1fr);row-gap:calc(48 * var(--u));margin-top:calc(113 * var(--u));text-align:center}
+.person img{width:calc(124 * var(--u));height:calc(124 * var(--u));min-width:88px;min-height:88px;margin:0 auto;border-radius:50%;object-fit:cover;background:var(--chip);transition:transform .6s var(--ease)}
+.person:hover img{transform:scale(1.05)}
+.person h3{margin-top:calc(23 * var(--u));font-weight:400;font-size:calc(19.4 * var(--u))}
+.person p{margin-top:calc(57 * var(--u));font-size:max(8px, calc(9 * var(--u)));letter-spacing:.2em;color:var(--muted)}
+
+.foot{background:var(--deep);color:var(--bg)}
+.foot__top{display:grid;grid-template-columns:calc(865 * var(--u)) 1fr;padding-top:calc(117 * var(--u))}
+.foot__lbl{font-size:max(10px, calc(14.4 * var(--u)));font-weight:500;letter-spacing:.23em;color:var(--pale)}
+.foot__h{margin-top:calc(29 * var(--u));font-family:var(--serif);font-weight:400;font-size:calc(88 * var(--u));line-height:1.13;letter-spacing:-.005em}
+.foot__h i{color:var(--pale)}
+.foot .lnk{margin-top:calc(79 * var(--u));color:var(--pale);width:calc(226 * var(--u));min-width:180px;justify-content:space-between}
+.foot .lnk::after{background:var(--green)}
+.foot .lnk::before{background:var(--pale)}
+.foot__nav{padding-top:calc(16 * var(--u))}
+.foot__nav .foot__lbl{font-size:max(10px, calc(13 * var(--u)));letter-spacing:.21em}
+.foot__nav ul{margin-top:calc(27 * var(--u))}
+.foot__nav a{display:flex;justify-content:space-between;align-items:center;min-height:calc(59.5 * var(--u));font-size:calc(17.6 * var(--u));color:var(--pale)}
+.foot__nav a .icon{font-size:max(16px, calc(20 * var(--u)));transition:transform .35s var(--ease)}
+.foot__nav a:hover{color:#fff}
+.foot__bar{display:grid;grid-template-columns:calc(532 * var(--u)) auto 1fr;align-items:start;margin-top:calc(94 * var(--u));padding-top:calc(56 * var(--u));border-top:1.8px solid var(--green)}
+.foot__bar .logo__w{color:var(--bg);font-size:max(30px, calc(57 * var(--u)))}
+.foot__bar .logo__w i{color:var(--pale)}
+.foot__bar .logo__s{color:var(--pale)}
+.foot__ed{padding-top:calc(27 * var(--u));font-size:max(9px, calc(12 * var(--u)));letter-spacing:.17em;color:var(--pale)}
+.foot__top-btn{justify-self:end;display:inline-flex;align-items:center;gap:calc(32 * var(--u));min-height:44px;margin-top:calc(8 * var(--u));font-size:calc(17.6 * var(--u))}
+.foot__top-btn .icon{font-size:max(16px, calc(20 * var(--u)));transition:transform .35s var(--ease)}
+.foot__top-btn:hover .icon{transform:translateY(-4px)}
+.foot__cred{padding:calc(52 * var(--u)) 0 calc(42 * var(--u));font-size:max(10px, calc(11.5 * var(--u)));color:var(--pale)}
+
+/* ===== Leitor (modais) ===== */
+.ov{position:fixed;inset:0;z-index:50;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;background:rgba(229,229,226,.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .35s}
+.ov[hidden]{display:none}
+.ov.is-in{opacity:1}
+.panel{position:relative;width:min(1360px, calc(100% - 2 * max(12px, calc(40 * var(--u)))));margin:max(12px, calc(40 * var(--u))) auto;background:var(--bg);box-shadow:0 24px 60px rgba(0,0,0,.13);transform:translateY(40px);transition:transform .55s var(--ease),background .4s,color .4s}
+.ov.is-in .panel{transform:none}
+.r-head{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:calc(120 * var(--u));min-height:64px;padding:0 calc(48 * var(--u)) 0 calc(52 * var(--u));background:inherit;border-bottom:1.8px solid var(--line)}
+.r-back{display:inline-flex;align-items:center;gap:calc(18 * var(--u));min-height:44px;font-size:max(14px, calc(17.6 * var(--u)))}
+.r-back .icon,.r-x .icon{font-size:max(20px, calc(26 * var(--u)))}
+.r-head .logo__w{font-size:max(26px, calc(46 * var(--u)))}
+.r-head .logo__w i{color:inherit}
+.r-pg{justify-self:end;display:flex;align-items:center;gap:calc(46 * var(--u));font-size:max(10px, calc(12 * var(--u)));letter-spacing:.2em;color:var(--sage)}
+.r-x{display:grid;place-items:center;width:44px;height:44px}
+.r-prog{position:absolute;left:0;bottom:-1.8px;height:1.8px;width:100%;background:var(--green);transform:scaleX(var(--p,0));transform-origin:left}
+.r-body{padding:calc(110 * var(--u)) calc(70 * var(--u)) calc(100 * var(--u))}
+.r-kick{font-size:max(11px, calc(13.6 * var(--u)));font-weight:500;letter-spacing:.3em;color:var(--terra);text-transform:uppercase}
+.r-title{margin-top:calc(46 * var(--u));font-family:var(--serif);font-weight:400;font-size:calc(96 * var(--u));line-height:1.15;letter-spacing:-.01em;color:var(--ink)}
+.r-meta{display:flex;justify-content:space-between;align-items:center;margin-top:calc(42 * var(--u));font-size:max(13px, calc(15.6 * var(--u)));color:var(--sage)}
+.r-meta span{display:inline-flex;align-items:center;gap:calc(14 * var(--u))}
+.r-meta .icon{font-size:max(18px, calc(23 * var(--u)))}
+.r-meta small{font-size:max(10px, calc(11.5 * var(--u)));letter-spacing:.15em}
+.r-tools{display:flex;justify-content:space-between;align-items:center;height:calc(96 * var(--u));min-height:60px;margin-top:calc(40 * var(--u));border-block:1.8px solid var(--line)}
+.r-tools div{display:flex;align-items:center;gap:calc(14 * var(--u))}
+.r-tools button{display:grid;place-items:center;min-width:calc(58 * var(--u));min-height:44px;padding:0 calc(10 * var(--u));font-size:max(16px, calc(19.4 * var(--u)));border-radius:2px;transition:background .25s}
+.r-tools button:hover{background:rgba(71,83,59,.08)}
+.r-tools button .icon{font-size:max(22px, calc(28 * var(--u)))}
+.r-tools button[aria-pressed="true"] .icon{fill:currentColor}
+.r-tools #r-dark[aria-pressed="true"] .icon{fill:none}
+.r-sep{width:1.8px;height:calc(32 * var(--u));background:var(--line);margin:0 calc(14 * var(--u))}
+.r-text{--fs:34.2;margin-top:calc(58 * var(--u));font-family:var(--read);color:var(--green)}
+.r-text>p{font-size:calc(var(--fs) * var(--u));line-height:1.91;margin-bottom:calc(var(--fs) * 1.28 * var(--u))}
+.r-text>h3{margin:calc(100 * var(--u)) 0 calc(36 * var(--u));padding-top:calc(48 * var(--u));border-top:1.8px solid var(--line);font-family:var(--sans);font-weight:500;font-size:calc(32 * var(--u));letter-spacing:-.02em;color:var(--green)}
+.ref{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
+.fig{margin:calc(64 * var(--u)) 0 calc(56 * var(--u))}
+.fig__frame{border:1.8px solid var(--line);background:#fff}
+.fig__frame img{width:100%}
+.fig__zoom{display:flex;align-items:center;justify-content:center;gap:calc(18 * var(--u));width:100%;min-height:calc(70 * var(--u));background:var(--bg);font-family:var(--sans);font-size:max(13px, calc(15.6 * var(--u)));color:var(--ink)}
+.fig__zoom .icon{font-size:max(20px, calc(26 * var(--u)))}
+.fig__zoom:hover{background:var(--pale)}
+.fig figcaption{margin-top:calc(52 * var(--u));padding:calc(28 * var(--u)) calc(36 * var(--u));background:var(--pale);font-family:var(--sans);font-size:max(13px, calc(16.4 * var(--u)));line-height:1.9;color:var(--muted)}
+.r-end{display:flex;justify-content:space-between;align-items:center;margin-top:calc(110 * var(--u));padding-bottom:calc(58 * var(--u));border-bottom:1.8px solid var(--line);font-size:max(9px, calc(11 * var(--u)));letter-spacing:.2em;color:var(--sage);opacity:.12;transition:opacity .8s}
+.r-end .icon{font-size:max(20px, calc(26 * var(--u)))}
+.r-end.is-done{opacity:1}
+.r-nav{display:grid;grid-template-columns:1fr 1fr;gap:calc(80 * var(--u));margin-top:calc(64 * var(--u))}
+.r-nav a{display:block}
+.r-nav a:last-child{text-align:right;grid-column:2}
+.r-nav small{display:inline-flex;align-items:center;gap:calc(14 * var(--u));font-size:max(9px, calc(11 * var(--u)));letter-spacing:.15em;color:var(--sage)}
+.r-nav small .icon{font-size:max(18px, calc(22 * var(--u)))}
+.r-nav strong{display:block;margin-top:calc(26 * var(--u));font-family:var(--serif);font-weight:400;font-size:calc(44 * var(--u));line-height:1.23;letter-spacing:-.015em;color:var(--ink);transition:color .3s}
+.r-nav a:hover strong{color:var(--green)}
+
+.panel--toc{width:min(1314px, calc(100% - 2 * max(12px, calc(63 * var(--u)))));margin-top:max(12px, calc(63 * var(--u)));padding:calc(100 * var(--u)) calc(99 * var(--u)) calc(100 * var(--u))}
+.toc__x{position:absolute;top:calc(36 * var(--u));right:calc(36 * var(--u))}
+.toc__k{font-size:max(11px, calc(14.4 * var(--u)));font-weight:500;letter-spacing:.25em;color:var(--ink)}
+.toc__h{margin-top:calc(40 * var(--u));font-family:var(--serif);font-weight:400;font-size:calc(78 * var(--u));line-height:1.1;letter-spacing:-.03em}
+.toc__p{margin-top:calc(42 * var(--u));font-size:calc(19.4 * var(--u));color:var(--muted)}
+.toc__c{margin-top:calc(58 * var(--u));font-size:max(10px, calc(12.6 * var(--u)));letter-spacing:.2em;color:var(--sage)}
+.toc{margin-top:calc(30 * var(--u));width:min(100%, calc(1116 * var(--u)));border-top:1.8px solid var(--line)}
+.toc li{border-bottom:1.8px solid var(--line)}
+.toc__row{display:grid;grid-template-columns:calc(104 * var(--u)) 1fr auto;align-items:center;min-height:calc(165 * var(--u));padding-right:calc(10 * var(--u))}
+.toc__n{font-family:var(--serif);font-size:calc(50 * var(--u));color:var(--sage);letter-spacing:-.02em}
+.toc__row small{display:block;font-size:max(9px, calc(11.5 * var(--u)));letter-spacing:.1em;color:var(--sage);text-transform:uppercase}
+.toc__row strong{display:block;margin-top:calc(18 * var(--u));font-family:var(--serif);font-weight:400;font-size:calc(42 * var(--u));line-height:1.2;letter-spacing:-.015em;transition:color .3s}
+.toc__row:hover strong{color:var(--green)}
+.toc__row .icon{font-size:max(18px, calc(28 * var(--u)));transition:transform .35s var(--ease)}
+.toc__row .saved{display:inline-block;width:7px;height:7px;margin-right:10px;border-radius:50%;background:var(--terra);vertical-align:middle}
+
+.lb{position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:24px;background:rgba(23,32,20,.88)}
+.lb[hidden]{display:none}
+.lb img{max-width:min(1400px, 100%);max-height:calc(100vh - 96px);background:#fff}
+.lb button{position:absolute;top:16px;right:16px;width:48px;height:48px;display:grid;place-items:center;color:#fff;font-size:28px}
+.toast{position:fixed;left:50%;bottom:32px;z-index:80;transform:translate(-50%,20px);padding:14px 22px;background:var(--ink);color:var(--bg);font-size:15px;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s}
+.toast.is-on{opacity:1;transform:translate(-50%,0)}
+
+/* Leitura escura */
+.panel.is-dark{background:#1E241B;color:#E9EBDF}
+.panel.is-dark .r-title,.panel.is-dark .r-nav strong,.panel.is-dark .logo__w{color:#F7F6F0}
+.panel.is-dark .r-text,.panel.is-dark .r-text>h3{color:#DCE0CF}
+.panel.is-dark .r-head,.panel.is-dark .r-tools,.panel.is-dark .r-end,.panel.is-dark .r-text>h3{border-color:#3A4433}
+.panel.is-dark .fig figcaption{background:#2A3226;color:#C9CDBE}
+.panel.is-dark .fig__zoom{background:#2A3226;color:#E9EBDF}
+.panel.is-dark .r-kick{color:#D98466}
+.panel.is-dark .r-meta,.panel.is-dark .r-pg,.panel.is-dark .r-nav small,.panel.is-dark .r-end{color:#A9B394}
+
+/* ===== Movimento ===== */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.is-in{opacity:1;transform:none}
+.js .h-hero .ln>span{transform:translateY(105%);transition:transform 1.1s var(--ease)}
+.js .is-ready .h-hero .ln>span{transform:none}
+.js .is-ready .h-hero .ln:nth-child(2)>span{transition-delay:.12s}
+.js .is-ready .h-hero .ln:nth-child(3)>span{transition-delay:.24s}
+.js .cover img{transform:scale(1.12);transition:transform 1.8s var(--ease)}
+.js .is-ready .cover img{transform:scale(1)}
+.js .cover{clip-path:inset(100% 0 0 0);transition:clip-path 1.3s var(--ease)}
+.js .is-ready .cover{clip-path:inset(0 0 0 0)}
+.js .next{opacity:0;transform:translateX(30px);transition:opacity .8s .7s,transform .8s .7s var(--ease),background .3s}
+.js .is-ready .next{opacity:1;transform:none}
+.js .bar__fill{transform:scaleY(0)}
+.js .plot.is-in .bar__fill{transform:scaleY(1)}
+.js .plot.is-in .bar:nth-child(3) .bar__fill{transition-delay:.12s}
+.js .plot.is-in .bar:nth-child(4) .bar__fill{transition-delay:.24s}
+.js .bar__val{opacity:0;transition:opacity .5s 1s}
+.js .plot.is-in .bar__val{opacity:1}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important;transition-delay:0s!important}
+  .rv,.js .h-hero .ln>span,.js .cover img,.js .next,.js .bar__fill,.js .bar__val{opacity:1!important;transform:none!important}
+  .js .cover{clip-path:none!important}
+}
+
+/* ===== Telas menores (o Figma só tem o frame de 1440; abaixo disso a composição empilha) ===== */
+@media (max-width:1100px){
+  .nav ul{gap:22px}
+  .nav a{font-size:15px}
+  .hdr__row{grid-template-columns:auto 1fr auto;gap:24px}
+  .nav{justify-self:center}
+}
+@media (max-width:900px){
+  :root{--u:1px;--gutter:clamp(16px, 4vw, 32px)}
+  html{scroll-padding-top:80px}
+  .hdr{height:72px}
+  .hdr__row{grid-template-columns:1fr auto;padding:0 16px}
+  .logo__w{font-size:30px}
+  .logo__s{font-size:7.5px;margin-top:5px}
+  .tools{gap:4px}
+  .ibtn{font-size:22px}
+  .menu-btn{display:grid}
+  .nav{position:fixed;left:0;right:0;top:72px;justify-self:stretch;background:var(--bg);border-bottom:1.8px solid var(--line);padding:8px 16px 20px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility .25s}
+  .nav.is-open{opacity:1;visibility:visible;transform:none}
+  .nav ul{flex-direction:column;gap:0}
+  .nav a{padding:14px 0;font-size:20px;border-bottom:1px solid var(--line)}
+  .nav a::after{display:none}
+  .nav a[aria-current="true"]{color:var(--green)}
+  .kick{height:auto;padding:18px 0;font-size:10px;letter-spacing:.2em;gap:12px}
+  .kick__r i{margin:0 .7em .2em}
+  .hero{grid-template-columns:1fr;padding:32px 0 48px}
+  .hero__txt{padding-top:0}
+  .h-hero{margin-top:22px;font-size:clamp(48px, 14vw, 72px)}
+  .hero__sub{margin-top:24px;font-size:19px}
+  .hero__sub2{font-size:16px}
+  .hero__cta{margin-top:28px;flex-wrap:wrap;gap:20px}
+  .btn--solid{height:64px;font-size:16px;padding:0 24px}
+  .lnk{font-size:16px;gap:20px}
+  .crew{margin-top:28px;gap:14px;flex-wrap:wrap}
+  .cover{grid-row:2;margin-top:40px;height:auto;aspect-ratio:578/700;border-radius:96px 0 0 0}
+  .cover__tag{top:24px;right:24px;font-size:10px}
+  .cover__cap{left:22px;bottom:28px}
+  .cover__cap p{font-size:28px;margin-top:10px}
+  .next{position:relative;grid-row:3;top:auto;right:auto;width:100%;height:auto;min-height:104px;margin-top:-20px;grid-template-columns:84px 1fr auto}
+  .next__n{height:64px;font-size:40px}
+  .next__t span{font-size:15px}
+  .next .icon{font-size:20px;margin-right:20px}
+  .scroll{height:auto;padding:20px 0;gap:12px}
+  .scroll>span{display:none}
+  .scroll a{font-size:16px;margin:0 auto}
+  .stats{grid-template-columns:1fr;gap:28px;padding:32px 22px 36px}
+  .stats__h{font-size:32px;margin-top:12px}
+  .stat{display:grid;grid-template-columns:auto 1fr;column-gap:16px;align-items:end;padding-top:24px;border-top:1.8px solid rgba(71,83,59,.15)}
+  .stat__n{font-size:48px;grid-row:span 2}
+  .stat__l,.stat__s{margin-top:0}
+  .sec{padding-top:72px}
+  .label{gap:16px;font-size:13px}
+  .h2{font-size:clamp(38px, 10.5vw, 52px)}
+  .sec__head{flex-direction:column;align-items:flex-start;gap:24px}
+  .sec__head .h2{margin-top:20px}
+  .tabs{margin-top:36px;gap:24px}
+  .tab{font-size:16px}
+  .tab__c{height:24px;line-height:24px}
+  .grid{grid-template-columns:1fr;row-gap:44px;margin-top:32px}
+  .card__tag{left:16px;top:16px;font-size:11px;padding:0 12px}
+  .save{right:12px;top:12px}
+  .card__num{left:18px;bottom:16px;font-size:48px}
+  .card__meta{margin-top:20px;font-size:10px}
+  .card__h{margin-top:16px}
+  .card__h a{font-size:30px}
+  .card__x{margin-top:14px;font-size:16px}
+  .pager{margin-top:36px;padding-top:28px;flex-wrap:wrap;gap:20px}
+  .pager__t{font-size:15px;width:100%}
+  .band{margin-top:72px}
+  .ed,.num,.glo{grid-template-columns:1fr;padding:64px 0}
+  .ed__big{font-size:64px;margin:20px 0 40px}
+  .ed__h{font-size:36px;margin-top:0}
+  .ed__p,.num__p,.glo__p,.team__p{font-size:17px}
+  .ed .lnk,.num .lnk{font-size:18px}
+  .num__l{padding-top:0}
+  .num>*,.ed>*,.glo>*,.hero>*{min-width:0}
+  .r-tools button{min-width:44px;padding:0 4px}
+  .r-sep{margin:0 4px}
+  .stat__s,.chart__leg,.plot__x small,.chart__ft,.card__meta,.person p,.r-meta small,.r-nav small,.toc__row small,.r-end{font-size:11px}
+  .logo__s{font-size:8px}
+  .dot::before{inset:-16px -8px}
+  .num .h2{margin-top:20px}
+  .num__p{margin-top:28px}
+  .ctx{font-size:14px}
+  .chart{margin-top:48px;padding:24px 18px}
+  .chart__top{font-size:15px;gap:12px}
+  .chart__big strong{font-size:56px}
+  .chart__big span{min-width:0}
+  .plot__x>*{min-width:0}
+  .plot__x small{font-size:10px;letter-spacing:.04em}
+  .plot{height:240px;margin-left:38px;column-gap:16px;padding:0 6px}
+  .plot__grid span::before{left:-38px}
+  .foot__h br{display:none}
+  .plot__x{margin-left:38px;column-gap:16px;padding:16px 6px 0}
+  .glo .h2{font-size:clamp(36px, 10vw, 48px);margin-top:20px}
+  .glo__p{margin:24px 0 36px}
+  .acc button{grid-template-columns:36px 1fr auto;min-height:72px}
+  .acc__t{font-size:18px}
+  .acc__d p{padding:0 8px 28px 36px;font-size:17px}
+  .team{padding:64px 0 88px}
+  .team__head{flex-direction:column;align-items:flex-start;gap:20px}
+  .team .h2{margin-top:20px}
+  .team__p{text-align:left;padding:0}
+  .people{grid-template-columns:repeat(2, 1fr);row-gap:40px;margin-top:48px}
+  .person h3{font-size:16px;margin-top:18px}
+  .person p{margin-top:10px;font-size:9px}
+  .foot__top{grid-template-columns:1fr;padding-top:64px;gap:56px}
+  .foot__h{font-size:clamp(40px, 11vw, 56px);margin-top:24px}
+  .foot .lnk{font-size:17px}
+  .foot__nav a{min-height:52px;font-size:17px}
+  .foot__bar{display:flex;flex-wrap:wrap;justify-content:space-between;row-gap:24px;margin-top:56px;padding-top:36px}
+  .foot__ed{order:3;width:100%;padding-top:0;font-size:10px;letter-spacing:.12em}
+  .foot__top-btn{font-size:16px}
+  .foot__cred{font-size:11px;line-height:1.6}
+  .r-head{height:64px;padding:0 8px 0 12px}
+  .r-back span{display:none}
+  .r-head .logo__w{font-size:26px}
+  .r-pg{gap:4px}
+  .r-body{padding:44px 20px 56px}
+  .r-title{font-size:clamp(34px, 9.5vw, 48px);margin-top:20px}
+  .r-meta{margin-top:24px;flex-wrap:wrap;gap:8px}
+  .r-tools{margin-top:24px}
+  .r-tools div{gap:0}
+  .r-text{--fs:19;margin-top:32px}
+  .r-text>h3{font-size:22px;margin:48px 0 20px;padding-top:28px}
+  .fig figcaption{padding:16px 18px;margin-top:20px}
+  .r-end{margin-top:56px;padding-bottom:28px}
+  .r-nav{grid-template-columns:1fr;gap:32px;margin-top:36px}
+  .r-nav a:last-child{grid-column:1}
+  .r-nav strong{font-size:26px}
+  .panel--toc{padding:56px 20px 40px}
+  .toc__x{top:8px;right:8px}
+  .toc__h{font-size:clamp(34px, 9.5vw, 48px);margin-top:20px}
+  .toc__p{font-size:16px;margin-top:20px}
+  .toc__c{margin-top:32px}
+  .toc__row{grid-template-columns:48px 1fr auto;min-height:104px;padding:18px 0}
+  .toc__n{font-size:28px}
+  .toc__row strong{font-size:21px;margin-top:8px}
+}
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-ne" viewBox="0 0 24 24"><path d="M5 19 19 5M8 5h11v11"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M3 12h18M14 5l7 7-7 7"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M21 12H3M10 5l-7 7 7 7"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 3v18M5 14l7 7 7-7"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 21V3M5 10l7-7 7 7"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></symbol>
+  <symbol id="i-mark" viewBox="0 0 24 24"><path d="M5.5 2.5h13v19L12 16.3l-6.5 5.2z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M3 3l18 18M21 3 3 21"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 6.5V12l3.5 2.2"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.5A9 9 0 1 1 9.5 3.5a7.5 7.5 0 0 0 11 11z"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V2.5M7 7.5l5-5 5 5M4 12v9.5h16V12"/></symbol>
+  <symbol id="i-zoom" viewBox="0 0 24 24"><path d="M3 8V3h5M16 3h5v5M21 16v5h-5M8 21H3v-5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m3 12.5 6 6 12-13"/></symbol>
+  <symbol id="i-book" viewBox="0 0 28 24"><path d="M14 4.5C11.5 2.5 7 1.8 1.5 2.3v17.5c5.5-.5 10 .2 12.5 2.2 2.5-2 7-2.7 12.5-2.2V2.3C21 1.8 16.5 2.5 14 4.5zM14 4.5V22"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 7h18M3 17h18"/></symbol>
+</svg>
 
-  <header class="site-header" data-header>
-    <div class="shell site-header__row">
-      <a class="brand" href="#inicio" aria-label="etarismo. — revista digital, voltar ao início">
-        <span class="brand__word">etarismo<span class="brand__dot">.</span></span>
-        <span class="brand__sub">Revista digital</span>
-      </a>
-
-      <nav class="main-nav" aria-label="Navegação principal" data-nav>
-        <ul>
-          <li><a href="#inicio" data-spy="inicio">Início</a></li>
-          <li><a href="#editorial" data-spy="editorial">Editorial</a></li>
-          <li><a href="#materias" data-spy="materias">Matérias</a></li>
-          <li><a href="#em-numeros" data-spy="em-numeros">Em números</a></li>
-          <li><a href="#participantes" data-spy="participantes">Participantes</a></li>
-        </ul>
-      </nav>
-
-      <div class="header-tools">
-        <button class="icon-btn" type="button" data-open-search aria-label="Buscar na revista">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.4-4.4"/></svg>
-        </button>
-        <button class="icon-btn icon-btn--saved" type="button" data-open-saved aria-label="Matérias salvas nesta sessão: 0">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h11v16l-5.5-4-5.5 4z"/></svg>
-          <span class="saved-count" data-saved-count hidden>0</span>
-        </button>
-        <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="menu-sheet" aria-label="Abrir menu">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
-        </button>
-      </div>
-    </div>
-    <div class="menu-sheet" id="menu-sheet" hidden data-menu-sheet>
-      <ul class="shell">
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#editorial">Editorial</a></li>
-        <li><a href="#materias">Matérias</a></li>
-        <li><a href="#em-numeros">Em números</a></li>
-        <li><a href="#participantes">Participantes</a></li>
+<header class="hdr" id="topo">
+  <div class="hdr__row">
+    <a class="logo" href="#inicio" aria-label="etarismo., revista digital. Voltar ao início">
+      <span class="logo__w" aria-hidden="true">etarismo<i>.</i></span>
+      <span class="logo__s" aria-hidden="true">Revista digital</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#inicio" data-spy="inicio">Início</a></li>
+        <li><a href="#editorial" data-spy="editorial">Editorial</a></li>
+        <li><a href="#materias" data-spy="materias">Matérias</a></li>
+        <li><a href="#em-numeros" data-spy="em-numeros">Em números</a></li>
+        <li><a href="#participantes" data-spy="participantes">Participantes</a></li>
       </ul>
+    </nav>
+    <div class="tools">
+      <button class="ibtn" type="button" data-open="sumario" aria-label="Buscar uma leitura no sumário"><svg class="icon"><use href="#i-search"/></svg></button>
+      <button class="ibtn" type="button" data-open="sumario" id="saved-btn" aria-label="Leituras salvas no sumário"><svg class="icon"><use href="#i-mark"/></svg><span class="ibtn__n" id="saved-n" hidden></span></button>
+      <button class="ibtn menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu"><svg class="icon"><use href="#i-menu"/></svg></button>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main id="conteudo" tabindex="-1">
-
-    <!-- HERO ----------------------------------------------------------- -->
-    <section class="hero shell" id="inicio" aria-labelledby="hero-title">
-      <div class="hero__strip hero__strip--top">
-        <p>Um novo olhar sobre a idade</p>
-        <p class="hero__edition">Edição especial <span class="dot" aria-hidden="true"></span> 2026</p>
+<main id="conteudo">
+  <section id="inicio" aria-labelledby="capa-h">
+    <div class="wrap">
+      <div class="kick">
+        <span>Um novo olhar sobre a idade</span>
+        <span class="kick__r">Edição especial<i></i>2026</span>
       </div>
-
-      <div class="hero__grid">
-        <div class="hero__copy">
-          <p class="hero__topic"><span class="hero__topic-dot" aria-hidden="true"></span>Trabalho, longevidade e sociedade</p>
-          <h1 class="hero__title" id="hero-title">
-            <span class="line"><span>Idade não é</span></span>
-            <span class="line"><span>barreira.</span></span>
-            <span class="line"><em>É trajetória.</em></span>
+      <div class="hero">
+        <div class="hero__txt">
+          <p class="eyebrow">Trabalho, longevidade e sociedade</p>
+          <h1 class="h-hero" id="capa-h">
+            <span class="ln"><span>Idade não é</span></span>
+            <span class="ln"><span>barreira.</span></span>
+            <span class="ln"><span><em>É trajetória.</em></span></span>
           </h1>
-          <p class="hero__lede">Etarismo no mercado de trabalho</p>
-          <p class="hero__sublede">Quando a idade substitui a competência.</p>
-
-          <div class="hero__actions">
-            <button class="btn btn--solid" type="button" data-open-article="editorial">
-              Começar a leitura
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </button>
-            <button class="btn btn--line" type="button" data-open-summary>
-              Ver sumário
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h9"/></svg>
-            </button>
+          <p class="hero__sub">Etarismo no mercado de trabalho</p>
+          <p class="hero__sub2">Quando a idade substitui a competência.</p>
+          <div class="hero__cta">
+            <a class="btn btn--solid" href="#/leitura/editorial">Começar a leitura <svg class="icon"><use href="#i-ne"/></svg></a>
+            <a class="lnk" href="#/sumario">Ver sumário <svg class="icon"><use href="#i-right"/></svg></a>
           </div>
-
-          <div class="hero__team">
-            <ul class="avatar-stack" aria-hidden="true">
-              <li>GM</li><li>AV</li><li>MR</li><li>+3</li>
-            </ul>
-            <div>
-              <p class="hero__team-line">Pesquisa que conecta gerações.</p>
-              <a class="link-arrow" href="#participantes">Conheça os 6 integrantes
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-              </a>
-            </div>
+          <div class="crew">
+            <div class="crew__av" aria-hidden="true"><span>GM</span><span>AV</span><span>MR</span><span>+3</span></div>
+            <p class="crew__t">Pesquisa que conecta gerações.<br><a href="#participantes">Conheça os 6 integrantes <svg class="icon"><use href="#i-right"/></svg></a></p>
           </div>
         </div>
-
-        <div class="hero__visual">
-          <figure class="cover-frame">
-            <div class="media" data-media data-src="assets/img/retrato-danie-franco.jpg"
-                 data-alt="Retrato em preto e branco de uma mulher idosa. Fotografia ilustrativa de Danie Franco, Unsplash."></div>
-            <span class="cover-frame__index">01 — Capa</span>
-            <figcaption class="cover-frame__caption">
-              <span class="cover-frame__kicker">O tempo conta histórias.</span>
-              <span class="cover-frame__line">A gente precisa ouvir.</span>
-            </figcaption>
-          </figure>
-          <button class="next-read" type="button" data-open-article="curriculo-elogiado">
-            <span class="next-read__num">04</span>
-            <span class="next-read__text">
-              <small>Nesta edição</small>
-              <strong>Um currículo elogiado, uma porta fechada.</strong>
-            </span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="hero__strip hero__strip--bottom">
-        <p>Idade não define competência.</p>
-        <a href="#numeros" class="scroll-cue">Deslize para descobrir <span aria-hidden="true">↓</span></a>
-        <p>Leitura sem preconceitos.</p>
-      </div>
-    </section>
-
-    <!-- QUICK NUMBERS -------------------------------------------------- -->
-    <section class="quick shell" id="numeros" aria-labelledby="quick-title">
-      <div class="quick__head">
-        <p class="eyebrow">O cenário</p>
-        <h2 id="quick-title">Além dos <em>estereótipos.</em></h2>
-      </div>
-      <ul class="quick__list" data-quick-list></ul>
-    </section>
-
-    <!-- STORIES -------------------------------------------------------- -->
-    <section class="stories shell" id="materias" aria-labelledby="stories-title">
-      <div class="section-head">
-        <div>
-          <p class="section-index"><span>01 /</span> Nesta edição</p>
-          <h2 id="stories-title">Histórias que merecem <em>um novo olhar.</em></h2>
-        </div>
-        <button class="btn btn--line" type="button" data-toggle-all aria-pressed="false">
-          <span data-toggle-all-label>Todas as matérias</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </button>
-      </div>
-
-      <div class="filters" role="group" aria-label="Filtrar matérias por tema" data-filters></div>
-
-      <div class="cards" data-cards aria-live="polite"></div>
-
-      <div class="pager" data-pager>
-        <p class="pager__label">Uma leitura. Muitas perspectivas.</p>
-        <div class="pager__dots" data-pager-dots role="group" aria-label="Páginas de matérias"></div>
-        <div class="pager__arrows">
-          <button class="icon-btn icon-btn--ring" type="button" data-page-prev aria-label="Matérias anteriores">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
-          </button>
-          <button class="icon-btn icon-btn--ring" type="button" data-page-next aria-label="Próximas matérias">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDITORIAL ------------------------------------------------------ -->
-    <section class="editorial" id="editorial" aria-labelledby="editorial-title">
-      <div class="shell editorial__grid">
-        <div class="editorial__meta">
-          <p class="section-index"><span>02 /</span> Carta de abertura</p>
-          <p class="editorial__mark" aria-hidden="true">Editorial</p>
-        </div>
-        <div class="editorial__body">
-          <h2 id="editorial-title">Quando a idade <em>substitui a</em> competência.</h2>
-          <p>Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as fronteiras etárias são construídas socialmente. No mercado de trabalho brasileiro, essa classificação torna-se desigualdade quando a idade substitui a avaliação de competências.</p>
-          <button class="btn btn--line" type="button" data-open-article="editorial">
-            Ler o editorial completo
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- DATA EXPLORER -------------------------------------------------- -->
-    <section class="data shell" id="em-numeros" aria-labelledby="data-title">
-      <div class="data__copy">
-        <p class="section-index"><span>03 /</span> A realidade em números</p>
-        <h2 id="data-title">O país mudou. <em>E o mercado?</em></h2>
-        <p>A procura de Sibele acontece em um Brasil que já mudou de idade. Nas Projeções da População revistas pelo IBGE em 2024, o grupo com 60 anos ou mais passou de 8,7% da população em 2000 para 15,6% em 2023. Para 2070, a projeção chega a 37,8%.</p>
-        <button class="btn btn--line" type="button" data-open-article="mercado-muda">
-          Entenda os dados
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-        </button>
-        <p class="data__note">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h6.5a2 2 0 0 1 2 2V19a1.5 1.5 0 0 0-1.5-1.5H4zM20 5.5h-6.5a2 2 0 0 0-2 2V19a1.5 1.5 0 0 1 1.5-1.5H20z"/></svg>
-          <span>Dados com contexto.<br>Informação sem estereótipos.</span>
-        </p>
-      </div>
-
-      <figure class="explorer" data-explorer aria-labelledby="explorer-title">
-        <div class="explorer__top">
-          <p id="explorer-title">Um Brasil que envelhece</p>
-          <p class="explorer__tag"><span aria-hidden="true"></span>População 60+</p>
-        </div>
-        <p class="explorer__readout" aria-live="polite">
-          <strong data-readout-value>15,6%</strong>
-          <span data-readout-label>da população brasileira<br>em 2023</span>
-        </p>
-        <div class="explorer__chart">
-          <div class="explorer__plot">
-            <div class="explorer__grid" data-grid aria-hidden="true"></div>
-            <div class="explorer__bars" data-bars role="group" aria-label="População com 60 anos ou mais por ano"></div>
-          </div>
-        </div>
-        <figcaption class="explorer__foot">
-          <span>IBGE · Projeções da População, revisão 2024</span>
-          <span class="explorer__hint">Clique nas barras para explorar</span>
-          <span class="explorer__fine">Estimativas retrospectivas para 2000 e 2023. A projeção para 2070 está condicionada às hipóteses demográficas.</span>
-        </figcaption>
-      </figure>
-    </section>
-
-    <!-- GLOSSARY ------------------------------------------------------- -->
-    <section class="glossary" id="glossario" aria-labelledby="glossary-title">
-      <div class="shell glossary__grid">
-        <div>
-          <p class="section-index"><span>04 /</span> Glossário de leitura</p>
-          <h2 id="glossary-title">Entender também <br>é <em>transformar.</em></h2>
-          <p class="glossary__lede">Os conceitos que atravessam esta edição.<br>Clique e amplie seu repertório.</p>
-        </div>
-        <div class="accordion" data-glossary></div>
-      </div>
-    </section>
-
-    <!-- TEAM ----------------------------------------------------------- -->
-    <section class="team shell" id="participantes" aria-labelledby="team-title">
-      <div class="section-head section-head--split">
-        <div>
-          <p class="section-index"><span>05 /</span> Quem faz a revista</p>
-          <h2 id="team-title">Uma pesquisa. <br><em>Seis perspectivas.</em></h2>
-        </div>
-        <p class="team__lede">Grupo de pesquisa sobre etarismo.<br>Um trabalho para ampliar a conversa.</p>
-      </div>
-      <ul class="team__grid" data-team></ul>
-    </section>
-  </main>
-
-  <!-- FOOTER ----------------------------------------------------------- -->
-  <footer class="site-footer">
-    <div class="shell">
-      <div class="site-footer__top">
-        <div>
-          <p class="site-footer__eyebrow">O respeito não tem idade.</p>
-          <p class="site-footer__title">Continuar não pode<br>ser um <em>privilégio.</em></p>
-          <button class="btn btn--underline" type="button" data-open-article="reflexao-final">
-            Leia a reflexão final
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </button>
-        </div>
-        <nav class="site-footer__nav" aria-label="Continue explorando">
-          <p>Continue explorando</p>
-          <ul>
-            <li><button type="button" data-open-summary>Sumário da edição <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></button></li>
-            <li><button type="button" data-open-article="referencias">Referências e notas <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></button></li>
-            <li><button type="button" data-open-article="fontes-legislacao">Fontes de dados e legislação <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></button></li>
-            <li><a href="#participantes">Participantes <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="site-footer__bar">
-        <p class="brand brand--light"><span class="brand__word">etarismo<span class="brand__dot">.</span></span><span class="brand__sub">Revista digital</span></p>
-        <p class="site-footer__edition">Revista digital · Edição especial 2026</p>
-        <a class="link-arrow link-arrow--light" href="#inicio">Voltar ao topo
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+        <figure class="cover">
+          <img src="assets/img/capa-danie-franco.jpg" width="1200" height="1798" alt="Retrato em preto e branco de uma mulher idosa de óculos, sorrindo. Fotografia ilustrativa de Danie Franco, Unsplash." fetchpriority="high">
+          <span class="cover__tag">01 — CAPA</span>
+          <figcaption class="cover__cap"><small>O TEMPO CONTA HISTÓRIAS.</small><p>A gente precisa ouvir.</p></figcaption>
+        </figure>
+        <a class="next" href="#/leitura/curriculo-elogiado">
+          <span class="next__n">04</span>
+          <span class="next__t"><small>NESTA EDIÇÃO</small><span>Um currículo elogiado,<br>uma porta fechada.</span></span>
+          <svg class="icon"><use href="#i-ne"/></svg>
         </a>
       </div>
-      <p class="site-footer__credits">Fotografias ilustrativas: Danie Franco, Ravi Patel e Vitaly Gariev / Unsplash. As pessoas retratadas não representam as personagens da reportagem.</p>
-    </div>
-  </footer>
-
-  <!-- READER ----------------------------------------------------------- -->
-  <dialog class="reader" data-reader aria-labelledby="reader-title">
-    <div class="reader__paper" data-reader-paper>
-      <header class="reader__bar">
-        <button class="reader__back" type="button" data-close-reader>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
-          Voltar à edição
-        </button>
-        <p class="reader__brand" aria-hidden="true">etarismo.</p>
-        <p class="reader__page" data-reader-page></p>
-        <button class="icon-btn reader__close" type="button" data-close-reader aria-label="Fechar">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
-        </button>
-      </header>
-      <div class="reader__progress" aria-hidden="true"><span data-reader-progress></span></div>
-      <div class="reader__scroll" data-reader-scroll>
-        <article class="reader__article" data-reader-article></article>
+      <div class="scroll">
+        <span>Idade não define competência.</span>
+        <a href="#numeros-rapidos" data-down>Deslize para descobrir <svg class="icon"><use href="#i-down"/></svg></a>
+        <span>Leitura sem preconceitos.</span>
+      </div>
+      <div class="stats rv" id="numeros-rapidos">
+        <div>
+          <p class="stats__lbl">PARA ENTENDER<br>O CENÁRIO</p>
+          <h2 class="stats__h">Além dos<br><em>estereótipos.</em></h2>
+        </div>
+        <div class="stat"><p class="stat__n"><span data-count="32,1">32,1</span><small>milhões</small></p><p class="stat__l">de brasileiros têm 60 anos ou mais</p><p class="stat__s">IBGE · Censo 2022</p></div>
+        <div class="stat"><p class="stat__n"><span data-count="24,4">24,4</span><small>%</small></p><p class="stat__l">das pessoas 60+ estavam ocupadas</p><p class="stat__s">IBGE · PNAD Contínua 2024</p></div>
+        <div class="stat"><p class="stat__n"><span data-count="43,3">43,3</span><small>%</small></p><p class="stat__l">dos ocupados 60+ eram conta própria</p><p class="stat__s">IBGE · PNAD Contínua 2024</p></div>
       </div>
     </div>
-  </dialog>
+  </section>
 
-  <!-- SUMMARY ---------------------------------------------------------- -->
-  <dialog class="sheet" data-summary aria-labelledby="summary-title">
-    <div class="sheet__inner">
-      <header class="sheet__head">
+  <section class="sec" id="materias" aria-labelledby="mat-h">
+    <div class="wrap">
+      <div class="sec__head rv">
         <div>
-          <p class="sheet__eyebrow">Etarismo · Edição especial 2026</p>
-          <h2 id="summary-title">Uma edição. <em>Muitos caminhos.</em></h2>
-          <p class="sheet__count" data-summary-count></p>
+          <p class="label"><b>01 /</b> Nesta edição</p>
+          <h2 class="h2" id="mat-h">Histórias que merecem<br><em>um novo olhar.</em></h2>
         </div>
-        <button class="icon-btn" type="button" data-close-sheet aria-label="Fechar sumário">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
-        </button>
-      </header>
-      <ol class="toc" data-summary-list></ol>
+        <button class="lnk" type="button" id="expand" aria-expanded="false" aria-controls="grid"><span>Todas as matérias</span> <svg class="icon"><use href="#i-ne"/></svg></button>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Filtrar matérias por tema" id="tabs"></div>
+      <div class="grid" id="grid" aria-live="polite"></div>
+      <div class="pager" id="pager">
+        <p class="pager__t">Uma leitura. Muitas perspectivas.</p>
+        <div class="dots" id="dots"></div>
+        <div class="arrows">
+          <button class="round" type="button" id="prev" aria-label="Matérias anteriores"><svg class="icon"><use href="#i-left"/></svg></button>
+          <button class="round" type="button" id="next" aria-label="Próximas matérias"><svg class="icon"><use href="#i-right"/></svg></button>
+        </div>
+      </div>
     </div>
-  </dialog>
+  </section>
 
-  <!-- SEARCH ----------------------------------------------------------- -->
-  <dialog class="sheet sheet--search" data-search aria-labelledby="search-title">
-    <div class="sheet__inner">
-      <header class="sheet__head">
-        <h2 id="search-title">Buscar na revista</h2>
-        <button class="icon-btn" type="button" data-close-sheet aria-label="Fechar busca">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
-        </button>
-      </header>
-      <label class="search-field">
-        <span class="visually-hidden">Termo de busca</span>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.4-4.4"/></svg>
-        <input type="search" placeholder="Título, tema ou palavra do texto" autocomplete="off" data-search-input>
-      </label>
-      <p class="search-status" data-search-status aria-live="polite"></p>
-      <ol class="toc" data-search-list></ol>
+  <section class="band" id="editorial" aria-labelledby="ed-h">
+    <div class="wrap ed rv">
+      <div>
+        <p class="label"><b>02 /</b> Carta de abertura</p>
+        <p class="ed__big" aria-hidden="true">Editorial</p>
+      </div>
+      <div>
+        <h2 class="ed__h" id="ed-h">Quando a idade<br>substitui a <em>competência.</em></h2>
+        <p class="ed__p">Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as fronteiras etárias são construídas socialmente. No mercado de trabalho brasileiro, essa classificação torna-se desigualdade quando a idade substitui a avaliação de competências.</p>
+        <a class="lnk" href="#/leitura/editorial">Ler o editorial completo <svg class="icon"><use href="#i-ne"/></svg></a>
+      </div>
     </div>
-  </dialog>
+  </section>
 
-  <!-- SAVED ------------------------------------------------------------ -->
-  <dialog class="sheet" data-saved aria-labelledby="saved-title">
-    <div class="sheet__inner">
-      <header class="sheet__head">
+  <section id="em-numeros" aria-labelledby="num-h">
+    <div class="wrap num">
+      <div class="num__l rv">
+        <p class="label"><b>03 /</b> A realidade em números</p>
+        <h2 class="h2" id="num-h">O país mudou.<br><em>E o mercado?</em></h2>
+        <p class="num__p">A procura de Sibele acontece em um Brasil que já mudou de idade. Nas Projeções da População revistas pelo IBGE em 2024, o grupo com 60 anos ou mais passou de 8,7% da população em 2000 para 15,6% em 2023. Para 2070, a projeção chega a 37,8%.</p>
+        <a class="lnk" href="#/leitura/mercado-muda">Entenda os dados <svg class="icon"><use href="#i-ne"/></svg></a>
+        <p class="ctx"><svg class="icon"><use href="#i-book"/></svg><span>Dados com contexto.<b>Informação sem estereótipos.</b></span></p>
+      </div>
+      <div class="chart rv" role="group" aria-labelledby="chart-t">
+        <div class="chart__top"><p id="chart-t">Um Brasil que envelhece</p><p class="chart__leg">POPULAÇÃO 60+</p></div>
+        <p class="chart__big" aria-live="polite"><strong id="chart-v">15,6%</strong><span id="chart-d">da população brasileira em 2023</span></p>
+        <div class="plot" id="plot">
+          <div class="plot__grid" aria-hidden="true"><span data-v="40%"></span><span data-v="30%"></span><span data-v="20%"></span><span data-v="10%"></span><span data-v="0%"></span></div>
+          <button class="bar" type="button" style="--v:8.7" data-year="2000" data-val="8,7%" aria-pressed="false" aria-label="2000, estimativa: 8,7%"><span class="bar__val" aria-hidden="true">8,7%</span><span class="bar__fill" style="background:#7A8565"></span></button>
+          <button class="bar" type="button" style="--v:15.6" data-year="2023" data-val="15,6%" aria-pressed="true" aria-label="2023, estimativa: 15,6%"><span class="bar__val" aria-hidden="true">15,6%</span><span class="bar__fill" style="background:#47533B"></span></button>
+          <button class="bar" type="button" style="--v:37.8" data-year="2070" data-val="37,8%" data-proj aria-pressed="false" aria-label="2070, projeção: 37,8%"><span class="bar__val" aria-hidden="true">37,8%</span><span class="bar__fill" style="background:#B95D40"></span></button>
+        </div>
+        <div class="plot__x" aria-hidden="true"><p><b>2000</b><small>Estimativa</small></p><p><b>2023</b><small>Estimativa</small></p><p><b>2070</b><small>Projeção</small></p></div>
+        <div class="chart__ft">
+          IBGE · Projeções da População, revisão 2024
+          <p>Clique nas barras para explorar <svg class="icon"><use href="#i-ne"/></svg></p>
+          <p>Estimativas retrospectivas para 2000 e 2023. A projeção para 2070 está condicionada às hipóteses demográficas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rule" aria-labelledby="glo-h">
+    <div class="wrap glo">
+      <div class="rv">
+        <p class="label"><b>04 /</b> Glossário de leitura</p>
+        <h2 class="h2" id="glo-h">Entender também<br>é <em>transformar.</em></h2>
+        <p class="glo__p">Os conceitos que atravessam esta edição.<br>Clique e amplie seu repertório.</p>
+      </div>
+      <ul class="acc rv" id="acc"></ul>
+    </div>
+  </section>
+
+  <section class="rule" id="participantes" aria-labelledby="team-h">
+    <div class="wrap team">
+      <div class="team__head rv">
         <div>
-          <h2 id="saved-title">Matérias salvas</h2>
-          <p class="sheet__count">Ficam guardadas só nesta sessão do navegador.</p>
+          <p class="label"><b>05 /</b> Quem faz a revista</p>
+          <h2 class="h2" id="team-h">Uma pesquisa.<br><em>Seis perspectivas.</em></h2>
         </div>
-        <button class="icon-btn" type="button" data-close-sheet aria-label="Fechar matérias salvas">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
-        </button>
-      </header>
-      <ol class="toc" data-saved-list></ol>
+        <p class="team__p">Grupo de pesquisa sobre etarismo.<br>Um trabalho para ampliar a conversa.</p>
+      </div>
+      <ul class="people rv" id="people"></ul>
     </div>
-  </dialog>
+  </section>
+</main>
 
-  <div class="toast" role="status" aria-live="polite" data-toast></div>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <div>
+        <p class="foot__lbl">O RESPEITO NÃO TEM IDADE.</p>
+        <p class="foot__h">Continuar não pode<br>ser um <i>privilégio.</i></p>
+        <a class="lnk" href="#/leitura/reflexao-final">Leia a reflexão final <svg class="icon"><use href="#i-ne"/></svg></a>
+      </div>
+      <nav class="foot__nav" aria-label="Continue explorando">
+        <p class="foot__lbl">CONTINUE EXPLORANDO</p>
+        <ul>
+          <li><a href="#/sumario">Sumário da edição <svg class="icon"><use href="#i-ne"/></svg></a></li>
+          <li><a href="#/leitura/referencias">Referências e notas <svg class="icon"><use href="#i-ne"/></svg></a></li>
+          <li><a href="#/leitura/fontes-legislacao">Fontes de dados e legislação <svg class="icon"><use href="#i-ne"/></svg></a></li>
+          <li><a href="#participantes">Participantes <svg class="icon"><use href="#i-ne"/></svg></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="foot__bar">
+      <a class="logo" href="#inicio" aria-label="etarismo., voltar ao início"><span class="logo__w" aria-hidden="true">etarismo<i>.</i></span><span class="logo__s" aria-hidden="true">Revista digital</span></a>
+      <p class="foot__ed">REVISTA DIGITAL · EDIÇÃO ESPECIAL 2026</p>
+      <a class="foot__top-btn" href="#topo">Voltar ao topo <svg class="icon"><use href="#i-ne"/></svg></a>
+    </div>
+    <p class="foot__cred">Fotografias ilustrativas: Danie Franco, Ravi Patel e Vitaly Gariev / Unsplash. As pessoas retratadas não representam as personagens da reportagem.</p>
+  </div>
+</footer>
 
-  <script src="js/edition.js"></script>
-  <script src="js/articles-a.js"></script>
-  <script src="js/app.js"></script>
+<div class="ov" id="reader" hidden>
+  <article class="panel" role="dialog" aria-modal="true" aria-labelledby="r-title" id="r-panel">
+    <div class="r-head">
+      <button class="r-back" type="button" data-close><svg class="icon"><use href="#i-left"/></svg><span>Voltar à edição</span></button>
+      <span class="logo__w" aria-hidden="true">etarismo<i>.</i></span>
+      <div class="r-pg"><span id="r-pg"></span><button class="r-x" type="button" data-close aria-label="Fechar leitura"><svg class="icon"><use href="#i-x"/></svg></button></div>
+      <span class="r-prog" id="r-prog" aria-hidden="true"></span>
+    </div>
+    <div class="r-body">
+      <p class="r-kick" id="r-kick"></p>
+      <h2 class="r-title" id="r-title" tabindex="-1"></h2>
+      <div class="r-meta"><span><svg class="icon"><use href="#i-clock"/></svg>2 min de leitura</span><small>GRUPO DE PESQUISA SOBRE ETARISMO</small></div>
+      <div class="r-tools">
+        <div>
+          <button type="button" id="r-minus" aria-label="Diminuir texto">A−</button>
+          <button type="button" id="r-plus" aria-label="Aumentar texto">A+</button>
+          <span class="r-sep" aria-hidden="true"></span>
+          <button type="button" id="r-dark" aria-pressed="false" aria-label="Leitura escura"><svg class="icon"><use href="#i-moon"/></svg></button>
+        </div>
+        <div>
+          <button type="button" id="r-save" aria-pressed="false" aria-label="Salvar leitura"><svg class="icon"><use href="#i-mark"/></svg></button>
+          <button type="button" id="r-share" aria-label="Compartilhar leitura"><svg class="icon"><use href="#i-share"/></svg></button>
+        </div>
+      </div>
+      <div class="r-text" id="r-text"></div>
+      <p class="r-end" id="r-end">VOCÊ CHEGOU AO FIM DESTA LEITURA. <svg class="icon"><use href="#i-check"/></svg></p>
+      <nav class="r-nav" id="r-nav" aria-label="Navegação entre leituras"></nav>
+    </div>
+  </article>
+</div>
+
+<div class="ov" id="toc-ov" hidden>
+  <div class="panel panel--toc" role="dialog" aria-modal="true" aria-labelledby="toc-h">
+    <button class="r-x toc__x" type="button" data-close aria-label="Fechar sumário"><svg class="icon" style="font-size:28px"><use href="#i-x"/></svg></button>
+    <p class="toc__k">ETARISMO · EDIÇÃO ESPECIAL 2026</p>
+    <h2 class="toc__h" id="toc-h" tabindex="-1">Uma edição. Muitos caminhos.</h2>
+    <p class="toc__p">Escolha uma matéria e comece pela perspectiva que mais te interessa.</p>
+    <p class="toc__c">18 LEITURAS NESTA EDIÇÃO</p>
+    <ol class="toc" id="toc"></ol>
+  </div>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Gráfico ampliado">
+  <img id="lb-img" alt="">
+  <button type="button" id="lb-x" aria-label="Fechar gráfico ampliado"><svg class="icon"><use href="#i-x"/></svg></button>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ===== Conteúdo (transcrito dos frames do Figma) ===== */
+const PHOTOS = {
+  franco: { src: "assets/img/capa-danie-franco.jpg", alt: "Retrato em preto e branco de uma mulher idosa. Fotografia ilustrativa de Danie Franco, Unsplash." },
+  patel: { src: "assets/img/card-ravi-patel.jpg", alt: "Retrato ilustrativo de uma mulher idosa sorrindo, por Ravi Patel, Unsplash." },
+  gariev: { src: "assets/img/card-vitaly-gariev.jpg", alt: "Fotografia ilustrativa de um profissional maduro usando um computador, por Vitaly Gariev, Unsplash." }
+};
+// Cards da home: tema, chapéu, foto e frase de abertura, como no frame expandido.
+const CARDS = [
+  ["curriculo-elogiado", "Trabalho", "Trabalho e longevidade", "franco", "Sibele Monice continuava aprendendo e trabalhando."],
+  ["mercado-muda", "Sociedade", "Um país que envelhece", "patel", "A procura de Sibele acontece em um Brasil que já mudou de idade."],
+  ["experiencia-custo", "Trabalho", "Seleção e negociação", "gariev", "Sibele relatou ouvir que era qualificada demais e que não poderiam pagar o que ela valia."],
+  ["trabalhar-vaga", "Trabalho", "Inserção profissional", "gariev", "Em 2024, cerca de um quarto da população brasileira com 60 anos ou mais estava ocupado."],
+  ["idade-decide", "Trabalho", "Antes da entrevista", "franco", "A dificuldade narrada por Sibele não se resume a uma impressão sem paralelo na pesquisa."],
+  ["curriculo-impressiona", "Trabalho", "Experiência e reconhecimento", "franco", "Sibele dizia nunca ter parado de aprender."],
+  ["mesma-idade", "Sociedade", "Trajetórias desiguais", "gariev", "O ano de nascimento não conta tudo o que chegou antes dele."],
+  ["distancia-carreira", "Sociedade", "Gênero e oportunidade", "gariev", "Entre 60 e 69 anos, a distância de ocupação entre homens e mulheres era de 21,8 pontos percentuais."],
+  ["renda-geracoes", "Economia", "Economia prateada", "patel", "A imagem da pessoa idosa como dependente não explica muitos orçamentos familiares brasileiros."],
+  ["dinheiro-nao-para", "Economia", "Orçamento compartilhado", "patel", "Os números do Ipea mostram o alcance familiar da renda das pessoas idosas."],
+  ["dados-permitem", "Economia", "Participação no consumo", "patel", "As pessoas mais velhas participam do consumo e da sustentação econômica das famílias."],
+  ["aposentadoria", "Economia", "Proteção de renda", "gariev", "Recuperar uma vaga não pode ser a única resposta à perda de renda na maturidade."],
+  ["alternativas-encolhem", "Direitos", "Trabalho, renda e autonomia", "gariev", "A perda de uma vaga pode continuar pesando depois de uma recusa."],
+  ["mudanca-contrata", "Direitos", "Quem pode mudar a seleção", "gariev", "A empresa decide quem chega à entrevista e quem recebe a oferta."]
+];
+const THEMES = ["Trabalho", "Sociedade", "Economia", "Direitos"];
+const GLOSSARY = [
+  ["Etarismo", "estereótipos, preconceitos e discriminação relacionados à idade; pode atingir diferentes faixas etárias."],
+  ["Nível de ocupação", "proporção de pessoas ocupadas em relação à população do grupo analisado. Não equivale à taxa de participação na força de trabalho."],
+  ["Trabalho por conta própria", "posição na ocupação de quem explora o próprio empreendimento sem empregados. Não é sinônimo automático de informalidade."],
+  ["Economia prateada", "conjunto de atividades associado ao envelhecimento e à participação econômica das populações mais velhas; requer explicitar recorte e metodologia."],
+  ["Violência patrimonial", "exploração ou controle indevido de bens e rendimentos. Não se confunde com ajuda consentida para administrar recursos."],
+  ["Autonomia", "possibilidade de decidir sobre a própria vida. Receber cuidado ou deixar o emprego não implica, por si só, perder autonomia."]
+];
+const TEAM = [
+  ["Giovanna Medeiros Veloso", "giovanna"], ["Arthur do Vale Silva", "arthur"], ["Murilo Rosa Fonseca", "murilo"],
+  ["Kevin Jun", "kevin"], ["Davi Dias", "davi-dias"], ["Davi Alcanfor", "davi-alcanfor"]
+];
+// Leituras na ordem do sumário. Blocos: ["p", texto] · ["h", intertítulo] · ["figure", src, legenda, alt].
+// [[texto]] marca trechos sublinhados no Figma (links cujo endereço não veio na exportação).
+const ARTICLES = [
+
+  {
+    id: "editorial",
+    page: "02",
+    kicker: "Editorial",
+    title: "Quando a idade substitui a competência",
+    blocks: [
+      ["p", "Em “A ‘juventude’ é apenas uma palavra”, Pierre Bourdieu mostra que as fronteiras etárias são construídas socialmente. No mercado de trabalho brasileiro, essa classificação torna-se desigualdade quando a idade substitui a avaliação de competências. O etarismo profissional é sustentado por dois mecanismos: filtros empresariais que desvalorizam trajetórias longas e desigualdades acumuladas que restringem as condições de enfrentar a exclusão. Combatê-lo exige transformar tanto a seleção quanto o acesso às oportunidades."],
+      ["p", "Primeiramente, o conceito de exército industrial de reserva, desenvolvido por Karl Marx em O Capital, explica como a disponibilidade de trabalhadores amplia o poder de negociação dos empregadores. O preconceito etário pode organizar essa disputa ao transformar experiência em “custo excessivo” e juventude em sinal presumido de adaptação. Assim, critérios vagos de perfil e triagens automatizadas sem controle podem excluir candidatos antes que demonstrem suas capacidades. A responsabilidade não está apenas em quem procura emprego, mas nos procedimentos que distribuem as vagas."],
+      ["p", "Além disso, a interseccionalidade, formulada por Kimberlé Crenshaw, permite compreender como diferentes desigualdades se articulam. Interrupções profissionais, responsabilidades de cuidado e acesso desigual à formação podem reduzir renda, proteção previdenciária e redes de contato. As barreiras etárias encontram, portanto, trajetórias distintas. Segundo a SIS 2025 do IBGE, em 2024 estavam ocupados 48% dos homens de 60–69 anos e 26,2% das mulheres dessa faixa. Embora não prove discriminação, o contraste evidencia que inclusão por idade precisa considerar condições desiguais de participação."],
+      ["p", "Portanto, as empresas, por suas equipes de recrutamento e fornecedores de seleção, devem adotar critérios relacionados à função e registrar as razões das decisões. A inspeção do trabalho deve fiscalizar práticas discriminatórias; o Sine, com instituições de formação e municípios, deve oferecer cursos, encaminhamento e apoio de transporte e cuidado quando necessário. Um piloto com responsáveis e recursos pactuados acompanharia contratação e permanência após seis meses, mediante revisões trimestrais e relatórios semestrais agregados, com proteção dos dados. Dessa forma, seria possível corrigir filtros empresariais e ampliar o acesso às oportunidades, impedindo que a longevidade se transforme em motivo de descarte."]
+    ]
+  },
+  {
+    id: "curriculo-elogiado",
+    page: "04",
+    kicker: "Reportagem · Trabalho e longevidade",
+    title: "Um currículo elogiado, uma porta fechada",
+    blocks: [
+      ["p", "Sibele Monice continuava aprendendo e trabalhando. O que não conseguia recuperar era uma vaga com carteira assinada."],
+      ["p", "Em abril de 2024, Sibele Monice, então com 57 anos, contou à BBC News Brasil que a procura por emprego formal havia se tornado mais difícil desde sua demissão, em fevereiro do ano anterior. Publicitária e designer gráfica, seguia como freelancer. Nas respostas que recebia, seu currículo podia impressionar e, ainda assim, ser considerado excessivo para a vaga. A experiência era elogiada sem se transformar em contratação."],
+      ["p", "O impasse começa antes da entrevista. Um anúncio que pede “perfil jovem”, a suposição de que alguém experiente não aprenderá uma ferramenta ou o julgamento de que o candidato “não combina com o time” podem fechar oportunidades sem testar o que ele sabe fazer. Quando esse filtro prevalece, a idade substitui a competência como critério de decisão."],
+      ["p", "A referência legal de pessoa idosa é 60 anos, mas a barreira profissional pode surgir antes. É por isso que o relato de uma trabalhadora de 57 anos acompanha esta reportagem, enquanto os indicadores brasileiros sobre envelhecimento e trabalho usam, em geral, o recorte 60+. A pergunta não é apenas quantas pessoas continuam ocupadas, mas em quais condições e com que liberdade para escolher."],
+      ["p", "“De fato, a fronteira entre a juventude e a velhice é um objeto de disputas em todas as sociedades.”"],
+      ["p", "Pierre Bourdieu, Questões de sociologia (1983), “A ‘juventude’ é apenas uma palavra”; transcrição da UFPR, p. 1. Relato e fala de Sibele: BBC News Brasil, 8 abr. 2024."]
+    ]
+  },
+  {
+    id: "mercado-muda",
+    page: "05",
+    kicker: "Reportagem · um país que envelhece",
+    title: "O mercado muda com o país?",
+    blocks: [
+      ["p", "A procura de Sibele acontece em um Brasil que já mudou de idade. Nas Projeções da População previstas pelo IBGE em 2024, o grupo com 60 anos ou mais passou de 8,7% da população em 2000 para 15,6% em 2023. Para 2070, a projeção chega a 37,8%. A presença de profissionais maduros não é uma exceção que as empresas possam tratar como desvio de um padrão permanentemente jovem."],
+      ["figure", "assets/charts/grafico-1.png", "Gráfico 1 · População 60+ no Brasil. IBGE, Projeções da População, revisão 2024. Estimativas retrospectivas para 2000 e 2023; projeção para 2070, condicionada às hipóteses demográficas. Recuperado do rascunho.", "Gráfico de barras: pessoas com 60 anos ou mais na população brasileira. 2000: 8,7%. 2023: 15,6%. 2070 (projeção): 37,8%."],
+      ["p", "A mudança alcança recrutamento, formação, previdência e serviços de cuidado. Uma carreira pode durar mais sem permanecer igual: há quem queira continuar na mesma profissão, quem procure uma transição e quem precise de renda para manter a casa. Organizar todas essas trajetórias em torno de uma saída presumida do mercado é ignorar tanto as escolhas das pessoas quanto a composição do país."],
+      ["p", "O envelhecimento não obriga ninguém a prolongar a vida laboral. Exige que trabalhar e se aposentar sejam escolhas protegidas, não respostas à falta de alternativa. Entre a longevidade da população e a porta de uma empresa, há decisões concretas: quem recebe formação, quais experiências são reconhecidas e quem chega à entrevista."]
+    ]
+  },
+  {
+    id: "experiencia-custo",
+    page: "06",
+    kicker: "Reportagem · seleção e negociação",
+    title: "Quando a experiência vira custo",
+    blocks: [
+      ["p", "Sibele relatou ouvir que era qualificada demais e que não poderiam pagar o que ela valia. O elogio encerrava a conversa, em vez de abrir uma negociação sobre atribuições e remuneração. A experiência, normalmente apresentada como vantagem, passava a justificar a recusa."],
+      ["p", "Em um mercado com trabalhadores disponíveis para substituição, quem contrata dispõe de mais alternativas do que quem precisa recuperar renda. A pressão não opõe necessariamente jovens e mais velhos: ambos podem enfrentar vínculos precários. O filtro etário surge quando a organização toma início de carreira como sinal de flexibilidade e trajetória longa como custo ou resistência à mudança."],
+      ["p", "Essa assimetria de negociação ajuda a entender por que a exigência de “se adaptar” recai tão facilmente sobre o candidato. Há uma diferença entre pedir domínio de uma ferramenta necessária e presumir que ele não consegue aprendê-la. Há outra entre discutir pretensão salarial e concluir, sem conversa, que a experiência torna a contratação inviável."],
+      ["p", "O trabalho freelancer permitia a Sibele continuar exercendo sua profissão, mas coexistia com a busca por um emprego formal. A questão não era ausência completa de atividade: era o acesso ao vínculo que procurava. Estar trabalhando e poder escolher condições protegidas são situações distintas."],
+      ["p", "Quando os motivos da seleção permanecem vagos, contestar uma recusa se torna difícil. Critérios pertinentes à função e razões registradas não garantem uma vaga, mas impedem que a idade funcione como justificativa sem exame."],
+      ["h", "A Realidade em Números"],
+      ["p", "32,1 milhões de pessoas 60+ — Censo 2022. População recenseada; não é número de aposentados nem estimativa de trabalhadores."],
+      ["p", "24,4% dos 60+ estavam ocupados — 2024. O nível de ocupação divide os ocupados pela população dessa faixa etária; não mede apenas emprego formal."],
+      ["p", "43,3% dos ocupados 60+ trabalhavam por conta própria — 2024. O denominador é somente quem trabalhava. Trabalho autônomo não significa automaticamente informalidade, exclusão ou escolha."],
+      ["p", "33,9% dos domicílios tinham moradores idosos — 2018. Presença de pessoa idosa não equivale a chefia do domicílio. A contribuição de renda é discutida na seção de economia prateada."],
+      ["p", "Fontes: IBGE, Censo 2022, publicação de 2023, p. 8; Síntese de indicadores sociais 2025, gráficos 18 e 21, dados PNAD Contínua de 2024; Camarano/Ipea, estudo com PNAD Contínua de 2018, tabelas 1 e 2. Anos e bases não devem ser combinados para calcular uma taxa de etarismo."]
+    ]
+  },
+  {
+    id: "trabalhar-vaga",
+    page: "07",
+    kicker: "Reportagem · inserção profissional",
+    title: "Trabalhar não é o mesmo que ter uma vaga",
+    blocks: [
+      ["p", "Em 2024, cerca de um quarto da população brasileira com 60 anos ou mais estava ocupado. Entre quem trabalhava nessa faixa etária, a atividade por conta própria tinha peso expressivo. Os dois números descrevem inserção no trabalho; o relato de Sibele acrescenta o que eles, sozinhos, não mostram: a procura por um vínculo diferente daquele disponível."],
+      ["figure", "assets/charts/grafico-2.png", "Gráfico 2 · Trabalho dos 60+. IBGE, SIS 2025, PNAD Contínua 2024. Nível de ocupação: população 60+. Conta própria: apenas ocupados 60+. Barras independentes, de 0% a 100%; o restante da primeira não corresponde à taxa de desemprego.", "Gráfico: trabalho de pessoas 60+ no Brasil, 2024. Nível de ocupação da população 60+: 24,4% estavam ocupadas. Trabalho por conta própria entre ocupados 60+: 43,3%."],
+      ["p", "Uma mesma categoria reúne experiências muito diferentes. Trabalhar por conta própria pode significar conduzir um negócio consolidado ou aceitar serviços enquanto não aparece uma oportunidade formal. Renda, contribuição previdenciária, previsibilidade e motivo de entrada fazem diferença. Por isso, a proporção de autônomos não é, por si só, prova de exclusão — nem sinal de que todos encontraram a situação que desejavam."],
+      ["p", "Para quem precisa de renda imediata, sucessivas recusas estreitam a margem para escolher prazos, remuneração e proteção. A pergunta deixa de ser “essa pessoa ainda trabalha?” e passa a ser “que alternativas ela consegue negociar?”."]
+    ]
+  },
+  {
+    id: "idade-decide",
+    page: "08",
+    kicker: "Reportagem · antes da entrevista",
+    title: "A idade pode decidir antes da conversa",
+    blocks: [
+      ["p", "A dificuldade narrada por Sibele não se resume a uma impressão sem paralelo na pesquisa. Experimentos de correspondência enviam candidaturas comparáveis e observam o retorno dos empregadores. Ao variar a idade e manter semelhantes as qualificações relevantes, procuram identificar o tratamento diferencial antes que o candidato seja ouvido."],
+      ["p", "Uma revisão publicada em 2023 por Batinovic e colegas reuniu 13 estudos de 11 artigos. O conjunto, realizado na Europa, nos Estados Unidos e na Austrália, encontrou desvantagens para candidaturas mais velhas nas comparações examinadas. A evidência é internacional: mostra que esse filtro pode ser observado em processos seletivos, sem fornecer uma taxa brasileira de discriminação."],
+      ["h", "O retorno às candidaturas"],
+      ["p", "Para candidatos de 50–59 anos, comparados aos de 29–35, a razão de chances de retorno foi 0,41 nos estudos de correspondência intrassujeitos e 0,75 nos estudos entre sujeitos."],
+      ["p", "IC 95%: 0,29–0,58 e 0,69–0,80, respectivamente. Batinovic et al., 2023, seções 3.3–3.4. O desfecho é retorno, não contratação; razão de chances não é percentual de probabilidade. Os desenhos têm limites e não devem ser somados."],
+      ["p", "O interesse desse resultado está no ponto em que a porta se fecha: competências parecidas podem receber tratamento diferente. A experiência não precisa desaparecer do currículo para perder valor. Basta que o processo associe idade a uma desvantagem presumida."],
+      ["p", "Na triagem automatizada, o risco precisa ser examinado também nos sinais indiretos, como o ano de formação e os padrões das contratações anteriores. Retirar a data de nascimento não resolve necessariamente o problema. Cabe à empresa testar seus critérios, acompanhar o acesso às entrevistas e permitir contestação — inclusive quando usa um sistema fornecido por terceiros."]
+    ]
+  },
+  {
+    id: "curriculo-impressiona",
+    page: "09",
+    kicker: "Reportagem · experiência e reconhecimento",
+    title: "O currículo impressiona. Por que não abre portas?",
+    blocks: [
+      ["p", "Sibele dizia nunca ter parado de aprender. Mesmo assim, encontrava ceticismo sobre sua capacidade de acompanhar ou desenvolver o trabalho. Entre o conhecimento adquirido e a oportunidade de usá-lo, aparecia um julgamento prévio sobre a idade."],
+      ["p", "O capital cultural acumulado ao longo da carreira — saberes, práticas e credenciais — não perde valor apenas porque o tempo passou. Seu reconhecimento muda quando uma organização privilegia diplomas recentes ou confunde inovação com juventude. Nesse caso, o candidato precisa provar duas coisas: que sabe fazer e que não corresponde ao estereótipo que lhe foi atribuído."],
+      ["p", "As redes profissionais também contam. Elas fazem circular indicações, projetos e oportunidades de aprendizagem. Longos períodos sem acesso a vagas podem diminuir essa presença; a menor visibilidade, por sua vez, dificulta novas oportunidades. O currículo não registra todo esse caminho."],
+      ["p", "É nesse ponto que a linguagem da competência pode esconder uma hierarquia. “Perfil”, “potencial” e “ajuste cultural” precisam dizer algo verificável sobre a função. Quando não dizem, a preferência etária aparece como se fosse uma qualidade natural do candidato escolhido."],
+      ["p", "Reconhecer experiência não é conceder superioridade automática a profissionais mais velhos. É avaliar o que cada pessoa oferece e garantir acesso à atualização. O relatório da OCDE sobre trabalho inclusivo por idade recomenda justamente articular recrutamento, permanência e aprendizagem ao longo da vida."],
+      ["h", "Dicionário Sociológico"],
+      ["p", "Reserva de trabalho — Marx: mão de obra excedente à demanda do capital, que pode pressionar salários e negociação."],
+      ["p", "Capital cultural — Bourdieu: saberes, disposições, bens culturais e credenciais cujo valor depende do reconhecimento social."],
+      ["p", "Capital social — Bourdieu: recursos vinculados a redes duráveis de relações."],
+      ["p", "Capital simbólico — Bourdieu: recursos reconhecidos como legítimos. Violência simbólica: naturalização de hierarquias e relações de dominação."],
+      ["p", "Interseccionalidade — Crenshaw: análise das desigualdades articuladas, não soma de discriminações isoladas."]
+    ]
+  },
+  {
+    id: "mesma-idade",
+    page: "10",
+    kicker: "Reportagem · trajetórias desiguais",
+    title: "A mesma idade, recursos diferentes",
+    blocks: [
+      ["p", "O ano de nascimento não conta tudo o que chegou antes dele. Há quem alcance a maturidade com renda estável, contribuições previdenciárias e tempo para estudar. Há quem chegue após períodos de trabalho intermitente, pouca proteção e responsabilidades de cuidado sem apoio. Uma nova barreira no recrutamento encontra essas diferenças prontas."],
+      ["p", "Uma pausa na carreira para cuidar de alguém pode significar perda de rendimento, afastamento de redes e menos acesso a cursos. Quando a seleção lê essa interrupção apenas como falta de comprometimento, apaga o trabalho que a produziu. A recusa pela idade chega depois, estreitando novamente as alternativas."],
+      ["p", "Esse encontro de barreiras é o ponto central da análise interseccional: olhar cada desigualdade separadamente pode esconder quem enfrenta ambas. Uma empresa pode melhorar a contratação de mulheres e a de pessoas negras sem alcançar mulheres negras mais velhas, se acompanhar os grupos apenas por médias isoladas."],
+      ["p", "O relato publicado de Sibele não informa sua raça nem suas responsabilidades familiares. A investigação de trajetórias combinadas não depende de atribuí-las à personagem: depende de reconhecer que a experiência de uma profissional não representa todas as condições de chegada à velhice."]
+    ]
+  },
+  {
+    id: "distancia-carreira",
+    page: "11",
+    kicker: "Reportagem · gênero e oportunidade",
+    title: "Uma distância que atravessa a carreira",
+    blocks: [
+      ["figure", "assets/charts/grafico-3.png", "Gráfico 3 · Ocupação por sexo e idade, Brasil, 2024. IBGE, SIS 2025, p. 40, gráfico 19. Universo: pessoas de cada sexo/faixa etária, não apenas participantes da força de trabalho. Recuperado do rascunho.", "Gráfico de barras: nível de ocupação das pessoas idosas por sexo em 2024. 60 a 69 anos: homens 48,0%, mulheres 26,2%. 70 anos ou mais: homens 15,7%, mulheres 5,8%."],
+      ["p", "Entre 60 e 69 anos, a distância de ocupação entre homens e mulheres era de 21,8 pontos percentuais. Entre os maiores de 70, era de 9,9 pontos. A queda nos dois grupos envolve aposentadoria, saúde, escolhas e acesso ao trabalho; a distância entre eles pede atenção às oportunidades e responsabilidades acumuladas durante a vida."],
+      ["p", "Uma política de inclusão etária que alcance somente profissionais já favorecidos pode melhorar a média sem alterar essa distância. Uma vaga exige condições para participar da seleção; um curso exige tempo, transporte e, em alguns casos, alguém que compartilhe o cuidado. A gratuidade elimina o preço da formação, mas não todos os custos de frequentá-la."],
+      ["p", "Avaliar competências, reconhecer aprendizagens anteriores e acompanhar quem chega à entrevista são mudanças de processo. Associá-las a condições de participação é o que impede a inclusão de ficar restrita a quem já dispõe de recursos."]
+    ]
+  },
+  {
+    id: "renda-geracoes",
+    page: "12",
+    kicker: "Reportagem · Economia prateada",
+    title: "A renda que atravessa gerações",
+    blocks: [
+      ["p", "A imagem da pessoa idosa como dependente não explica muitos orçamentos familiares brasileiros. Aposentadorias, pensões e renda do trabalho podem ajudar a pagar despesas da casa e de outras gerações. A economia prateada começa também nesse cotidiano, longe da ideia de um público formado apenas por consumidores de alto poder aquisitivo."],
+      ["p", "Com dados da PNAD Contínua de 2018, um estudo de Ana Amélia Camarano, publicado pelo Ipea, identificou moradores idosos em cerca de um terço dos domicílios. Nos domicílios com idosos, a renda dessas pessoas tinha papel decisivo no orçamento compartilhado."],
+      ["p", "A contribuição permite comprar alimentos, pagar moradia e manter serviços, mas a decisão sobre o gasto não pertence necessariamente a uma única pessoa. Parte da renda pode ser transferida, poupada ou destinada a dívidas. Sua presença sustenta consumo sem corresponder, integralmente, ao consumo individual de quem a recebe."],
+      ["p", "É essa diferença que precisa acompanhar a pergunta sobre os 60+ na economia. A renda mostra recursos que circulam e sustentam domicílios. Para medir despesas, é preciso olhar também o orçamento efetivamente gasto — e dizer quem foi incluído na conta."],
+      ["h", "A Realidade em Números · economia prateada"],
+      ["p", "33,9% dos domicílios tinham ao menos um morador idoso em 2018."],
+      ["p", "69,8% da renda dos domicílios com idosos provinha dos próprios moradores idosos."],
+      ["p", "56,3% da renda dos idosos provinha de aposentadorias ou pensões, conforme a classificação do estudo."],
+      ["p", "Fonte: Camarano/Ipea, PNAD Contínua de 2018, tabelas 1 e 2. Universos distintos: presença de morador idoso não equivale a chefia; contribuição de renda não mede consumo."]
+    ]
+  },
+  {
+    id: "dinheiro-nao-para",
+    page: "13",
+    kicker: "Reportagem · Orçamento compartilhado",
+    title: "O dinheiro não para em quem o recebe",
+    blocks: [
+      ["p", "Os números do Ipea mostram o alcance familiar da renda das pessoas idosas. Não são uma estimativa atual da economia prateada, mas um retrato da dependência de muitos orçamentos em relação a esses rendimentos."],
+      ["figure", "assets/charts/grafico-4.png", "Gráfico 4 · Renda e domicílios com idosos, 2018. Camarano/Ipea, tabelas 1–2. As barras têm denominadores distintos: domicílios brasileiros, renda dos domicílios com idosos e renda dos próprios idosos. Presença não equivale a chefia; renda não mede gasto.", "Gráfico: pessoas idosas e renda domiciliar, Brasil, 2018. Domicílios com ao menos um morador idoso: 33,9%. Renda dos idosos na renda dos domicílios com idosos: 69,8%. Aposentadorias e pensões na renda dos idosos: 56,3%."],
+      ["p", "Perder um vínculo de trabalho pode afetar mais do que o pagamento individual. Quando as contas são divididas, uma renda menos previsível pode obrigar a reorganizar despesas e apoios entre gerações. Para quem procura recolocação, continuar ocupado em serviços temporários nem sempre recupera essa previsibilidade."],
+      ["p", "Reconhecer esse papel econômico não significa condicionar o respeito à capacidade de sustentar alguém. Significa abandonar a ideia de que a velhice só recebe recursos e perguntar também quem controla o dinheiro que ela produz ou recebe."]
+    ]
+  },
+  {
+    id: "dados-permitem",
+    page: "14",
+    kicker: "Reportagem · Participação no consumo",
+    title: "O que os dados permitem responder",
+    blocks: [
+      ["p", "As pessoas mais velhas participam do consumo e da sustentação econômica das famílias. Nas fontes oficiais consultadas, porém, não foi identificado um agregado publicado que isole o consumo nacional de indivíduos 60+. A resposta verificável vem de dois recortes: renda domiciliar associada aos moradores idosos, no Ipea, e gasto efetivo em saúde de famílias com moradores 65+, na POF. Eles não equivalem a um total de poder de compra dos 60+."],
+      ["figure", "assets/charts/grafico-5.png", "Gráfico 5 · Participação no gasto total com saúde. IBGE, POF 2017–2018, Perfil das despesas no Brasil, p. 71; definição de idoso nas pp. 22–23. Famílias com ao menos um morador 65+ responderam por 35,7% do gasto agregado em saúde. Não é a parcela do orçamento dessas famílias destinada à saúde, nem um indicador de chefia 60+.", "Gráfico: participação no gasto total com saúde, Brasil, POF 2017–2018. Parcela do gasto total com saúde atribuída a famílias com idosos (moradores 65+): 35,7%."],
+      ["p", "A participação em saúde revela um mercado concreto, não uma população uniformemente afluente. A POF também registra a importância das aquisições não monetárias de medicamentos nas famílias com idosos: fornecimento público, doações e outras formas de acesso que não dependem apenas da compra privada."],
+      ["p", "O recorte racial reforça essa heterogeneidade. Nas famílias de todas as idades, a despesa per capita em saúde daquelas com pessoa de referência preta ou parda correspondia a 71,3% da registrada nas famílias com referência branca, segundo a mesma publicação. Esse dado não isola idosos; mostra por que o perfil médio de consumo precisa ser lido junto das desigualdades de acesso e renda."],
+      ["p", "Há uma contradição quando empresas buscam consumidores mais velhos, mas presumem que eles já não têm lugar no trabalho. A inclusão comercial não substitui a possibilidade de decidir sobre a própria carreira ou sobre o orçamento. É a autonomia — e não só o volume de dinheiro — que liga consumo e emprego nesta reportagem."]
+    ]
+  },
+  {
+    id: "aposentadoria",
+    page: "15",
+    kicker: "Reportagem · Proteção de renda",
+    title: "Aposentadoria não é um detalhe",
+    blocks: [
+      ["p", "Recuperar uma vaga não pode ser a única resposta à perda de renda na maturidade. A proteção previdenciária muda a possibilidade de escolher se, como e por quanto tempo continuar trabalhando. A SIS 2025 mostra o peso das aposentadorias e pensões no orçamento das pessoas com 60 anos ou mais."],
+      ["figure", "assets/charts/grafico-6.png", "Gráfico 6 · Previdência e pobreza, Brasil, 2024. IBGE, SIS 2025, p. 68. Pobreza observada: 8,3%; simulação retirando aposentadorias e pensões da renda: 52,2%. Linha US$ 6,85/dia, PPC 2017. Contrafactual contábil, não previsão do comportamento das famílias após uma retirada real.", "Gráfico: previdência e pobreza entre pessoas 60+, Brasil, 2024. Pobreza observada, com rendimentos declarados: 8,3%. Simulação retirando aposentadorias e pensões da renda: 52,2%."],
+      ["p", "O contraste mostra a importância dos benefícios para sustentar a vida fora da contratação empresarial. Quem deseja continuar na profissão precisa de oportunidades; quem se aposenta precisa de renda e reconhecimento. Uma política que obrigue a aceitar qualquer trabalho por falta de proteção não amplia liberdade — apenas desloca a urgência."],
+      ["p", "A dignidade não termina quando a pessoa deixa uma vaga. Preservar renda e ampliar oportunidades são respostas complementares, não uma escolha entre valorizar o trabalho e respeitar a aposentadoria."]
+    ]
+  },
+  {
+    id: "alternativas-encolhem",
+    page: "16",
+    kicker: "Reportagem · Trabalho, renda e autonomia",
+    title: "Quando as alternativas encolhem",
+    blocks: [
+      ["p", "A perda de uma vaga pode continuar pesando depois de uma recusa. Se uma fonte importante de renda desaparece e não é recuperada, moradia, transporte e despesas podem passar a depender mais de outras pessoas. Quando o apoio disponível é também o único vínculo de cuidado, sair de uma relação abusiva ou denunciá-la pode se tornar mais difícil."],
+      ["p", "Esse é um caminho possível de vulnerabilidade, não uma consequência inevitável do desemprego. A síntese da OMS sobre abuso contra pessoas idosas identifica baixa renda e dependência funcional da vítima entre fatores de risco. Aponta também a direção inversa: a dependência financeira do agressor em relação à vítima. A pessoa pode sustentar a casa e, ainda assim, ter seus rendimentos controlados por outra."],
+      ["p", "Perder reconhecimento agrava o risco de perder voz. Quando a idade basta para presumir incapacidade, uma decisão imposta pode ser apresentada como proteção. A diferença entre ajuda e domínio está no consentimento, no acesso ao próprio dinheiro e na possibilidade de contestar. Sobrecarregar uma rede de cuidado sem apoio também restringe alternativas; oferecer serviços e apoio aos cuidadores não dispensa responsabilizar quem pratica violência."],
+      ["p", "Apropriar-se de bens ou rendimentos e reter cartões ou documentos para assegurar dívida são condutas previstas nos artigos 102 e 104 do Estatuto da Pessoa Idosa. Atendimento reservado na rede de saúde e no CREAS, orientação jurídica e canais de denúncia podem ampliar saídas. O Disque 100 recebe denúncias; perigo imediato exige os serviços de emergência."],
+      ["p", "Sibele não relatou violência familiar na entrevista citada. Sua procura por trabalho coloca em primeiro plano a possibilidade de escolher condições de vida. É nessa autonomia que os temas se encontram: menos renda, menos apoio e menos voz podem estreitar a resistência ao abuso. Proteger o acesso a recursos e oportunidades impede que cuidado e dependência sejam confundidos com direito de controlar outra pessoa."]
+    ]
+  },
+  {
+    id: "mudanca-contrata",
+    page: "17",
+    kicker: "Reportagem · Quem pode mudar a seleção",
+    title: "A mudança começa em quem contrata",
+    blocks: [
+      ["p", "A empresa decide quem chega à entrevista e quem recebe a oferta. É ali que a intervenção precisa começar: anúncios sem exigências etárias indevidas, competências relacionadas à função, acesso à atualização e razões de seleção registradas. Se o processo é automatizado, contratar um fornecedor não elimina a responsabilidade de examinar seus critérios."],
+      ["p", "A Lei nº 9.029/1995 proíbe discriminação por idade no acesso e na manutenção do trabalho. O artigo 27 do Estatuto da Pessoa Idosa veda limite máximo de idade na admissão, ressalvadas as exigências da natureza do cargo. A LGPD assegura o direito de solicitar revisão de decisões unicamente automatizadas que afetem interesses do titular. A revisão humana qualificada dos processos seletivos é uma medida proposta aqui, não uma exigência universal inscrita nesse artigo."],
+      ["p", "No piloto local, empresas aderentes revisariam os procedimentos e registrariam as etapas. A inspeção do trabalho fiscalizaria critérios e apuraria denúncias. O Sine faria encaminhamento e articularia cursos com instituições públicas de formação; municípios apoiariam transporte e acesso ao cuidado, com recursos pactuados nos respectivos orçamentos. Quem contrata modifica o filtro; a rede pública ajuda a fiscalizar e a tornar possível participar."],
+      ["h", "Compromissos do piloto"],
+      ["p", "Agentes: empresas e fornecedores de seleção; inspeção do trabalho; Sine e parceiros públicos."],
+      ["p", "Ação e meios: critérios por competência, registro e revisão das decisões, fiscalização, formação e apoio de acesso."],
+      ["p", "Detalhamento: responsáveis e recursos pactuados; revisão trimestral; relatório semestral agregado de encaminhamento, contratação e permanência após seis meses."],
+      ["p", "Finalidade: corrigir filtros empresariais e reduzir barreiras de participação, ampliando igualdade de oportunidades e autonomia."],
+      ["p", "A avaliação precisa acompanhar onde a candidatura para e quem permanece. Comparações por idade, sexo e raça/cor, quando houver base legal e proteção dos dados, devem considerar funções equivalentes; diferenças indicam o que investigar. Também é necessário observar mudanças no mercado local antes de atribuir resultados ao piloto. Um curso sem condições de frequência e uma campanha sem mudança de seleção deixam intacta a porta fechada."]
+    ]
+  },
+  {
+    id: "referencias",
+    page: "18",
+    kicker: "Fontes · Autores e evidências",
+    title: "Referências e notas de apuração",
+    blocks: [
+      ["p", "BOURDIEU, Pierre. A “juventude” é apenas uma palavra. In: Questões de sociologia. Rio de Janeiro: Marco Zero, 1983, p. 112–121. Citação consultada na [[transcrição institucional da UFPR]], p. 1 do PDF; não em fac-símile da página impressa."],
+      ["p", "BOURDIEU, Pierre. The Forms of Capital. In: RICHARDSON, John G. (org.). Handbook of Theory and Research for the Sociology of Education. New York: Greenwood Press, 1986, p.241–258. [[Transcrição consultada]], tradução inglesa de Richard Nice; capitais cultural/social e conversão utilizados por paráfrase. Para reconhecimento e dominação simbólicos: Outline of a Theory of Practice. Cambridge: Cambridge University Press,1977. A extensão ao etarismo é interpretação da reportagem."],
+      ["p", "IBGE. População do país vai parar de crescer em 2041. Agência de Notícias,22 ago.2024. [[Fonte original]], seção proporção de idosos; Projeções da População, revisão 2024. Gráfico demográfico do rascunho conferido contra esta série."],
+      ["p", "MARX, Karl. O Capital: crítica da economia política. Livro I, cap. 23, seção 3. Edições Progresso–Editorial Avante!, 1990. [[Transcrição autorizada da tradução portuguesa]], sem paginação impressa. Citação e paráfrase relativas à sobrepopulação operária."],
+      ["p", "CRENSHAW, Kimberlé. Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics. University of Chicago Legal Forum, 1989, p. 139–167. Trecho literal na p. 140; tradução para português identificada como editorial. [[Registro e texto institucional]]."],
+      ["p", "BATINOVIC, Lucija; HOWE, Marlon; SINCLAIR, Samantha; CARLSSON, Rickard. Ageism in Hiring: A Systematic Review and Meta-analysis of Age Discrimination. Collabra: Psychology, v.9, n.1,2023. [[DOI e artigo]].13 estudos, oito na síntese quantitativa; razões de chances 50–59 versus 29–35 anos nas seções 3.3–3.4. Evidência internacional, não taxa brasileira."],
+      ["p", "CARVALHO, Priscila. A dificuldade dos brasileiros de encontrar trabalho depois dos 50 anos: “Pessoas nos julgam como inferiores”. BBC News Brasil, 8 abr. 2024. [[Reportagem original]]. Fonte do relato e da fala de Sibele Monice; idade e situação profissional referem-se à publicação."]
+    ]
+  },
+  {
+    id: "fontes-legislacao",
+    page: "19",
+    kicker: "Fontes · Dados e direitos",
+    title: "Fontes de dados e legislação",
+    blocks: [
+      ["p", "IBGE. Censo Demográfico 2022: População por idade e sexo — Pessoas de 60 anos ou mais de idade. Rio de Janeiro, 2023, p. 8. [[Publicação original]]. Segunda apuração: 32.113.490 pessoas 60+."],
+      ["p", "IBGE. Síntese de indicadores sociais: uma análise das condições de vida da população brasileira 2025. Rio de Janeiro, 2025, p.39–43, gráficos 18,19 e 21; p.67–68, pobreza observada e contrafactual previdenciário. [[Relatório original]]. Dados anuais de 2024 da PNAD Contínua; não de um trimestre isolado."],
+      ["p", "IBGE. Pesquisa de Orçamentos Familiares 2017–2018: Perfil das despesas no Brasil — indicadores selecionados. Rio de Janeiro,2021. [[Publicação original]], pp.22–23 e 71. Famílias com moradores 65+ e participação no gasto total com saúde. Não é consumo de indivíduos 60+ nem chefia idosa."],
+      ["p", "CAMARANO, Ana Amélia. Os dependentes da renda dos idosos e o coronavírus: órfãos ou novos pobres? Ipea, nota técnica original de 2020, republicada em capítulo de 2022, p. 421–428, tabelas 1 e 2. [[Registro oficial]]. Dados PNAD Contínua de 2018; conservar os universos “domicílios com idosos” e “renda dos idosos”."],
+      ["p", "OMS. Ageing: Ageism, 28 abr. 2025, seção “What is ageism?”. [[Definição institucional]]. Abuse of older people, 15 jun. 2024, seções “Overview”, “Risk factors” e “Prevention”. [[Ficha técnica]]. Orienta definição e fatores de risco; não demonstra causalidade entre desemprego e abuso no Brasil."],
+      ["p", "OCDE. Promoting an Age-Inclusive Workforce: Living, Learning and Earning Longer. Paris: OECD Publishing, 2020. [[Relatório]]. OIT. Older Workers Recommendation, 1980 (No. 162), seções II e III. [[Texto no NORMLEX]]. Referências internacionais de políticas; não estimativas brasileiras."],
+      ["p", "BRASIL. Lei nº 9.029/1995, art. 1 º; Lei nº 10.741/2003, atualizada, arts. 1 º, 26–27, 102 e 104; Lei nº 13.709/2018, arts. 5 º, II, 6 º, IX, e 20. Textos atualizados na Câmara dos Deputados: [[antidiscriminação]]; [[Estatuto da Pessoa Idosa]]; [[LGPD]]."],
+      ["p", "Nota metodológica: consultas desta revisão em 13 out. 2026. Conceitos são instrumentos de interpretação, não provas de casos individuais. A revista não apresenta entrevista própria, não estima incidência nacional de etarismo e não publica um total de consumo 60+ sem base verificável."]
+    ]
+  },
+  {
+    id: "reflexao-final",
+    page: "20",
+    kicker: "Encerramento · Glossário · Expediente",
+    title: "Continuar não pode ser um privilégio",
+    blocks: [
+      ["p", "Em 2024, Sibele buscava um emprego formal e continuava aprendendo. O currículo que impressionava não garantia uma porta aberta. A resposta não é exigir que ela, sozinha, desfaça a associação entre idade e incapacidade: é fazer a seleção examinar o trabalho que oferece, dar acesso à formação e preservar condições de escolha. Trabalhar por mais tempo e se aposentar com dignidade devem caber na mesma sociedade. O respeito à velhice não depende de ocupar uma vaga nem de sustentar o orçamento de alguém."],
+      ["h", "Glossário de leitura"],
+      ["p", "Etarismo: estereótipos, preconceitos e discriminação relacionados à idade; pode atingir diferentes faixas etárias."],
+      ["p", "Nível de ocupação: proporção de pessoas ocupadas em relação à população do grupo analisado. Não equivale à taxa de participação na força de trabalho."],
+      ["p", "Trabalho por conta própria: posição na ocupação de quem explora o próprio empreendimento sem empregados. Não é sinônimo automático de informalidade."],
+      ["p", "Economia prateada: conjunto de atividades associado ao envelhecimento e à participação econômica das populações mais velhas; requer explicitar recorte e metodologia."],
+      ["p", "Violência patrimonial: exploração ou controle indevido de bens e rendimentos. Não se confunde com ajuda consentida para administrar recursos."],
+      ["p", "Autonomia: possibilidade de decidir sobre a própria vida. Receber cuidado ou deixar o emprego não implica, por si só, perder autonomia."],
+      ["h", "Expediente"],
+      ["p", "Grupo de pesquisa sobre etarismo: Giovanna Medeiros Veloso; Arthur do Vale Silva; Murilo Rosa Fonseca; Kevin Jun; Davi Dias; Davi Alcanfor."],
+      ["p", "Redação, pesquisa teórica, design e diagramação: divisão nominal a confirmar pelo grupo. O rascunho identifica os integrantes, mas não informa suas funções; esta revisão não as atribui por suposição."],
+      ["p", "Versão editorial de trabalho: revisão e organização assistidas por IA, com fontes rastreáveis. A análise, a identidade editorial e a distribuição de funções devem ser discutidas e validadas pelos integrantes, conforme o protocolo crítico do guia. Nenhuma entrevista própria foi realizada para esta versão."]
+    ]
+  }
+];
+
+/* ===== Utilidades ===== */
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const icon = id => `<svg class="icon"><use href="#i-${id}"/></svg>`;
+const byId = Object.fromEntries(ARTICLES.map(a => [a.id, a]));
+const reduced = matchMedia("(prefers-reduced-motion: reduce)");
+const store = {
+  get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+let saved = new Set(store.get("etarismo:saved", []));
+const toast = msg => { const t = $("#toast"); t.textContent = msg; t.classList.add("is-on"); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("is-on"), 2200); };
+
+function toggleSave(id) {
+  saved.has(id) ? saved.delete(id) : saved.add(id);
+  store.set("etarismo:saved", [...saved]);
+  document.querySelectorAll(`[data-save="${id}"]`).forEach(b => b.setAttribute("aria-pressed", saved.has(id)));
+  if (current === id) $("#r-save").setAttribute("aria-pressed", saved.has(id));
+  const n = $("#saved-n"); n.hidden = !saved.size; n.textContent = saved.size;
+  $("#saved-btn").setAttribute("aria-label", `Leituras salvas no sumário: ${saved.size}`);
+  toast(saved.has(id) ? "Leitura salva" : "Leitura removida dos salvos");
+}
+
+/* ===== Matérias: filtro, carrossel de 3 e grade completa ===== */
+const PER = 3;
+let theme = "Todas", page = 0, expanded = false;
+const tabs = $("#tabs"), grid = $("#grid");
+tabs.innerHTML = ["Todas", ...THEMES].map((t, i) =>
+  `<button class="tab" role="tab" type="button" data-theme="${t}" aria-selected="${i === 0}" aria-controls="grid">${t === "Todas" ? "Todas as matérias" : t}<span class="tab__c"></span></button>`).join("");
+
+function renderCards() {
+  const list = CARDS.filter(c => theme === "Todas" || c[1] === theme);
+  const pages = Math.ceil(list.length / PER);
+  page = Math.min(page, pages - 1);
+  const shown = expanded ? list : list.slice(page * PER, page * PER + PER);
+  grid.innerHTML = shown.map(([id, th, tag, ph, teaser]) => {
+    const a = byId[id];
+    return `<article class="card">
+      <div class="card__img"><img src="${PHOTOS[ph].src}" alt="${esc(PHOTOS[ph].alt)}" loading="lazy">
+        <span class="card__tag">${th}</span><span class="card__num" aria-hidden="true">${a.page}</span></div>
+      <button class="save" type="button" data-save="${id}" aria-pressed="${saved.has(id)}" aria-label="Salvar “${esc(a.title)}”">${icon("mark")}</button>
+      <p class="card__meta"><span>${tag}</span><span>2 min de leitura</span></p>
+      <h3 class="card__h"><a href="#/leitura/${id}">${a.title}</a><span class="card__go" aria-hidden="true">${icon("ne")}</span></h3>
+      <p class="card__x">${teaser}</p></article>`;
+  }).join("");
+  tabs.querySelectorAll(".tab").forEach(t => {
+    const on = t.dataset.theme === theme;
+    t.setAttribute("aria-selected", on); t.tabIndex = on ? 0 : -1;
+    t.querySelector(".tab__c").textContent = on ? list.length : "";
+  });
+  $("#pager").hidden = expanded || pages < 2;
+  $("#dots").innerHTML = Array.from({ length: pages }, (_, i) =>
+    `<button class="dot" type="button" data-page="${i}" aria-label="Grupo ${i + 1} de ${pages}" aria-current="${i === page}"></button>`).join("");
+  $("#prev").disabled = page === 0; $("#next").disabled = page >= pages - 1;
+}
+tabs.addEventListener("click", e => { const t = e.target.closest(".tab"); if (t) { theme = t.dataset.theme; page = 0; renderCards(); } });
+tabs.addEventListener("keydown", e => {
+  if (!["ArrowLeft", "ArrowRight"].includes(e.key)) return;
+  const all = [...tabs.children], i = all.indexOf(document.activeElement);
+  const n = all[(i + (e.key === "ArrowRight" ? 1 : all.length - 1)) % all.length];
+  n.focus(); n.click();
+});
+$("#dots").addEventListener("click", e => { const d = e.target.closest(".dot"); if (d) { page = +d.dataset.page; renderCards(); } });
+$("#prev").onclick = () => { page--; renderCards(); };
+$("#next").onclick = () => { page++; renderCards(); };
+$("#expand").onclick = function () {
+  expanded = !expanded;
+  this.setAttribute("aria-expanded", expanded);
+  this.firstElementChild.textContent = expanded ? "Mostrar destaques" : "Todas as matérias";
+  renderCards();
+  if (!expanded) $("#materias").scrollIntoView({ behavior: reduced.matches ? "auto" : "smooth" });
+};
+document.addEventListener("click", e => { const b = e.target.closest("[data-save]"); if (b) toggleSave(b.dataset.save); });
+
+/* ===== Glossário e equipe ===== */
+$("#acc").innerHTML = GLOSSARY.map(([t, d], i) => `<li>
+  <button type="button" aria-expanded="${i === 0}" aria-controls="g${i}"><span class="acc__n">0${i + 1}</span><span class="acc__t">${t}</span><span class="acc__i" aria-hidden="true"></span></button>
+  <div class="acc__d${i === 0 ? " is-open" : ""}" id="g${i}" role="region"><div><p>${d}</p></div></div></li>`).join("");
+$("#acc").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  const open = b.getAttribute("aria-expanded") !== "true";
+  b.setAttribute("aria-expanded", open);
+  $("#" + b.getAttribute("aria-controls")).classList.toggle("is-open", open);
+});
+$("#people").innerHTML = TEAM.map(([n, f]) => `<li class="person"><img src="assets/img/equipe-${f}.jpg" alt="Retrato de ${n}" width="124" height="124" loading="lazy"><h3>${n}</h3><p>GRUPO DE PESQUISA</p></li>`).join("");
+
+/* ===== Gráfico da home ===== */
+$("#plot").addEventListener("click", e => {
+  const b = e.target.closest(".bar"); if (!b) return;
+  document.querySelectorAll(".bar").forEach(x => x.setAttribute("aria-pressed", x === b));
+  $("#chart-v").textContent = b.dataset.val;
+  $("#chart-d").textContent = `da população brasileira em ${b.dataset.year}${b.hasAttribute("data-proj") ? " (projeção)" : ""}`;
+  if (!reduced.matches) $("#chart-v").animate([{ opacity: 0, transform: "translateY(8px)" }, { opacity: 1, transform: "none" }], { duration: 450, easing: "ease-out" });
+});
+
+/* ===== Leitor ===== */
+let current = null, lastFocus = null, fs = store.get("etarismo:fs", 34.2);
+const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g, '<span class="ref">$1</span>');
+function block(b) {
+  if (b[0] === "h") return `<h3>${esc(b[1])}</h3>`;
+  if (b[0] === "figure") return `<figure class="fig"><div class="fig__frame"><img src="${b[1]}" alt="${esc(b[3] || b[2])}" loading="lazy"><button class="fig__zoom" type="button" data-zoom="${b[1]}" data-alt="${esc(b[3] || b[2])}">${icon("zoom")}Ampliar gráfico original</button></div><figcaption>${esc(b[2])}</figcaption></figure>`;
+  return `<p>${rich(b[1])}</p>`;
+}
+function openOverlay(ov) {
+  if (ov.hidden) {
+    lastFocus = lastFocus || document.activeElement;
+    ov.hidden = false; document.body.classList.add("is-locked");
+    requestAnimationFrame(() => ov.classList.add("is-in"));
+  }
+}
+function closeOverlays() {
+  document.querySelectorAll(".ov").forEach(ov => { ov.classList.remove("is-in"); ov.hidden = true; });
+  document.body.classList.remove("is-locked"); current = null;
+  if (lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
+  lastFocus = null;
+}
+function openArticle(id) {
+  const a = byId[id]; if (!a) return closeOverlays();
+  $("#toc-ov").hidden = true; $("#toc-ov").classList.remove("is-in");
+  const ov = $("#reader"); openOverlay(ov); current = id;
+  const i = ARTICLES.indexOf(a), prev = ARTICLES[i - 1], next = ARTICLES[i + 1];
+  $("#r-pg").textContent = `PÁGINA ${a.page} / 20`;
+  $("#r-kick").textContent = a.kicker;
+  $("#r-title").textContent = a.title;
+  $("#r-text").innerHTML = a.blocks.map(block).join("");
+  $("#r-text").style.setProperty("--fs", fs);
+  $("#r-save").setAttribute("aria-pressed", saved.has(id));
+  $("#r-nav").innerHTML =
+    (prev ? `<a href="#/leitura/${prev.id}"><small>${icon("left")}ANTERIOR</small><strong>${prev.title}</strong></a>` : "") +
+    (next ? `<a href="#/leitura/${next.id}"><small>PRÓXIMA LEITURA${icon("right")}</small><strong>${next.title}</strong></a>`
+          : `<a href="#inicio" data-close><small>EDIÇÃO COMPLETA${icon("right")}</small><strong>Voltar à revista</strong></a>`);
+  $("#r-end").classList.remove("is-done");
+  ov.scrollTop = 0; onReaderScroll();
+  $("#r-title").focus({ preventScroll: true });
+  document.title = `${a.title} · etarismo.`;
+}
+function openToc() {
+  $("#reader").hidden = true; $("#reader").classList.remove("is-in"); current = null;
+  $("#toc").innerHTML = ARTICLES.map(a => `<li><a class="toc__row" href="#/leitura/${a.id}"><span class="toc__n">${a.page}</span><span><small>${saved.has(a.id) ? '<i class="saved" title="Salva"></i>' : ""}${a.kicker}</small><strong>${a.title}</strong></span>${icon("ne")}</a></li>`).join("");
+  const ov = $("#toc-ov"); openOverlay(ov); ov.scrollTop = 0;
+  $("#toc-h").focus({ preventScroll: true });
+  document.title = "Sumário · etarismo.";
+}
+function onReaderScroll() {
+  const ov = $("#reader"), max = ov.scrollHeight - ov.clientHeight;
+  const p = max > 0 ? ov.scrollTop / max : 1;
+  $("#r-prog").style.setProperty("--p", p.toFixed(3));
+  const end = $("#r-end");
+  if (end.getBoundingClientRect().top < innerHeight * .9) end.classList.add("is-done");
+}
+$("#reader").addEventListener("scroll", onReaderScroll, { passive: true });
+$("#r-minus").onclick = () => { fs = Math.max(26, fs - 2); $("#r-text").style.setProperty("--fs", fs); store.set("etarismo:fs", fs); };
+$("#r-plus").onclick = () => { fs = Math.min(44, fs + 2); $("#r-text").style.setProperty("--fs", fs); store.set("etarismo:fs", fs); };
+$("#r-dark").onclick = function () {
+  const on = this.getAttribute("aria-pressed") !== "true";
+  this.setAttribute("aria-pressed", on); $("#r-panel").classList.toggle("is-dark", on); store.set("etarismo:dark", on);
+};
+if (store.get("etarismo:dark", false)) { $("#r-dark").setAttribute("aria-pressed", true); $("#r-panel").classList.add("is-dark"); }
+$("#r-save").onclick = () => current && toggleSave(current);
+$("#r-share").onclick = async () => {
+  const a = byId[current], url = location.href;
+  try {
+    if (navigator.share) await navigator.share({ title: a.title, url });
+    else { await navigator.clipboard.writeText(url); toast("Link copiado"); }
+  } catch (e) { if (e.name !== "AbortError") toast("Não foi possível compartilhar"); }
+};
+document.addEventListener("click", e => {
+  const z = e.target.closest("[data-zoom]");
+  if (z) { $("#lb-img").src = z.dataset.zoom; $("#lb-img").alt = z.dataset.alt; $("#lb").hidden = false; $("#lb-x").focus(); return; }
+  if (e.target.closest("[data-close]")) { e.preventDefault(); goHome(); return; }
+  if (e.target.closest("[data-open='sumario']")) { location.hash = "#/sumario"; return; }
+  if (e.target.classList.contains("ov")) goHome();
+});
+$("#lb-x").onclick = () => { $("#lb").hidden = true; document.querySelector(`[data-zoom="${$("#lb-img").getAttribute("src")}"]`)?.focus(); };
+function goHome() { history.pushState(null, "", location.pathname + location.search); route(); }
+
+// Prende o foco dentro do modal aberto e fecha com Esc
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") {
+    if (!$("#lb").hidden) return $("#lb-x").click();
+    if (document.querySelector(".ov:not([hidden])")) return goHome();
+    if ($("#nav").classList.contains("is-open")) return toggleMenu(false);
+  }
+  if (e.key !== "Tab") return;
+  const box = !$("#lb").hidden ? $("#lb") : document.querySelector(".ov:not([hidden]) .panel");
+  if (!box) return;
+  const f = [...box.querySelectorAll("a[href],button:not([disabled])")].filter(x => x.offsetParent);
+  if (!f.length) return;
+  if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f.at(-1).focus(); }
+  else if (!e.shiftKey && document.activeElement === f.at(-1)) { e.preventDefault(); f[0].focus(); }
+});
+
+/* ===== Rotas: #/leitura/<id> e #/sumario ===== */
+function route() {
+  const h = location.hash;
+  const m = h.match(/^#\/leitura\/([\w-]+)/);
+  if (m) return openArticle(m[1]);
+  if (h === "#/sumario") return openToc();
+  if (document.querySelector(".ov:not([hidden])")) closeOverlays();
+  document.title = "etarismo. Revista digital";
+}
+addEventListener("hashchange", route);
+
+/* ===== Menu móvel e seção ativa ===== */
+function toggleMenu(open) {
+  $("#nav").classList.toggle("is-open", open);
+  $("#menu-btn").setAttribute("aria-expanded", open);
+  $("#menu-btn").setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+}
+$("#menu-btn").onclick = () => toggleMenu(!$("#nav").classList.contains("is-open"));
+$("#nav").addEventListener("click", e => e.target.closest("a") && toggleMenu(false));
+const spies = [...document.querySelectorAll("[data-spy]")];
+const spy = new IntersectionObserver(es => es.forEach(en => {
+  if (en.isIntersecting) spies.forEach(a => a.setAttribute("aria-current", a.dataset.spy === en.target.id));
+}), { rootMargin: "-45% 0px -50% 0px" });
+spies.forEach(a => spy.observe(document.getElementById(a.dataset.spy)));
+
+/* ===== Movimento: entrada da capa, revelação por rolagem, contadores ===== */
+document.documentElement.classList.add("js");
+const countUp = el => {
+  const [i, d] = el.dataset.count.split(","), target = +`${i}.${d}`, t0 = performance.now();
+  const step = t => { const k = Math.min(1, (t - t0) / 1400), v = target * (1 - Math.pow(1 - k, 3));
+    el.textContent = v.toFixed(1).replace(".", ","); if (k < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+};
+const io = new IntersectionObserver(es => es.forEach(en => {
+  if (!en.isIntersecting) return;
+  en.target.classList.add("is-in"); io.unobserve(en.target);
+  if (!reduced.matches) en.target.querySelectorAll("[data-count]").forEach(countUp);
+}), { threshold: .18 });
+document.querySelectorAll(".rv, #plot").forEach(el => io.observe(el));
+
+renderCards();
+$("#saved-n").hidden = !saved.size; $("#saved-n").textContent = saved.size;
+route();
+requestAnimationFrame(() => requestAnimationFrame(() => $("#inicio").classList.add("is-ready")));
+</script>
 </body>
 </html>
