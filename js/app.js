@@ -370,7 +370,7 @@
   reader.addEventListener("close", () => {
     document.body.style.overflow = "";
     currentId = null;
-    document.title = "etarismo. — Revista digital · Edição especial 2026";
+    document.title = "etarismo. Revista digital · Edição especial 2026";
     if (location.hash.startsWith("#/")) history.pushState({}, "", location.pathname + location.search);
     if (lastFocus && document.contains(lastFocus)) lastFocus.focus();
   });
