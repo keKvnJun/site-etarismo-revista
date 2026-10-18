@@ -358,27 +358,27 @@ window.EDITION = {
   "glossary": [
     {
       "term": "Etarismo",
-      "def": "estereótipos, preconceitos e discriminação relacionados à idade; pode atingir diferentes faixas etárias."
+      "def": "Estereótipos, preconceitos e discriminação relacionados à idade; pode atingir diferentes faixas etárias."
     },
     {
       "term": "Nível de ocupação",
-      "def": "percentual de pessoas ocupadas na população do grupo analisado. Difere da participação na força de trabalho."
+      "def": "Percentual de pessoas ocupadas na população do grupo analisado. Difere da participação na força de trabalho."
     },
     {
       "term": "Trabalho por conta própria",
-      "def": "posição na ocupação de quem explora o próprio empreendimento sem empregados. Não é sinônimo automático de informalidade."
+      "def": "Posição na ocupação de quem explora o próprio empreendimento sem empregados. Não é sinônimo automático de informalidade."
     },
     {
       "term": "Economia prateada",
-      "def": "atividades ligadas ao envelhecimento e à participação econômica das pessoas mais velhas. É preciso informar o recorte usado."
+      "def": "Atividades ligadas ao envelhecimento e à participação econômica das pessoas mais velhas. É preciso informar o recorte usado."
     },
     {
       "term": "Violência patrimonial",
-      "def": "exploração ou controle indevido de bens e rendimentos. Não se confunde com ajuda consentida para administrar recursos."
+      "def": "Exploração ou controle indevido de bens e rendimentos. Não se confunde com ajuda consentida para administrar recursos."
     },
     {
       "term": "Autonomia",
-      "def": "possibilidade de decidir sobre a própria vida. Receber cuidado ou deixar o emprego não implica, por si só, perder autonomia."
+      "def": "Possibilidade de decidir sobre a própria vida. Receber cuidado ou deixar o emprego não implica, por si só, perder autonomia."
     }
   ],
   "team": [
