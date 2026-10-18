@@ -43,7 +43,7 @@
     const y = value => baseline - (value / max) * plotHeight;
     const grid = [0, 10, 20, 30, 40].map(tick => {
       const yy = y(tick);
-      return `<line x1="64" x2="720" y1="${yy}" y2="${yy}" stroke="#d9dfe1"/><text x="48" y="${yy + 5}" text-anchor="end" class="chart-axis-label">${tick}</text>`;
+      return `<line x1="64" x2="720" y1="${yy}" y2="${yy}" stroke="#d9dfe1"/><text x="48" y="${yy + 5}" text-anchor="end" class="chart-axis-label">${tick}%</text>`;
     }).join("");
     const colors = ["#8eafbf", "#527f98", "#244e67"];
     const bars = ED.population60.map((item, index) => {
@@ -52,7 +52,7 @@
       const year = item.kind === "Projeção" ? `${esc(item.year)} (projeção)` : esc(item.year);
       return `<g><rect x="${x}" y="${top}" width="112" height="${baseline - top}" fill="${colors[index]}"/><text x="${x + 56}" y="${top - 12}" text-anchor="middle" class="chart-value">${fmt(item.value)}</text><text x="${x + 56}" y="${baseline + 25}" text-anchor="middle" class="chart-year">${year}</text></g>`;
     }).join("");
-    return `<svg class="population-chart-fallback" viewBox="0 0 ${width} 408" role="img" aria-label="Pessoas com 60 anos ou mais na população brasileira: 8,7% em 2000, 15,6% em 2023 e projeção de 37,8% em 2070."><text x="380" y="22" text-anchor="middle" class="chart-title">Pessoas com 60 anos ou mais na população brasileira</text>${grid}${bars}</svg>`;
+    return `<svg class="population-chart-fallback" viewBox="0 0 ${width} 408" role="img" aria-label="Pessoas com 60 anos ou mais na população brasileira: 8,7% em 2000, 15,6% em 2023 e projeção de 37,8% em 2070."><text x="380" y="22" text-anchor="middle" class="chart-title">Pessoas com 60 anos ou mais na população brasileira</text><text x="18" y="200" transform="rotate(-90 18 200)" text-anchor="middle" class="chart-axis-label">Participação na população (%)</text>${grid}${bars}</svg>`;
   }
   function hydrateMedia(root = document) {
     $$("[data-media]:not([data-ready])", root).forEach(el => {
