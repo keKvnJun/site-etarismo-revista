@@ -484,6 +484,7 @@ dialog::backdrop { background: rgba(37, 40, 32, .55); backdrop-filter: blur(2px)
 }
 .search-field:focus-within { box-shadow: var(--focus); }
 .search-field input { flex: 1; min-width: 0; border: 0; background: none; font: 400 1rem/1.4 var(--sans); color: var(--ink); outline: none; }
+.search-field input:focus-visible { box-shadow: none; }
 .search-status { margin: 16px 0 4px; font: 400 0.875rem/1.4 var(--sans); color: var(--muted); }
 mark { background: rgba(185, 93, 64, .18); color: inherit; padding: 0 1px; }
 
