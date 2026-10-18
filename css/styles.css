@@ -426,6 +426,12 @@ dialog::backdrop { background: rgba(37, 40, 32, .55); backdrop-filter: blur(2px)
 .reader__figure-frame { border: 1px solid var(--r-line); background: #fff; }
 .reader__figure-frame .media { aspect-ratio: 1216.8 / 640; background: var(--paper-soft); display: grid; place-items: center; }
 .reader__figure-frame .media.is-missing { background: var(--paper-soft); align-items: center; }
+.reader__figure-frame .media.is-chart-fallback { display: block; padding: 12px; background: #fff; }
+.population-chart-fallback { display: block; width: 100%; height: auto; font-family: var(--sans); }
+.population-chart-fallback .chart-title { fill: #26333a; font-size: 16px; font-weight: 700; }
+.population-chart-fallback .chart-axis-label { fill: #69757a; font-size: 13px; }
+.population-chart-fallback .chart-value { fill: #26333a; font-size: 15px; font-weight: 700; }
+.population-chart-fallback .chart-year { fill: #26333a; font-size: 14px; }
 .reader__figure-frame .media__alt { color: var(--muted); text-align: center; margin: 24px auto; }
 .reader__figure-frame .media img { object-fit: contain; }
 .reader__zoom {
