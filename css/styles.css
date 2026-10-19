@@ -111,7 +111,7 @@ h2 em, .hero__title em, .site-footer__title em { font-family: var(--serif); colo
 
 /* Header */
 .site-header { position: sticky; top: 0; z-index: 30; background: rgba(247,246,240,.96); backdrop-filter: blur(25.2px); -webkit-backdrop-filter: blur(25.2px); border-bottom: 1.8px solid var(--line); }
-.site-header__row { width: min(calc(100% - 90px),1350px); display: grid; grid-template-columns: 214.4px minmax(0,1fr) 126px; align-items: center; gap: 0; height: 158.4px; }
+.site-header__row { width: min(calc(100% - 90px),1350px); display: grid; grid-template-columns: 214.4px minmax(0,1fr) 198px; align-items: center; gap: 0; height: 158.4px; }
 .brand { display: inline-flex; flex-direction: column; text-decoration: none; line-height: 1; }
 .brand__word { font: 400 57.6px/1 var(--serif); letter-spacing: -3.24px; color: var(--ink); }
 .brand__dot { color: var(--clay); }

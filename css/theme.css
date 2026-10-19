@@ -1,0 +1,61 @@
+/* Tema compartilhado pela home, pelos painéis e pelo leitor. */
+:root {
+  color-scheme: light;
+  --header-bg: rgba(247,246,240,.96);
+  --overlay-bg: rgba(247,246,240,.937);
+  --field-bg: #fff;
+  --button-bg: #47533b;
+  --button-hover: #35422e;
+  --on-button: #fff;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #20261c;
+  --paper-soft: #272f22;
+  --ink: #f3f1e8;
+  --ink-soft: #dfe3d2;
+  --olive: #c0cba7;
+  --sage: #a5b58b;
+  --mist: #2a3224;
+  --line: #414b38;
+  --clay: #de997f;
+  --clay-ink: #de997f;
+  --sage-ink: #b1bea0;
+  --forest: #151d12;
+  --muted: #b7bcaf;
+  --on-forest: #e9ebdf;
+  --header-bg: rgba(32,38,28,.96);
+  --overlay-bg: rgba(32,38,28,.94);
+  --field-bg: #272f22;
+  --button-bg: #a5b58b;
+  --button-hover: #c0cba7;
+  --on-button: #182015;
+}
+
+.site-header { background: var(--header-bg); }
+.btn--solid { background: var(--button-bg); color: var(--on-button); }
+.btn--solid:hover { background: var(--button-hover); }
+.card__theme, .card__save { background: var(--overlay-bg); }
+.search-field { background: var(--field-bg); }
+
+:root[data-theme="dark"] .cover-frame,
+:root[data-theme="dark"] .cover-frame__index { color: #f7f6f0; }
+:root[data-theme="dark"] .next-read { background: #35422e; }
+:root[data-theme="dark"] .next-read:hover { background: #435337; }
+:root[data-theme="dark"] .avatar-stack li { background: #35422e; }
+:root[data-theme="dark"] .avatar-stack li:nth-child(2) { background: #3c4933; }
+:root[data-theme="dark"] .avatar-stack li:nth-child(3) { background: #46533d; }
+:root[data-theme="dark"] .avatar-stack li:last-child { background: var(--button-bg); color: var(--on-button); }
+:root[data-theme="dark"] .saved-count { color: #20261c; }
+:root[data-theme="dark"] .site-footer__title,
+:root[data-theme="dark"] .brand--light .brand__word,
+:root[data-theme="dark"] .link-arrow--light { color: var(--on-forest); }
+
+@media (max-width: 380px) {
+  .brand__word { font-size: 32px; }
+  .header-tools .icon-btn { width: 34px; }
+  .site-header__row { gap: 8px; }
+  .hero__grid { grid-template-columns: minmax(0,1fr); }
+  .hero__title { font-size: 44px; }
+}

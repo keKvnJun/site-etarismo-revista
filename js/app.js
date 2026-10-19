@@ -22,6 +22,7 @@
     cardMark: icon("bookmark-card"),
     clock: icon("clock"),
     moon: icon("moon"),
+    sun: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
     link: icon("share"),
     zoom: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.4-4.4M11 8.5v5M8.5 11h5"/></svg>',
     check: icon("check"),
@@ -38,6 +39,22 @@
   };
   let saved = new Set(store.get("etarismo:saved", []));
   const prefs = Object.assign({ size: 0, dark: false }, store.get("etarismo:reader", {}));
+  if (document.documentElement.dataset.theme) prefs.dark = document.documentElement.dataset.theme === "dark";
+
+  function applyTheme() {
+    document.documentElement.dataset.theme = prefs.dark ? "dark" : "light";
+    $('meta[name="theme-color"]').content = prefs.dark ? "#20261c" : "#f7f6f0";
+    $$("[data-theme-toggle], [data-dark]").forEach(button => {
+      const label = button.hasAttribute("data-theme-toggle") ? "modo escuro" : "leitura escura";
+      const action = `${prefs.dark ? "Desativar" : "Ativar"} ${label}`;
+      button.setAttribute("aria-pressed", String(prefs.dark));
+      button.setAttribute("aria-label", action);
+      button.title = action;
+      button.innerHTML = prefs.dark ? ICON.sun : ICON.moon;
+    });
+    try { localStorage.setItem("etarismo:theme", prefs.dark ? "dark" : "light"); }
+    catch (_) { /* Sem armazenamento, a alternância continua funcionando. */ }
+  }
 
   /* ---------- media: tenta carregar o arquivo; senão mostra a descrição ---------- */
   function mediaHTML(src, alt) {
@@ -340,11 +357,7 @@
     const size = SIZES[prefs.size + 1];
     paper.style.setProperty("--r-size", `clamp(${size}rem, ${size * 2}vw, ${size * 1.8}rem)`);
     paper.classList.toggle("is-dark", prefs.dark);
-    const dark = $("[data-dark]", articleEl);
-    if (dark) {
-      dark.setAttribute("aria-pressed", String(prefs.dark));
-      dark.setAttribute("aria-label", prefs.dark ? "Desativar leitura escura" : "Ativar leitura escura");
-    }
+    applyTheme();
     const dn = $('[data-size="-1"]', articleEl), up = $('[data-size="1"]', articleEl);
     if (dn) dn.disabled = prefs.size <= -1;
     if (up) up.disabled = prefs.size >= SIZES.length - 2;
@@ -463,6 +476,7 @@
 
   /* ---------- delegação global ---------- */
   document.addEventListener("click", e => {
+    if (e.target.closest("[data-theme-toggle]")) { prefs.dark = !prefs.dark; applyPrefs(); return; }
     if (e.target.closest("[data-open-cover]")) {
       lastFocus = $(".brand");
       closeReader();
@@ -516,6 +530,7 @@
   renderStories({ animate: false });
   hydrateMedia();
   syncSaved();
+  applyPrefs();
   onScroll();
   route();
   requestAnimationFrame(() => {

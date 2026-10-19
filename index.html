@@ -6,12 +6,22 @@
   <title>etarismo. Revista digital · Edição especial 2026</title>
   <meta name="description" content="Revista digital sobre etarismo no mercado de trabalho brasileiro. Edição especial 2026.">
   <meta name="theme-color" content="#f7f6f0">
+  <script>
+    // Restaura o tema antes de desenhar a página, evitando um clarão no modo escuro.
+    try {
+      const theme = localStorage.getItem("etarismo:theme");
+      const dark = theme ? theme === "dark" : JSON.parse(sessionStorage.getItem("etarismo:reader") || "{}").dark === true;
+      document.documentElement.dataset.theme = dark ? "dark" : "light";
+      document.querySelector('meta[name="theme-color"]').content = dark ? "#20261c" : "#f7f6f0";
+    } catch (_) { /* O site continua disponível sem armazenamento. */ }
+  </script>
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preload" href="assets/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/dm-sans-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reader.css">
   <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/theme.css">
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -34,6 +44,9 @@
       </nav>
 
       <div class="header-tools">
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Ativar modo escuro" aria-pressed="false" title="Ativar modo escuro">
+          <span class="design-icon icon--moon" aria-hidden="true"></span>
+        </button>
         <button class="icon-btn" type="button" data-open-search aria-label="Buscar na revista">
           <span class="design-icon icon--search" aria-hidden="true"></span>
         </button>

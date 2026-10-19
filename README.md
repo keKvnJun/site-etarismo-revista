@@ -23,6 +23,7 @@ A home apresenta o Editorial antes de Matérias. No leitor, a sequência é Edit
 - `index.html`: estrutura e seções da revista.
 - `css/styles.css`: estilos da home e adaptação a telas menores.
 - `css/reader.css`: leitor e sumário revisados.
+- `css/theme.css`: tema escuro da home e dos painéis.
 - `css/icons.css`: dimensões e exibição dos vetores originais.
 - `js/edition.js`: metadados, resumos, fotos, números, glossário e equipe.
 - `js/articles-a.js`: 18 leituras transcritas do Figma, com gráficos e referências.
@@ -31,3 +32,5 @@ A home apresenta o Editorial antes de Matérias. No leitor, a sequência é Edit
 - `design-reference/`: exportações e registros de comparação; não são carregados pela aplicação.
 
 Busca, salvos da sessão, filtros, paginação, leitura escura e controles de texto estão preservados. As fontes mantêm suas licenças em `assets/fonts/`.
+
+O botão de lua/sol no cabeçalho alterna o tema de toda a revista. O leitor compartilha essa preferência, que fica salva no navegador para as próximas visitas.
