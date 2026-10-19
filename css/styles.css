@@ -157,7 +157,7 @@ h2 em, .hero__title em, .site-footer__title em { font-family: var(--serif); colo
 .hero__actions .btn--line { width: 144.2px; min-height: 68.4px; }
 .hero__team { display: flex; align-items: center; gap: 27px; margin-top: 44.1px; min-height: 50.4px; }
 .avatar-stack { display: flex; flex: none; }
-.avatar-stack li { width: 43.2px; height: 43.2px; border-radius: 50%; display: grid; place-items: center; background: #ece8e0; border: 1.8px solid var(--paper); margin-left: -10.8px; font: 500 10.8px/1 var(--sans); color: var(--olive); }
+.avatar-stack li { position: relative; overflow: hidden; flex: none; width: 43.2px; height: 43.2px; border-radius: 50%; display: grid; place-items: center; background: #ece8e0; border: 1.8px solid var(--paper); margin-left: -10.8px; font: 500 10.8px/1 var(--sans); color: var(--olive); }
 .avatar-stack li:first-child { margin-left: 0; }
 .avatar-stack li:nth-child(2) { background: #e2e5d9; }
 .avatar-stack li:nth-child(3) { background: #d4dcc8; }
@@ -327,7 +327,7 @@ h2 em, .hero__title em, .site-footer__title em { font-family: var(--serif); colo
 .team__grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 49.88px 21.6px; margin-top: 92.49px; }
 .member { display: flex; flex-direction: column; align-items: center; text-align: center; }
 .member__photo { position: relative; width: 124px; height: 124px; flex: none; border-radius: 50%; overflow: hidden; background: var(--mist); display: grid; place-items: center; font: 400 28px/1 var(--serif); color: var(--olive); }
-.member__photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: var(--portrait-position,50% 50%); }
+.member__photo img, .avatar-stack img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: var(--portrait-position,50% 50%); }
 .member__name { margin-top: 32.4px; font: 500 19.8px/1.4 var(--sans); }
 .member__role { margin-top: 48.6px; font: 400 9px/1.4 var(--sans); letter-spacing: 1.8px; text-transform: uppercase; color: var(--muted); }
 

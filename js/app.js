@@ -253,6 +253,13 @@
   });
 
   /* ---------- equipe ---------- */
+  $$("[data-team-member]").forEach(el => {
+    const member = ED.team.find(m => m.name === el.dataset.teamMember);
+    if (!member) return;
+    el.dataset.teamPhoto = member.photo;
+    el.dataset.name = member.name;
+    el.style.setProperty("--portrait-position", member.position || "50% 50%");
+  });
   $("[data-team]").innerHTML = ED.team.map(m => `
     <li class="member">
       <div class="member__photo" style="--portrait-position:${esc(m.position || "50% 50%")}" data-team-photo="${esc(m.photo)}" data-name="${esc(m.name)}"><span aria-hidden="true">${m.initials}</span></div>
