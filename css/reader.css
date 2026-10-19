@@ -85,7 +85,8 @@
 .reader__summary-count { margin-top: 43.2px; color: var(--r-muted); font: 400 12.6px/1.5 var(--sans); letter-spacing: 2.7px; text-transform: uppercase; }
 .reader__summary .toc { margin-top: 39.6px; }
 .reader__summary .toc li { border-color: var(--r-line); }
-.reader__summary .toc button { padding-block: 28.8px; column-gap: 32.4px; grid-template-columns: 72px 1fr; }
+.reader__summary .toc button, .reader__summary .toc__current { padding-block: 28.8px; column-gap: 32.4px; grid-template-columns: 72px 1fr; }
+.reader__summary .toc__current { padding-inline: 18px; background: color-mix(in srgb, var(--r-ink) 6%, transparent); box-shadow: inset 3.6px 0 0 var(--r-muted); }
 .reader__summary .toc__num { align-self: center; color: var(--r-muted); font-size: 50.4px; }
 .reader__summary .toc__kicker { color: var(--r-muted); font-size: 12.6px; letter-spacing: 1.44px; }
 .reader__summary .toc__title { color: var(--r-ink); font-size: clamp(24px, calc(var(--r-size) * 1.22), 48px); line-height: 1.15; }
@@ -107,7 +108,7 @@
   .reader__end { margin-top: 48px; padding-block: 28px; font-size: 10px; letter-spacing: 2px; }
   .reader__nav { grid-template-columns: 1fr; gap: 28px; margin-top: 28px; }
   .reader__nav button.is-next { grid-column: 1; }
-  .reader__summary .toc button { column-gap: 18px; grid-template-columns: 48px 1fr; padding-block: 24px; }
+  .reader__summary .toc button, .reader__summary .toc__current { column-gap: 18px; grid-template-columns: 48px 1fr; padding-block: 24px; }
   .reader__summary .toc__num { font-size: 36px; }
   .reader__summary .toc__title { font-size: clamp(24px, calc(var(--r-size) * 1.22), 32px); }
   .reader__summary .toc__kicker { font-size: 10px; letter-spacing: 1px; }

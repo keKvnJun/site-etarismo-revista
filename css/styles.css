@@ -470,7 +470,7 @@ dialog::backdrop { background: rgba(37, 40, 32, .55); backdrop-filter: blur(2px)
 .sheet__eyebrow { font: 600 0.6875rem/1.4 var(--sans); letter-spacing: .18em; text-transform: uppercase; color: var(--clay-ink); margin-bottom: 12px; }
 .sheet__count { margin-top: 12px; font: 400 0.875rem/1.4 var(--sans); color: var(--muted); }
 .toc li { border-bottom: 1px solid var(--line); }
-.toc button {
+.toc button, .toc__current {
   display: grid; grid-template-columns: 2.6rem 1fr; gap: 4px 12px; width: 100%; padding: 16px 0; text-align: left;
 }
 .toc__num { grid-row: span 2; font: 400 1.375rem/1.1 var(--serif); color: var(--clay); }

@@ -6,6 +6,7 @@
   const BODY = Object.fromEntries((window.ARTICLES || []).map(a => [a.id, a]));
   const ORDER = ED.order;
   const READING_ORDER = ORDER.flatMap(o => o.id === "editorial" ? [o, ED.summary] : [o]);
+  const TOC_ORDER = [ED.cover, ...READING_ORDER];
   const TOTAL_PAGES = Math.max(...READING_ORDER.map(o => Number(o.page)));
   const STORIES = ORDER.filter(o => o.theme);          // as 14 matérias dos cards
   const byId = id => READING_ORDER.find(o => o.id === id);
@@ -310,8 +311,8 @@
       </div>
       ${isSummary ? `<div class="reader__summary">
         <p class="reader__summary-intro">${esc(meta.intro)}</p>
-        <p class="reader__summary-count">${ORDER.length} leituras nesta edição</p>
-        <ol class="toc" aria-label="Sumário da edição">${ORDER.map(o => tocItem(o)).join("")}</ol>
+        <p class="reader__summary-count">${TOC_ORDER.length} páginas nesta edição</p>
+        <ol class="toc" aria-label="Sumário da edição">${TOC_ORDER.map(o => tocItem(o)).join("")}</ol>
       </div>` : `<div class="reader__body">
         ${body ? body.blocks.map(blockHTML).join("") : `
           <div class="reader__pending">
@@ -409,10 +410,15 @@
   /* ---------- sumário e painéis de busca e salvos ---------- */
   const search = $("[data-search]"), savedDlg = $("[data-saved]");
   function tocItem(o, extra = "") {
-    return `<li><button type="button" data-open-article="${o.id}">
+    const current = o.id === ED.summary.id;
+    const tag = current ? "div" : "button";
+    const attrs = current ? 'class="toc__current" aria-current="page"'
+      : o.id === ED.cover.id ? 'type="button" data-open-cover'
+      : `type="button" data-open-article="${o.id}"`;
+    return `<li><${tag} ${attrs}>
       <span class="toc__num">${o.page}</span>
       <span class="toc__kicker">${esc(o.kicker)}</span>
-      <span class="toc__title">${extra || esc(o.title)}</span></button></li>`;
+      <span class="toc__title">${extra || esc(o.title)}</span></${tag}></li>`;
   }
 
   function openSheet(d) {
@@ -457,6 +463,13 @@
 
   /* ---------- delegação global ---------- */
   document.addEventListener("click", e => {
+    if (e.target.closest("[data-open-cover]")) {
+      lastFocus = $(".brand");
+      closeReader();
+      history.pushState({}, "", "#inicio");
+      $("#inicio").scrollIntoView({ behavior: reduceMotion.matches ? "auto" : "smooth" });
+      return;
+    }
     const open = e.target.closest("[data-open-article]");
     if (open) { e.preventDefault(); openArticle(open.dataset.openArticle); return; }
     const save = e.target.closest("[data-save]");

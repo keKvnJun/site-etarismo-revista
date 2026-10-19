@@ -6,6 +6,12 @@
  * Leitura: capa 01, editorial 02, sumário 03, matérias 04–17 e fechamento 18–20.
  */
 window.EDITION = {
+  "cover": {
+    "id": "capa",
+    "page": "01",
+    "kicker": "CAPA",
+    "title": "Idade não é barreira. É trajetória."
+  },
   "summary": {
     "id": "sumario",
     "page": "03",
