@@ -63,6 +63,9 @@
   const toastEl = $("[data-toast]");
   let toastT;
   function toast(msg) {
+    // O aviso precisa estar dentro do modal para aparecer acima de sua camada.
+    const host = document.querySelector("dialog:modal") || document.body;
+    if (toastEl.parentElement !== host) host.append(toastEl);
     toastEl.textContent = msg;
     toastEl.classList.add("is-on");
     clearTimeout(toastT);
