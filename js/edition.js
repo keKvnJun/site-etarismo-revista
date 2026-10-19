@@ -406,18 +406,18 @@ window.EDITION = {
       "position": "50% 58%"
     },
     {
-      "name": "Kevin Jun",
+      "name": "Kevin Jun Yokoyama",
       "initials": "KJ",
       "photo": "assets/img/equipe-kevin.jpg"
     },
     {
-      "name": "Davi Dias",
+      "name": "Davi Dias Abade Carriuolo",
       "initials": "DD",
       "photo": "assets/img/equipe-davi-dias.jpg",
       "position": "50% 45%"
     },
     {
-      "name": "Davi Alcanfor",
+      "name": "Davi Alcanfor Franco",
       "initials": "DA",
       "photo": "assets/img/equipe-davi-alcanfor.png",
       "position": "50% 48%"

@@ -832,7 +832,7 @@ window.ARTICLES = [
       ],
       [
         "p",
-        "Grupo de pesquisa sobre etarismo: Giovanna Medeiros Veloso; Arthur do Vale Silva; Murilo Rosa Fonseca; Kevin Jun; Davi Dias; Davi Alcanfor."
+        "Grupo de pesquisa sobre etarismo: Giovanna Medeiros Veloso; Arthur do Vale Silva; Murilo Rosa Fonseca; Kevin Jun Yokoyama; Davi Dias Abade Carriuolo; Davi Alcanfor Franco."
       ],
       [
         "p",
